@@ -1,4 +1,4 @@
-box: raphiz/altcomphsr.vshsr.ch
+box: altcomphsr/altcomphsr.vshsr.ch
 build:
     steps:
       - script:
