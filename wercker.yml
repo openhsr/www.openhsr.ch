@@ -1,0 +1,11 @@
+box: raphiz/altcomphsr.vshsr.ch
+build:
+    steps:
+      - script:
+          name: building....
+          code: jekyll build
+deploy:
+    steps:
+        - script:
+            name: Deploying...
+            code: bash deploy.sh
