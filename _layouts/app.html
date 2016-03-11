@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <aside class="hsr-subnav">
+    <header class="hsr-subnav-header">
+      <h2>Programme</h2>
+    </header>
+    <nav cass="hsr-subnav-nav">
+      <ul>
+      {% for hsr_page in site.hsr %}
+      <li><a href="{{ hsr_page.url }}">{{ hsr_page.title }}</a></li>
+      {% endfor %}
+      </ul>
+    <nav>
+  </aside>
+</article>

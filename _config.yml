@@ -19,3 +19,30 @@ markdown: redcarpet
 highlighter: rouge
 redcarpet:
   extensions: ["fenced_code_blocks", "tables", "with_toc_data"]
+
+# The documentation parts are stored as collections;
+# that means, they are just a somewhat special page.
+collections:
+  hsr:
+    output: true
+  app:
+    output: true
+
+defaults:
+  - scope: # content pages
+      path: "pages"
+    values:
+      layout: "page"
+      permalink: /:basename/
+  - scope: # hsr collection
+      type: hsr
+      path: ""
+    values:
+      layout: "hsr"
+      permalink: /hsr/:slug/
+  - scope: # app collection
+      type: app
+      path: ""
+    values:
+      layout: "app"
+      permalink: /app/:slug/

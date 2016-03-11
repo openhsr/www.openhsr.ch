@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /
 ---
 
-# Willkommen beim altcomp!
+# Willkommen beim alt.comp.hsr!
