@@ -20,6 +20,9 @@ highlighter: rouge
 redcarpet:
   extensions: ["fenced_code_blocks", "tables", "with_toc_data"]
 
+gems:
+  - jemoji
+
 # The documentation parts are stored as collections;
 # that means, they are just a somewhat special page.
 collections:

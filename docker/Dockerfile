@@ -9,6 +9,7 @@ RUN apt-get install lftp
 RUN gem install jekyll
 RUN gem install redcarpet
 RUN gem install rouge
+RUN gem install jemoji
 
 # Working directory
 RUN mkdir /src
