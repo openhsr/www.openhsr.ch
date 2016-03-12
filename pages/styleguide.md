@@ -51,13 +51,13 @@ User lokal     | ```maria```
 
 In diese Kategorie fallen grundsätzliche, programmunabhängige **technische Angaben**.
 
-Zudem wird jeweils die von uns empfohlene, **einfachste Lösung mit Ubuntu** von der Programmkonfiguration eingebunden. Diese sollte Anfängergerecht sein (d.h. für Benutzer mit einem Fensterplatz).
+Zudem wird jeweils die von uns empfohlene, **einfachste Lösung mit Ubuntu** von der Programmkonfiguration eingebunden.
 
 
 ### HSR-Spezifische Programm- oder Systemkonfiguration
 
-Hier werden **HSR-Konfigurationen für bestimmte Programme** abgelegt, sowie Schritt-für-Schritt Anleitungen für Anfänger hinterlegt.
+Hier werden **HSR-Konfigurationen für bestimmte Programme** sowie Schritt-für-Schritt Anleitungen für Einsteiger hinterlegt.
 
 ### Weiteres
 
-Falls deine Dokumentation hier nirgendwo reinpassen sollte oder du noch Fragen hast, mach doch bitte ein [GitHub-Issue](https://github.com/altcomphsr/altcomphsr.vshsr.ch/issues/new) auf, damit wir eine saubere Lösung finden.
+Falls deine Dokumentation hier nirgendwo reinpassen sollte oder du noch Fragen hast, öffne doch bitte ein [GitHub-Issue](https://github.com/altcomphsr/altcomphsr.vshsr.ch/issues/new), damit wir eine saubere Lösung finden.
