@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /contribute/
+---
+
 # Webseite altcomp.vshsr.ch
 
 Die neue Seite des Altcomp ist im Gegensatz zu bisher kein dynamisches [Wiki](https://de.wikipedia.org/wiki/Wiki) sondern eine mit [Jekyll](http://jekyllrb.com) generierte statische Webseite.
@@ -19,11 +24,16 @@ Einstiegspunkt - eine ausführlichere Syntaxbeschreibung ist [Adam Pritchards Ma
 
 Um das Projekt lokal einzurichten benötigst du [Git](https://git-scm.com/), Make und [Docker](https://docs.docker.com/engine/installation/).
 
-Nun kannst du das Projekt [](forken, klonenhttp://gitbu.ch/ch11.html) und mit folgenden Kommandos generieren:
+Nun kannst du das Projekt [forken, klonen](http://gitbu.ch/ch11.html) und mit folgenden Kommandos generieren:
 
 ```bash
-make buildimage # Docker image bauen
-make serve # seite bauen und auf http://0.0.0.0:4000 verfügbar machen - abbruch mit Ctrl+C
+# Projekt klonen
+git clone https://github.com/altcomphsr/altcomphsr.vshsr.ch.git
+cd altcomphsr.vshsr.ch
+
+# Docker image und seite bauen und auf http://0.0.0.0:4000 verfügbar machen
+# abbruch mit Ctrl+C
+make
 ```
 
-Die generierte Seite ist nun auf http://localhost:4000 erreichbar.
+Die generierte Seite ist nun auf <http://localhost:4000> erreichbar.
