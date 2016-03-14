@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: index
+title: Wilkommen beim alt.comp.hsr!
+hidden_from_navigation: true
 permalink: /
 ---
-
-# Willkommen beim alt.comp.hsr!
 
 Der **alt.comp.hsr** unterstützt dich bei der Benutzung deines alterativen Betriebsystems an der HSR (z.B. Linux und Mac) und fördert die Open Source Community an der HSR.
 
