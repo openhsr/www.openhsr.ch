@@ -7,22 +7,41 @@ layout: default
 
 <section id="content">
   <main role="main">
-    <section>
+    <section id="front">
       <h1>{{ page.title }}</h1>
-      <article>
-        {{ content }}
-      </article>
-    
+      <div>
+        <article>
+          <i class="fa fa-rocket"></i>
+          <h2>Arbeiten an der HSR</h2>
+          <p>Alles was du für den Studienstart an der HSR benötigst</p>
+          <button>Überlebensguide</button>
+        </article>
+
+        <article>
+          <i class="fa fa-file-o"></i>
+          <h2>Dokumentationen</h2>
+          <p>Diverse nützliche Anleitungen für Linux Distributionen und Mac OS X</p>
+          <button>Dokus</button>
+        </article>
+
+        <article>
+          <i class="fa fa-cog"></i>
+          <h2>Programme</h2>
+          <p>Nützliche Software die dir das Leben vereinfacht</p>
+          <button>Programme</button>
+        </article>
+
+        <article>
+          <i class="fa fa-users"></i>
+          <h2>Fragen &amp; Antworten</h2>
+          <p>Du stehst bei einem Problem an? Wir können dir helfen.</p>
+          <button>IRC Chat</button>
+        </article>
+
+      </div>
     </section>
   </main>
-  
-  <aside id="sidebar">
 
-    {% include nav_app.html %}
-
-    {% include nav_hsr.html %}
-  
-  </aside>
 </section>
 
 {% include footer.html %}
