@@ -33,7 +33,9 @@ cd altcomphsr.vshsr.ch
 
 # Docker image und seite bauen und auf http://0.0.0.0:4000 verfügbar machen
 # abbruch mit Ctrl+C
-make
+sudo make
 ```
+
+(Unter OSX muss make ohne sudo aufgerufen werden)
 
 Die generierte Seite ist nun auf <http://localhost:4000> erreichbar.
