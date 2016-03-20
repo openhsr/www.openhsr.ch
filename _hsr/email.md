@@ -7,18 +7,22 @@ title: E-Mail
 
 Einstellung | Wert
 ----------- | ----
-Server | imap.hsr.ch
-Port | 993
+Server | ```imap.hsr.ch```
+Port | ```993```
 Verschlüsselung | SSL/TLS
+Benutzername | ```mmuster```
+Passwort | ```GeHeim007```
 Passwort-Verschlüsselung | Keine (Normales Passwort)
 
 ### SMTP-Einstellungen
 
 Einstellung | Wert
 ----------- | ----
-Server | smtp.hsr.ch
-Port | 587
+Server | ```smtp.hsr.ch```
+Port | ```587```
 Verschlüsselung | STARTTLS
+Benutzername | ```mmuster```
+Passwort | ```GeHeim007```
 Passwort-Verschlüsselung | Keine (Normales Passwort)
 
 ## Thunderbird
