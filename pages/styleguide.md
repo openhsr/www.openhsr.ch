@@ -1,5 +1,6 @@
 ---
 title: Styleguide
+hidden_from_navigation: true
 ---
 
 Tipps, Tricks und einen Leitfaden, damit alle vom Gleichen reden.

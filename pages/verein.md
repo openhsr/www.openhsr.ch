@@ -1,5 +1,6 @@
 ---
 title: Verein
+hidden_from_navigation: true
 ---
 
 ![alt.comp.hsr Logo](/assets/logo.png)
