@@ -2,13 +2,16 @@
   <secion id="logo">
     <a href="{{ site.baseurl }}/"><img src="/assets/logo_w75.png" alt="logo"></a>
   </secion>
+  <section id="hamburger">
+    <i class="fa fa-bars"></i>
+  </section>
   <nav>
     <ul>
       <li><a href="{{ site.baseurl }}/">Home</a></li>
         {% for my_page in site.pages %}
           {% if my_page.title and my_page.hidden_from_navigation != true %}
-          	<li>
-          	<a{% if my_page.url == page.url %} class="active"{% endif %} href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          	<li {% if my_page.url == page.url %} class="active"{% endif %} >
+          	<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           	  {% if my_page.title == "Programme" %}
                  	  <ul>
                       {% for app_page in site.app %}
@@ -26,11 +29,12 @@
           	</li>
           {% endif %}
         {% endfor %}
+
+        <li class="social">
+          <a href="https://twitter.com/altcomphsr" title="Twitter"><i class="fa fa-twitter"></i></a>
+          <a href="/hilfe/" title="Hilfe"><i class="fa fa-comments"></i></a>
+          <a href="mailto:altcomphsr@vshsr.ch" title="E-Mail"><i class="fa fa-envelope"></i></a>
+        </li>
     </ul>
   </nav>
-  <section class="social">
-    <a href="https://twitter.com/altcomphsr" title="Twitter"><i class="fa fa-twitter"></i></a>
-    <a href="/hilfe/" title="Hilfe"><i class="fa fa-comments"></i></a>
-    <a href="mailto:altcomphsr@vshsr.ch" title="E-Mail"><i class="fa fa-envelope"></i></a>
-  </section>
 </header>
