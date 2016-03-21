@@ -1,4 +1,4 @@
-FROM ruby
+FROM ruby:2.3
 
 RUN apt-get update
 
@@ -6,10 +6,10 @@ RUN apt-get update
 RUN apt-get install lftp
 
 # Install addons
-RUN gem install jekyll
-RUN gem install redcarpet
-RUN gem install rouge
-RUN gem install jemoji
+RUN gem install jekyll -v 3.1.2
+RUN gem install redcarpet -v 3.3.4
+RUN gem install rouge -v 1.10.1
+RUN gem install jemoji -v 0.6.2
 
 # Working directory
 RUN mkdir /src
