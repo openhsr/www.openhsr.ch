@@ -15,11 +15,8 @@ Gruppenpasswort | ```hsrremote```
 ## VPN unter Ubuntu einrichten
 
 1. **Benötigte Abhängigkeiten installieren**<br>
-   Bevor du loslegen kannst, musst du noch das Paket ``networkmanager-vpnc`` installieren.
-   Öffne dafür ein [Terminal](https://wiki.ubuntuusers.de/Terminal/) und führe folgendes Kommando aus:<br>
-   ```
-   $ sudo apt-get install -y networkmanager-vpnc
-   ```
+   Bevor du loslegen kannst, musst du noch das Paket ``network-manager-vpnc`` installieren.
+   Du kannst [das Paket über diesen Link installieren](apt://network-manager-vpnc)
 2. **Öffne die Netzwerkeinstellungen** über den Netzwerkindikatoren am oberen linken Bildschirmrand via ```VPN Connections``` + ```Configure VPN...```<br>
    ![Netzwerkeinstellungen über den Netzwerkindikatoren öffnen](/assets/hsr/vpn/vpn_networkmanager_1.png)
 3. Klick auf den Button **Add**<br>
