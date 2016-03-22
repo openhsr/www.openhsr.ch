@@ -189,20 +189,6 @@ a[href^="apt://"]:hover {
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
 }
 
-
-/* LAYOUT */
-.wrapper {
-  width: 100%;
-}
-
-@media all and (min-width: 1080px) {
-  .wrapper {
-    margin: 0 auto;
-  	width: 90%;
-    max-width: 70rem;
-  }
-}
-
 /** HEADER */
 #header {
   display: flex;
@@ -231,6 +217,7 @@ a[href^="apt://"]:hover {
   font-size: 3rem;
   margin: 1rem;
   border-radius: 0.3rem;
+  margin-top: 0.2rem;
 }
 
 @media all and (min-width: 1080px) {
@@ -321,6 +308,19 @@ nav > ul > li > ul > li > a {
   margin: 0;
 }
 
+/* LAYOUT */
+.wrapper {
+  width: 100%;
+}
+
+@media all and (min-width: 1080px) {
+  .wrapper {
+    margin: 0 auto;
+  	width: 90%;
+    max-width: 75rem;
+  }
+}
+
 /** CONTENT */
 #content {
 	display: flex;
@@ -339,22 +339,24 @@ main {
   #content {
     padding: 2rem;
   }
-  main {
+  .wiki-content {
+    max-width: 65%;
     order: 1;
+    flex: 3
   }
 }
 
 /** SIDEBAR */
 #sidebar {
 	order: 1;
-  flex: 1;
   border-radius: 0.5rem;
+  width: 100%;
 }
 
 #sidebar section {
 	padding: 0 1rem 1rem 0;
   margin-bottom: 1rem;
-	border-bottom: 1px solid #ECF0F1;
+	border-bottom: 2px solid #ECF0F1;
 }
 
 #sidebar section h1 {
@@ -362,13 +364,18 @@ main {
 	font-size: 1.5rem;
 }
 
-#sidebar section:last-child {
-	border: none;
+#sidebar ul > li {
+  margin: 0 0 1rem 0;
+}
+
+#sidebar ul > li::before {
+  content: "- "
 }
 
 @media all and (min-width: 1080px) {
   #sidebar {
     order: 2;
+    flex: 1;
     border-left: 1px solid #ECF0F1;
     padding: 1rem;
     margin: 0 0 3rem 1rem;
