@@ -1,5 +1,6 @@
 ---
 title: Verein
+parent: community
 hidden_from_navigation: true
 ---
 
