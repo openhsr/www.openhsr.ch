@@ -38,9 +38,11 @@ Kassier | Lukas Murer
 Gemäss unseren Statuten setzt sich er Vorstand zwingend aus Präsident, Vize-Präsident, Aktuar und Kassier zusammen.  
 Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
 
-## [Statuten](statuten.pdf)
+## Statuten und Protokolle
 
-Die Statuten sind im Dokument [statuten.pdf](/assets/verein/statuten.pdf) festgehalten und werden im Git-Repository unter <https://github.com/altcomphsr/verein/> verwaltet.
+Die [Statuten](/assets/verein/statuten.pdf) und Protokolle werden im Git-Repository unter <https://github.com/altcomphsr/verein/> verwaltet.
+
+Pull Requests für die Statuten werden an der nächsten GV als Änderungsantrag traktandiert.
 
 ## Kontakt
 
