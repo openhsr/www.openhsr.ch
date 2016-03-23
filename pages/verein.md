@@ -18,7 +18,7 @@ Als solcher unterstützt er auch die Ziele und Ideale des VSHSR.
 
 ### Umsetzung:
 
-Um dieser Ziele zu erreichen, 
+Um dieser Ziele zu erreichen,
 
 1. unterstützt der Verein **Open Source-Events** und **verknüpft die Open Source-Interessierten** an der HSR.
 2. bietet der Verein eine Sammlung von **Anleitungen und Empfehlungen** für alternative Betriebssysteme (Linux/OSX) und Software.  
@@ -33,14 +33,16 @@ Posten | Person
 Präsident | Danilo Bargen
 Vize-Präsident | Emanuel Duss
 Aktuar  | Raphael Nestler
-Kassier | Lukas Murer 
+Kassier | Lukas Murer
 
 Gemäss unseren Statuten setzt sich er Vorstand zwingend aus Präsident, Vize-Präsident, Aktuar und Kassier zusammen.  
-Zusätzlich können noch bis zu 4 Beisitzer besetzt werden. 
+Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
 
-## [Statuten](statuten.pdf)
+## Statuten und Protokolle
 
-Die Statuten sind im Dokument [statuten.pdf](/asstes/verein/statuten.pdf) festgehalten und werden im Git-Repository unter <https://github.com/altcomphsr/verein/> verwaltet.
+Die [Statuten](/assets/verein/statuten.pdf) und Protokolle werden im Git-Repository unter <https://github.com/altcomphsr/verein/> verwaltet.
+
+Pull Requests für die Statuten werden an der nächsten GV als Änderungsantrag traktandiert.
 
 ## Kontakt
 
