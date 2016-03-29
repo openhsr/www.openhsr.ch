@@ -124,14 +124,40 @@ code {
   border-radius: 0.2rem;
   font-size: 90%;
   padding: 0.2rem 0.4rem;
+  margin-bottom: 1rem;
 }
 
 code span.c {
   color: #61737C;
 }
 
+.highlight code::before {
+  font-family: "FontAwesome";
+  content: "\f120";
+  position: absolute;
+  margin-left: -1.5rem;
+}
+
 .highlight code {
   display: block;
+  padding-left: 2rem;
+}
+
+/* KEYBOARD */
+kbd {
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 .1em;
+  text-shadow: 0 1px 0 #fff;
+  line-height: 1.4;
+  white-space: nowrap;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #FFFFFF inset;
+  padding: .1em .6em;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  font-family: Arial,Helvetica,sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
 }
 
 /* BLOCKQUOTES */
@@ -195,19 +221,15 @@ a[href^="apt://"]:hover {
 	justify-content: space-between;
 	align-items: center;
   flex-flow: row wrap;
+  padding: 0 1rem;
   background: #FFF;
-	padding: 1rem;
   border-bottom: 1px solid #0064A3;
 }
 #logo img {
-	width: 75px;
+	width: 80px;
   box-shadow: none;
   margin: 0;
-}
-
-#header .social > a > i {
-	padding: 0 0.5rem;
-	font-size: 2rem;
+  margin: 1rem 0;
 }
 
 /* HAMBURGER */
@@ -228,50 +250,49 @@ a[href^="apt://"]:hover {
 
 /* NAVIGATION */
 nav {
-  font-size: 1.2rem;
+  font-size: 0; // fix against spaces between inline elements
   display: none;
   flex: 0 1 100%;
 }
-nav ul li {
-	padding: 1rem;
-}
+
 nav ul li a {
+  font-size: 1.2rem;
 	text-transform: uppercase;
-	font-weight: bold;
+  padding: 0 1rem;
+  line-height: 6rem;
+  display: inline-block;
 }
-nav ul li a:hover {
-	border-bottom: 1px solid #0064A3;
+
+nav > ul > li.active {
+  background: #0064A3;
 }
+
 nav > ul > li.active a {
-	border-bottom: 1px solid #0064A3;
+  color: #FFF;
+}
+
+nav > ul > li.social a {
+  padding: 0;
+}
+
+nav > ul > li.social > a > i {
+	padding: 0 0.5rem;
+	font-size: 2rem;
 }
 
 /** sub menus */
 nav > ul > li > ul {
-	display: none;
+  display: none;
   position: absolute;
-  border-radius: 0.5rem;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  padding: 1rem;
   background: #0064A3;
-  min-width: 10rem;
-}
-nav > ul > li:hover > ul {
-  display: block;
-  left: 0;
-  top: 100%;
-}
-
-nav > ul > li > ul > li {
-	padding: 1rem;
-  border-bottom: 1px solid #FFF;
-}
-
-nav > ul > li > ul > li:last-child {
-  border-bottom: none;
 }
 
 nav > ul > li > ul > li > a {
   color: #FFF;
+  line-height: normal;
+  height: auto;
+  padding: 0.5rem 0;
 }
 
 @media all and (min-width: 1080px) {
@@ -281,7 +302,32 @@ nav > ul > li > ul > li > a {
   }
   nav > ul > li {
     position: relative;
-    display: inline;
+    display: inline-block;
+  }
+
+  nav ul li a {
+    transition: all 0.2s ease;
+  }
+
+  nav ul li:hover a {
+    background: #0064A3;
+    color: #FFF;
+  }
+
+  nav > ul > li.active a {
+    background: #0064A3;
+    color: #FFF;
+  }
+
+  nav > ul > li.social {
+    margin-left: 2rem,
+  }
+
+
+  /** sub menus */
+  nav > ul > li:hover > ul {
+    display: block;
+    left: 0;
   }
 }
 
