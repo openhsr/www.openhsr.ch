@@ -4,7 +4,7 @@ parent: community
 hidden_from_navigation: true
 ---
 
-![alt.comp.hsr Logo](/assets/logo.png)
+{% lightbox /assets/logo.png --data="vpn" --title="Logo alt.comp.hsr" --alt="Logo alt.comp.hsr" %}
 
 ### Unsere Ziele:
 

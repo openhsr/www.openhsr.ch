@@ -6,15 +6,17 @@ category: email
 
 <!--main_settings-->
 1. **Assistenten Starten**
-    * Wenn du Thunderbird bereits verwendet hast, ```Lokale Ordner``` + ```Neues Konto erstellen:``` + ```E-Mail```<br>![Lokale Ordner -> Neues Konto erstellen: -> E-Mail](/assets/app/thunderbird/neues_konto.png)
+    * Wenn du Thunderbird bereits verwendet hast, ```Lokale Ordner``` + ```Neues Konto erstellen:``` + ```E-Mail```
+    <br>
+    {% lightbox /assets/app/thunderbird/neues_konto.png --data="thunderbird" --title="Neues Konto" --alt="Neues Konto" %}
 2. **Bestehende E-Mail-Adresse** einrichten<br>
-   ![Überspringen und meine exisiterende E-Mail-Adresse verwenden](/assets/app/thunderbird/willkommen_message_button.png)
+  {% lightbox /assets/app/thunderbird/willkommen_message_button.png --data="thunderbird" --title="Überspringen und meine exisiterende E-Mail-Adresse verwenden" --alt="Überspringen und meine exisiterende E-Mail-Adresse verwenden" %}
 3. **Persönliche Angaben** eintragen<br>
-   ![Name, E-Mail-Adresse und Passwort](/assets/app/thunderbird/konto_einrichten_1_small.png)
-4. Klick auf den Button **Manuell Bearbeiten** <br>![Manuell Bearbeiten](/assets/app/thunderbird/konto_einrichten_2_manuell_bearbeiten.png)
+  {% lightbox /assets/app/thunderbird/konto_einrichten_1_small.png --data="thunderbird" --title="Name, E-Mail-Adresse und Passwort" --alt="Name, E-Mail-Adresse und Passwort" %}
+4. Klick auf den Button **Manuell Bearbeiten** <br>
+  {% lightbox /assets/app/thunderbird/konto_einrichten_2_manuell_bearbeiten.png --data="thunderbird" --title="Manuell Bearbeiten" --alt="Manuell Bearbeiten" %}
 5. **Konfigurieren** des HSR E-Mail Servers<br>
-   ![Konfiguration HSR E-Mail Server](/assets/app/thunderbird/konto_einrichten_3.png)
-
+    {% lightbox /assets/app/thunderbird/konto_einrichten_3.png --data="thunderbird" --title="Konfiguration HSR E-Mail Server" --alt="Konfiguration HSR E-Mail Server" %}
 <!--main_settings-->
 
 ## Links
