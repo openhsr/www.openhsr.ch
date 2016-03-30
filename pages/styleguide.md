@@ -26,6 +26,11 @@ $ whoami
 maria
 ```
 
+### Tastenkürzel
+Um ihre Arbeit speditiv zu erledigen, benutzt Maria gerne Tastenkürzel. Tastenkürzel werden immer wie folgt dargestellt.<br>
+<kbd>Alt</kbd> + <kbd>Comp</kbd> + <kbd>HSR</kbd>
+
+
 ### Kurzum
 
 Bezeichnung    | Bedeutung

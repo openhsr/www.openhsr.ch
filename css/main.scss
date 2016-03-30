@@ -135,7 +135,7 @@ code span.c {
   color: #61737C;
 }
 
-.highlight code::before {
+.highlight code.language-bash::before {
   font-family: "FontAwesome";
   content: "\f120";
   position: absolute;
