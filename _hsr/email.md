@@ -25,14 +25,9 @@ Benutzername | ```mmuster```
 Passwort | ```GeHeim007```
 Passwort-Verschlüsselung | Keine (Normales Passwort)
 
-## Thunderbird
-{% for app_page in site.app %}
-  {% if app_page.title == "Thunderbird" %}
-    {% assign app_page_content = app_page.content | split:"<!--main_settings-->" %}
+## Empfehlung
+Wir empfehlen die Nutzung der Open Source Software Thunderbird. Eine Anleitung zu Thunderbird findest du hier: [Thunderbird](/app/thunderbird)
 
-    {{ app_page_content[1] }}
-  {% endif %}
-{% endfor %}
 
 ## Alle Programme
 
