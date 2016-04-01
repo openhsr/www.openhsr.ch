@@ -226,7 +226,7 @@ a[href^="apt://"]:hover {
 	align-items: center;
   flex-flow: row wrap;
   padding: 0 1rem;
-  background: #FFF;
+  background: #F8F8F8;
   border-bottom: 1px solid #0064A3;
 }
 #logo img {
@@ -377,7 +377,8 @@ nav > ul > li > ul > li > a {
   .wrapper {
     margin: 0 auto;
   	width: 90%;
-    max-width: 75rem;
+    width: 62.5rem;
+    max-width: 62.5rem;
   }
 }
 
@@ -385,20 +386,17 @@ nav > ul > li > ul > li > a {
 #content {
 	display: flex;
   flex-flow: row wrap;
-	background: #FFF;
+	background: #F8F8F8;
   border-top: 1px solid #0064A3;
-	padding: 1rem;
 }
 
 main {
   max-width: 100%;
 	order: 2;
+  padding: 1rem;
 }
 
 @media all and (min-width: 1080px) {
-  #content {
-    padding: 2rem;
-  }
   .wiki-content {
     max-width: 65%;
     order: 1;
@@ -409,23 +407,23 @@ main {
 /** SIDEBAR */
 #sidebar {
 	order: 1;
-  border-radius: 0.5rem;
   width: 100%;
+  background: #F2F2F2;
+  padding: 1rem;
 }
 
 #sidebar section {
-	padding: 0 1rem 1rem 0;
   margin-bottom: 1rem;
-	border-bottom: 2px solid #ECF0F1;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: #fff 0 1px;
 }
 
 #sidebar section h1 {
-	padding: 0;
 	font-size: 1.5rem;
 }
 
 #sidebar ul > li {
-  margin: 0 0 1rem 0;
+  margin-bottom: 1rem;
 }
 
 #sidebar ul > li::before {
@@ -436,13 +434,7 @@ main {
   #sidebar {
     order: 2;
     flex: 1;
-    border-left: 1px solid #ECF0F1;
-    padding: 1rem;
-    margin: 0 0 3rem 1rem;
-  }
-
-  #sidebar section {
-    padding-left: 1rem;
+    margin-left: 1rem;
   }
 }
 
