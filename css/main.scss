@@ -29,14 +29,14 @@ h1, h2, h3 {
   margin-bottom: 0.5rem;
 }
 h1 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 h2 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
   margin: 1.5rem 0;
 }
 h3 {
-	font-size: 1.2rem;
+	font-size: 1rem;
   margin: 1.5rem 0;
 }
 
@@ -149,18 +149,14 @@ code span.c {
 
 /* KEYBOARD */
 kbd {
-  border-radius: 3px;
+  border-radius: 0.2rem;
   display: inline-block;
-  margin: 0 .1em;
-  text-shadow: 0 1px 0 #fff;
-  line-height: 1.4;
-  white-space: nowrap;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #FFFFFF inset;
+  margin: 0 0.1rem;
+  text-shadow: 0 1px 0 #FFF;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #FFF inset;
   padding: .1em .6em;
-  border: 1px solid #ccc;
-  font-size: 11px;
-  font-family: Arial,Helvetica,sans-serif;
-  background-color: #f7f7f7;
+  border: 1px solid #CCC;
+  background-color: #F7F7F7;
   color: #333;
 }
 
@@ -178,12 +174,11 @@ blockquote {
 	border: 1px solid #0D47A1;
   border-radius: 0.5rem;
 	color: #FFF;
-	padding: 1rem;
+	padding: 0.8rem;
   margin: 2rem auto 0;
 	text-transform: uppercase;
   font-weight: bold;
-	font-size: 1rem;
-  max-width: 18rem;
+  max-width: 15rem;
   transition: all 0.2s ease;
 }
 
@@ -204,7 +199,7 @@ a[href^="apt://"] {
 	text-transform: uppercase;
   font-weight: bold;
 	font-size: 1rem;
-  max-width: 14rem;
+  max-width: 15rem;
   transition: all 0.2s ease;
 }
 
@@ -230,20 +225,18 @@ a[href^="apt://"]:hover {
   border-bottom: 1px solid #0064A3;
 }
 #logo img {
-	width: 80px;
+	width: 60px;
   box-shadow: none;
   margin: 0;
-  margin: 1rem 0;
 }
 
 /* HAMBURGER */
 #hamburger {
   cursor: pointer;
   color: #000;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 1rem;
   border-radius: 0.3rem;
-  margin-top: 0.2rem;
 }
 
 @media all and (min-width: 1080px) {
@@ -260,10 +253,10 @@ nav {
 }
 
 nav ul li a {
-  font-size: 1.2rem;
+  font-size: 1rem;
 	text-transform: uppercase;
   padding: 0 1rem;
-  line-height: 4rem;
+  line-height: 3rem;
   display: inline-block;
 }
 
@@ -313,7 +306,7 @@ nav > ul > li > ul > li > a {
     display: inline-block;
   }
   .social a {
-    line-height: 6rem;
+    line-height: 5rem;
   }
   .social a:hover {
     color: #FFF;
@@ -325,7 +318,7 @@ nav > ul > li > ul > li > a {
   }
 
   nav ul li a {
-    line-height: 6rem;
+    line-height: 5rem;
     transition: all 0.2s ease;
   }
 
@@ -360,11 +353,9 @@ nav > ul > li > ul > li > a {
 }
 #slider h2 {
 	color: #FFF;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 #slider .button {
-  font-size: 1.2rem;
-  max-width: 60rem;
   margin: 0;
 }
 
@@ -418,10 +409,6 @@ main {
   box-shadow: #fff 0 1px;
 }
 
-#sidebar section h1 {
-	font-size: 1.5rem;
-}
-
 #sidebar ul > li {
   margin-bottom: 1rem;
 }
@@ -435,6 +422,7 @@ main {
     order: 2;
     flex: 1;
     margin-left: 1rem;
+    border-left: 1px solid #E0E0E0;
   }
 }
 
@@ -466,7 +454,7 @@ main {
 }
 
 #front article i {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 /** FOOTER */
