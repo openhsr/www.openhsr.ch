@@ -12,19 +12,14 @@ Unser Grundsatz: Kurz und knackig, aber nichts verheimlichen. *Users first*!
 Es war einmal eine Studentin, die hiess ```Maria Muster```. Maria war während <del>dem Studium</del> den Vorlesungen fleissig und hat viele Dokumentationen mit dem Benutzernamen ```mmuster```, der E-Mail-Adresse ```maria.muster@hsr.ch``` und Marias Passwort, ```GeHeim007```, erstellt.
 
 ### Shell
-Auf ihrem Computer hat Maria ein tolles Unixoid mit dem *lokalen* Benutzernamen ```maria``` installiert. Eine **root-Shell** sieht immer folgendermassen aus:
+Auf ihrem Computer hat Maria ein tolles Unixoid mit dem *lokalen* Benutzernamen ```maria``` installiert. Eine **Shell** (Bash!) sieht immer folgendermassen aus:
 
 ```bash
-$# whoami
-root
+echo "Hello World"
 ```
 
-und eine **normale Shell** so:
-
-```bash
-$ whoami
-maria
-```
+Maria hat nie eine Root-Shell offen - sie ruft Kommandos, welcho erweiterte Rechte benötigen
+immer mit sudo auf!
 
 ### Tastenkürzel
 Um ihre Arbeit speditiv zu erledigen, benutzt Maria gerne Tastenkürzel. Tastenkürzel werden immer wie folgt dargestellt.<br>
