@@ -37,7 +37,7 @@ set ssl:check-hostname off
 set cmd:fail-exit true
 user $USER $PASSWORD
 cd $DIRECTORY
-mirror --reverse --delete --ignore-time --verbose --parallel . .
+mirror --reverse --delete --ignore-time --verbose -exclude .ftpquota --parallel . .
 bye
 "
 
