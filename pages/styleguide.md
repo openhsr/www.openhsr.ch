@@ -18,7 +18,7 @@ Auf ihrem Computer hat Maria ein tolles Unixoid mit dem *lokalen* Benutzernamen 
 echo "Hello World"
 ```
 
-Maria hat nie eine Root-Shell offen - sie ruft Kommandos, welcho erweiterte Rechte benötigen
+Maria hat nie eine Root-Shell offen - sie ruft Kommandos, welche erweiterte Rechte benötigen
 immer mit sudo auf!
 
 ### Tastenkürzel
