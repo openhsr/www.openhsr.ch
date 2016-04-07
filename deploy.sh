@@ -27,8 +27,6 @@ fi
 cd "$DIR/_site/"
 
 
-# TODO: allow SFTP
-# TODO: allow verify cert
 echo "Uploading..."
 lftp -e "
 open $HOST
@@ -37,7 +35,7 @@ set ssl:check-hostname off
 set cmd:fail-exit true
 user $USER $PASSWORD
 cd $DIRECTORY
-mirror --reverse --delete --ignore-time --verbose --exclude ^\.ftpquota$ --parallel . .
+mirror --reverse --delete --ignore-time --verbose --parallel . .
 bye
 "
 
