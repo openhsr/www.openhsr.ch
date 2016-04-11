@@ -39,7 +39,7 @@ Gruppenpasswort | ```hsrremote```
 
 ## VPN unter Mac OS X einrichten
 
-1. **Öffne die Netzwerkeinstellungen**<br>
+1. **Öffne die Netzwerkeinstellungen** und klicke unten links auf das **Plus**<br>
   {% lightbox /assets/hsr/vpn/mac_vpn1.png --data="vpn mac" --title="Netzwerkeinstellungen" --alt="Netzwerkeinstellungen" %}
 2. Wähle ```VPN```, ```Cisco IPSec``` und wähle einen Verbindungsnamen. Klicke anschliessend auf **Erstellen**.<br>
   {% lightbox /assets/hsr/vpn/mac_vpn2.png --data="vpn mac" --title="VPN Einstellungen" --alt="VPN Einstellungen" %}
