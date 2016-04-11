@@ -286,8 +286,9 @@ nav > ul > li.active a {
 nav > ul > li > ul {
   display: none;
   position: absolute;
-  padding: 1rem;
+  padding: 0.2rem 1rem 1rem;
   background: #0063A3;
+  min-width: 100%;
 }
 
 nav > ul > li > ul > li > a {
@@ -295,6 +296,7 @@ nav > ul > li > ul > li > a {
   line-height: normal;
   height: auto;
   padding: 0.5rem 0;
+  line-height: 1rem;
 }
 
 @media all and (min-width: 1080px) {
@@ -346,10 +348,11 @@ nav > ul > li > ul > li > a {
 	align-items: center;
   text-align: center;
 	padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 #slider h1 {
   color: #FFF;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 #slider h2 {
 	color: #FFF;
@@ -378,7 +381,9 @@ nav > ul > li > ul > li > a {
 	display: flex;
   flex-flow: row wrap;
 	background: #F8F8F8;
-  border-top: 1px solid #0064A3;
+  border-top: 1px solid #E0E0E0;
+  border-left: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
 }
 
 main {
@@ -409,6 +414,11 @@ main {
   box-shadow: #fff 0 1px;
 }
 
+#sidebar section:last-child {
+  border-bottom: none;
+  box-shadow: none;
+}
+
 #sidebar ul > li {
   margin-bottom: 1rem;
 }
@@ -429,6 +439,11 @@ main {
 /** FRONT PAGE */
 #front{
   text-align: center;
+}
+
+#front > h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 
 #front > div {
