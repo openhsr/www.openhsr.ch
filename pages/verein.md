@@ -30,10 +30,11 @@ Um dieser Ziele zu erreichen,
 
 Posten | Person
 ------ | ------
-Präsident | Danilo Bargen
-Vize-Präsident | Emanuel Duss
-Aktuar  | Raphael Nestler
-Kassier | Lukas Murer
+Präsident | Fabian Hauser
+Vize-Präsident | Raphael Zimmermann
+Kassierin | Murièle Trentini
+Aktuar  | Oli Dias
+Beisitz (Webseite) | Michael Wieland
 
 Gemäss unseren Statuten setzt sich er Vorstand zwingend aus Präsident, Vize-Präsident, Aktuar und Kassier zusammen.  
 Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
