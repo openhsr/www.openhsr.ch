@@ -14,6 +14,8 @@ Gruppenpasswort | ```hsrremote```
 
 ## VPN unter Ubuntu einrichten
 
+Hinweis: Richte das VPN nicht im HSR-Secure WLAN ein - Aus dem HSR Netz können keine VPN-Verbindungen hergestellt werden.
+
 1. **Benötigte Abhängigkeiten installieren**<br>
    Bevor du loslegen kannst, musst du noch das Paket ``network-manager-vpnc`` installieren.
    [Jetzt installieren](apt://network-manager-vpnc)
