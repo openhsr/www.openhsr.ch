@@ -13,9 +13,9 @@ Domäne | ```hsr.ch```
 ## Pfade zu den HSR Netzwerkfreigaben
 Name | Pfad
 ---- | -----
-Skripte	| smb://c206.hsr.ch/skripte
-Scratch	 | smb://c206.hsr.ch/scratch
-Persönliche Ablage| smb://c101.hsr.ch/mmuster
+Skripte	| ```smb://c206.hsr.ch/skripte```
+Scratch	 | ```smb://c206.hsr.ch/scratch```
+Persönliche Ablage| ```smb://c101.hsr.ch/mmuster```
 
 ## Netzwerkfreigaben unter Ubuntu einrichten
 
