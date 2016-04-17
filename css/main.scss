@@ -289,8 +289,7 @@ nav > ul > li.active a {
 /** sub menus */
 nav > ul > li > ul {
   display: none;
-  position: absolute;
-  padding: 0.2rem 1rem 1rem;
+  padding: 0.3rem 1rem;
   background: #0063A3;
   min-width: 100%;
 }
@@ -301,6 +300,12 @@ nav > ul > li > ul > li > a {
   height: auto;
   padding: 0.5rem 0;
   line-height: 1rem;
+}
+
+nav > ul > li > ul > li > a::before {
+  font-family: "FontAwesome";
+  content:"\f105";
+  padding: 0.5rem;
 }
 
 @media all and (min-width: 1080px) {
@@ -338,6 +343,11 @@ nav > ul > li > ul > li > a {
   }
 
   /** sub menus */
+  nav > ul > li > ul {
+    position: absolute;
+    padding: 0.2rem 0.5rem 1rem;
+  }
+
   nav > ul > li:hover > ul {
     display: block;
     left: 0;
@@ -394,6 +404,26 @@ main {
   max-width: 100%;
 	order: 2;
   padding: 1rem;
+}
+
+.wiki-content h2 {
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.wiki-content h2::before {
+  font-family: "FontAwesome";
+  content: "\f107";
+  padding: 0.5rem;
+}
+
+.wiki-content h2.arrow::before {
+  content: "\f106";
+}
+
+.wiki-content h2 + div {
+  display: none;
 }
 
 @media all and (min-width: 1080px) {
