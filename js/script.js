@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 	// Toggle sub mobile menu
 	$( "nav > ul > li > a" ).click(function(event) {
-		if($( "#hamburger" ).is(":visible")){
+		if($( "#hamburger" ).is(":visible") && $(this).next( "ul" ).length != 0){
 			event.preventDefault();
 			$(this).parent("li").siblings("li ").each(function(){
 				$(this).removeClass("active");
