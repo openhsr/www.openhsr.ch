@@ -6,15 +6,15 @@ $(document).ready(function() {
 	});
 
 	// Toggle sub mobile menu
-	$( "nav > ul > li" ).click(function(event) {
+	$( "nav > ul > li > a" ).click(function(event) {
 		if($( "#hamburger" ).is(":visible")){
 			event.preventDefault();
-			$(this).siblings( "nav > ul > li " ).removeClass("active");
-			$(this).siblings( "nav > ul > li " ).each(function(){
+			$(this).parent("li").siblings("li ").each(function(){
+				$(this).removeClass("active");
 				$(this).find( "ul" ).hide();
 			});
-			$(this).toggleClass( "active" );
-			$(this).find( "ul" ).first().toggle("fast");
+			$(this).parent("li").toggleClass( "active" );
+			$(this).next( "ul" ).first().toggle("fast");
 		}
 	});
 
