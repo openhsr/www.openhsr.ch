@@ -12,6 +12,10 @@ Auf dieser Webseite findest du ausführliche Anleitungen für [Programme](/app/)
 
 Für den Studienstart empfielt es sich, den [Überlebensguide](/start/) durchzugehen.
 
+## Häufig gestellte Fragen
+
+Wir haben eine Seite für [Häufige Fragen & Antworten](/faq/) durchzugehen.
+
 ## IRC-Chat
 
 Am schnellsten und einfachsten wird dir auf unserem IRC-Chat [```#altcomphsr``` auf ```irc.freenode.net```](irc://irc.freenode.net/altcomphsr) geholfen.
