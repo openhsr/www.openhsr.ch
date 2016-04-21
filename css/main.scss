@@ -256,6 +256,10 @@ nav {
   flex: 0 1 100%;
 }
 
+nav ul li {
+  white-space: nowrap;
+}
+
 nav ul li a {
   font-size: 1rem;
 	text-transform: uppercase;
