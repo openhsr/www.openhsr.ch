@@ -66,3 +66,8 @@ Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu. Als Abhängigkeit
 ```bash
 pacman -S networkmanager-vpnc
 ```
+
+### Fedora
+
+Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu.
+Die Abhängigkeit (Paket `NetworkManager-vpnc`) sollte bereits vorinstalliert sein.
