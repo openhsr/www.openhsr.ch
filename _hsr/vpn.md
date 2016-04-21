@@ -55,3 +55,19 @@ Hinweis: Richte das VPN nicht im HSR-Secure WLAN ein - Aus dem HSR Netz können 
   {% lightbox /assets/hsr/vpn/mac_vpn6.png --data="vpn mac" --title="VPN Statusbar" --alt="VPN Statusbar" %}
 6. Nun kannst du dich mit deinem **HSR Login** anmelden.<br>
   {% lightbox /assets/hsr/vpn/mac_vpn7.png --data="vpn mac" --title="VPN Login" --alt="VPN Login" %}<br>
+
+
+## VPN einrichten unter anderen Linux Distributionen
+
+### Arch Linux
+
+Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu. Als Abhängigkeit wird das Paket `networkmanager-vpnc` benötigt, welches sich im `extra` Repository befindet.
+
+```bash
+pacman -S networkmanager-vpnc
+```
+
+### Fedora
+
+Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu.
+Die Abhängigkeit (Paket `NetworkManager-vpnc`) sollte bereits vorinstalliert sein.
