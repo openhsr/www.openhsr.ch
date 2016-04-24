@@ -1,5 +1,6 @@
 ---
 title: Community
+parent: community
 ---
 
 ## Be a part of it! :sunny:
