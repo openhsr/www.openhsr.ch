@@ -1,6 +1,10 @@
 
 $(document).ready(function() {
 
+	/********************
+	 * Helper functions
+	 ********************/
+
 	// scroll to a element
 	function scrollTo(element){
 		$( "html, body" ).animate({
@@ -24,14 +28,11 @@ $(document).ready(function() {
 
 	var load_hash = getURLHash();
 
+	/********************
+	 * Mobile Navigation
+	 ********************/
 
-	// Toggle mobile menu
-	$( "#hamburger" ).click(function() {
-		$( "nav" ).toggle( "slow" );
-		$( ".social" ).toggle(300);
-	});
-
-	// Toggle sub mobile menu
+	// Toggle sub navigation on mobile
 	$( "nav > ul > li > a" ).click(function(event) {
 		if($( "#hamburger" ).is(":visible") && $(this).next( "ul" ).length != 0){
 			event.preventDefault();
@@ -44,8 +45,12 @@ $(document).ready(function() {
 		}
 	});
 
+	/********************
+	 * Toggable
+	 ********************/
+
 	// toggle content on load
-	$( ".wiki-content .toggable" ).each(function(num,elem){
+	$( ".toggable" ).each(function(num,elem){
 		if(getURLHash() != $(elem).attr("id")){
 			toggleClose(elem);
 		} else {
@@ -60,7 +65,7 @@ $(document).ready(function() {
 	}
 
 	// untoggle on klick event
-	$( ".wiki-content .toggable" ).click(function(){
+	$( ".toggable" ).click(function(){
 
 		if($(this).is('.toggle-open')) {
 			toggleClose(this);

@@ -243,16 +243,40 @@ a[href^="apt://"]:hover {
   border-radius: 0.3rem;
 }
 
+#hamburger + nav,
+#hamburger + nav + div.social {
+  /* hack to allow transition: should never be so big: */
+  max-height: 100vh;
+  overflow-y: visible;
+  overflow-x: hidden;
+  transition: max-height 0.5s linear;
+}
+
+#hamburger.toggle-closed + nav,
+#hamburger.toggle-closed + nav + div.social {
+  max-height: 0;
+  overflow-y: hidden;
+}
+
 @media all and (min-width: 1080px) {
   #hamburger {
     display: none;
   }
+
+  #hamburger.toggle-closed + nav,
+  #hamburger.toggle-closed + nav + div.social,
+  #hamburger + nav,
+  #hamburger + nav + div.social {
+    max-height: none;
+    overflow-y: visible;
+    overflow-x: visible;
+  }
+
 }
 
 /* NAVIGATION */
 nav {
   font-size: 0; // fix against spaces between inline elements
-  display: none;
   flex: 0 1 100%;
 }
 
@@ -274,10 +298,6 @@ nav > ul > li.active {
 
 nav > ul > li.active a {
   color: #FFF;
-}
-
-.social {
-  display: none;
 }
 
 .social a {
