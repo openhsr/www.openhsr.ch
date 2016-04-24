@@ -21,7 +21,7 @@ module Jekyll
 	#    "class"-attribute cannot exist in markdown.
 	the_content = the_content.gsub(
 		/<h2([^>]*)>(.*?)<\/h2>/,
-		'</div>' + "\n" + '<h2\\1 class="toggable">\\2</h2>'+"\n"+'<div class="toggle">'
+		'</div>' + "\n" + '<h2\\1 class="toggable">\\2</h2>'+"\n"+'<div class="toggle-content">'
 	)
 
 	# remove the (unused) first </div>.

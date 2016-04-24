@@ -1,12 +1,28 @@
 
 $(document).ready(function() {
 
-	// scroll to a selector pos
-	function scrollto(pos){
+	// scroll to a element
+	function scrollTo(element){
 		$( "html, body" ).animate({
-			scrollTop: $( pos ).offset().top
+			scrollTop: $(element).offset().top
 		}, 1);
 	}
+
+	function toggleOpen(element) {
+		$(element).removeClass( "toggle-closed" );
+		$(element).addClass( "toggle-open" );
+	}
+
+	function toggleClose(element) {
+		$(element).removeClass( "toggle-open" );
+		$(element).addClass( "toggle-closed" );
+	}
+
+	function getURLHash() {
+		return window.location.hash.substring(1).split("#")[0];
+	}
+
+	var load_hash = getURLHash();
 
 
 	// Toggle mobile menu
@@ -29,28 +45,52 @@ $(document).ready(function() {
 	});
 
 	// toggle content on load
-	$( ".wiki-content h2.toggable" ).each(function(num,elem){
-		var hash = window.location.hash.substring(1).split("#")[0];
-
-		// do not toggle when directly linked to in hash
-		if(hash != $(elem).attr("id")){
-			$(elem).next( "div" ).toggle();
+	$( ".wiki-content .toggable" ).each(function(num,elem){
+		if(getURLHash() != $(elem).attr("id")){
+			toggleClose(elem);
+		} else {
+			toggleOpen(elem);
 		}
 	});
-	// untoggle on klick event of h2
-	$( ".wiki-content h2.toggable" ).click(function(){
-		$(this).next( "div" ).toggle();
-		$(this).toggleClass( "arrow" );
+
+	// if a location was passed as document hash,
+	if(load_hash !="") {
+		// scroll to it after toggle operations changed it's location.
+		scrollTo("#" + load_hash);
+	}
+
+	// untoggle on klick event
+	$( ".wiki-content .toggable" ).click(function(){
+
+		if($(this).is('.toggle-open')) {
+			toggleClose(this);
+
+			// remove this location hash from URL
+			if($(this).attr("id") == getURLHash()){
+				window.location.hash = "#";
+			}
+		} else {
+			toggleOpen(this);
+		}
 	});
 
-	// untoggle on direct inline linking to this section
-	$(window).on( "hashchange", function(){
-		var hash = window.location.hash.substring(1).split("#")[0];
-		var toggle_operations = $( "h2#" + hash  + ".toggable" ).next( "div" ).toggle();
+	// untoggle on direct inline linking to this element
+	$(window).on( "hashchange", function(event){
 
-		if( toggle_operations.length != 0) {
+		// do nothing on empty URL-Hash
+		if(getURLHash() == "") {
+			event.preventDefault();
+			return false;
+		}
+
+		// select closed location toggle
+		var toggle_element = $( "#" + getURLHash()  + ".toggle-closed");
+
+		if(toggle_element.length != 0) {
+			toggleOpen( toggle_element );
+
 			// scroll to the position again, as the page length might have changed.
-			scrollto( "#" + hash );
+			scrollTo("#" + getURLHash());
 		}
 	});
 });
