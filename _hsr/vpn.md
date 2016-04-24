@@ -12,6 +12,7 @@ Gruppenname | ```hsrremote```
 Gruppenpasswort | ```hsrremote```
 
 
+{% toggle %}
 ## VPN unter Ubuntu einrichten
 
 Hinweis: Richte das VPN nicht im HSR-Secure WLAN ein - Aus dem HSR Netz können keine VPN-Verbindungen hergestellt werden.
@@ -38,7 +39,6 @@ Hinweis: Richte das VPN nicht im HSR-Secure WLAN ein - Aus dem HSR Netz können 
   <br>
   {% lightbox /assets/hsr/vpn/vpn_networkmanager_7.png --data="vpn ubuntu" --title="Verbindung wurde erfolgreich hergestellt" --alt="Verbindung wurde erfolgreich hergestellt" %}
 
-
 ## VPN unter Mac OS X einrichten
 
 1. **Öffne die Netzwerkeinstellungen** und klicke unten links auf das **Plus**<br>
@@ -56,7 +56,6 @@ Hinweis: Richte das VPN nicht im HSR-Secure WLAN ein - Aus dem HSR Netz können 
 6. Nun kannst du dich mit deinem **HSR Login** anmelden.<br>
   {% lightbox /assets/hsr/vpn/mac_vpn7.png --data="vpn mac" --title="VPN Login" --alt="VPN Login" %}<br>
 
-
 ## VPN einrichten unter anderen Linux Distributionen
 
 ### Arch Linux
@@ -71,3 +70,5 @@ pacman -S networkmanager-vpnc
 
 Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu.
 Die Abhängigkeit (Paket `NetworkManager-vpnc`) sollte bereits vorinstalliert sein.
+
+{% endtoggle %}

@@ -17,6 +17,7 @@ Skripte	| ```smb://c206.hsr.ch/skripte```
 Scratch	 | ```smb://c206.hsr.ch/scratch```
 Persönliche Ablage| ```smb://c101.hsr.ch/mmuster```
 
+{% toggle %}
 ## Netzwerkfreigaben unter Ubuntu einrichten
 
 Bevor du loslegst: Du kannst nur im internen Netz der HSR auf die Netzwerkfreigaben zugreiffen.
@@ -36,3 +37,5 @@ Bestätige mit `Verbinden`
 {% lightbox /assets/hsr/networkshares/ubuntu_networkshares_4.png --data="netzwerkfreigabe-ubuntu" --title="Netzwerkfreigabe in der Seitenleiste" --alt="Netzwerkfreigabe in der Seitenleiste" %}
 6. Die Netzwerkfreigaben erscheint in der Seitenleiste. Klicke rechts auf das Symbol und wähle ```Lesezeichen hinzufügen```. Damit kannst du das nächste mal direkt auf die Netzwerkfreigabe zugreiffen!
 {% lightbox /assets/hsr/networkshares/ubuntu_networkshares_7.png --data="netzwerkfreigabe-ubuntu" --title="Lesezeichen hinzufügen" --alt="Lesezeichen hinzufügen" %}
+
+{% endtoggle %}

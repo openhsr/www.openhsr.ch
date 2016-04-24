@@ -413,21 +413,24 @@ main {
 .wiki-content h2 {
   border-bottom: 1px solid #E0E0E0;
   padding-bottom: 0.5rem;
+}
+
+.wiki-content h2.toggable {
   cursor: pointer;
 }
 
 .wiki-content h2::before {
   font-family: "FontAwesome";
-  content: "\f107";
+  content: "\f105";
   padding: 0.5rem;
+}
+
+.wiki-content h2.toggable::before {
+  content: "\f107";
 }
 
 .wiki-content h2.arrow::before {
   content: "\f106";
-}
-
-.wiki-content h2 + div {
-  display: none;
 }
 
 @media all and (min-width: 1080px) {

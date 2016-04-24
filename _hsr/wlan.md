@@ -14,6 +14,7 @@ Username | ```mmuster```
 Password | ```GeHeim007```
 
 
+{% toggle %}
 ## WLAN unter Ubuntu einrichten
 
 1. **Netzwerk auswählen**<br>
@@ -28,3 +29,4 @@ Password | ```GeHeim007```
 4. Du bist nun verbunden! :tada:
 	{% lightbox /assets/hsr/wlan/wlan_connected.png --data="wlan ubuntu" --title="Erfolgreich verbunden" --alt="Wifi-Netzwerk HSR-Secure Connected" %}
 
+{% endtoggle %}
