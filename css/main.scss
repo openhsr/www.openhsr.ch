@@ -435,23 +435,23 @@ main {
   padding-bottom: 0.5rem;
 }
 
-.wiki-content h2::before {
-  font-family: "FontAwesome";
-  content: "\f105";
-  padding: 0.5rem;
-}
 
 /* content toggle */
 .wiki-content h2.toggable {
   cursor: pointer;
 }
 
+.wiki-content h2.toggable::before {
+  font-family: "FontAwesome";
+  padding: 0.5rem;
+}
+
 .wiki-content h2.toggle-open::before {
-  content: "\f107";
+  content: "\f106";
 }
 
 .wiki-content h2.toggle-closed::before {
-  content: "\f106";
+  content: "\f107";
 }
 
 .wiki-content h2.toggle-closed + div.toggle-content {
