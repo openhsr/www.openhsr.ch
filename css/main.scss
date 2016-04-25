@@ -369,7 +369,7 @@ nav > ul > li > ul > li > a::before {
   /** sub menus */
   nav > ul > li > ul {
     position: absolute;
-    padding: 0.2rem 0.5rem 1rem;
+    padding: 0.5rem 1rem 1rem 0.5rem;
   }
 
   nav > ul > li:hover > ul {
@@ -426,7 +426,6 @@ nav > ul > li > ul > li > a::before {
 
 main {
   max-width: 100%;
-	order: 2;
   padding: 1rem;
 }
 
@@ -461,14 +460,12 @@ main {
 @media all and (min-width: 1080px) {
   .wiki-content {
     max-width: 65%;
-    order: 1;
     flex: 3
   }
 }
 
 /** SIDEBAR */
 #sidebar {
-	order: 1;
   width: 100%;
   background: #F2F2F2;
   padding: 1rem;
@@ -495,7 +492,6 @@ main {
 
 @media all and (min-width: 1080px) {
   #sidebar {
-    order: 2;
     flex: 1;
     margin-left: 1rem;
     border-left: 1px solid #E0E0E0;
