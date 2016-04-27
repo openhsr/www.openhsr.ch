@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - sudo make
+
+after_success:
+  - ./deploy.sh
