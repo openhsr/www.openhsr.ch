@@ -7,4 +7,4 @@ script:
   - make buildimage build
 
 after_success:
-  - ./deploy.sh
+  - make buildimage
