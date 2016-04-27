@@ -1,10 +1,9 @@
-sudo: required
-
 services:
   - docker
 
 script:
-  - sudo make buildimage build
+  - mkdir _site/
+  - make buildimage build
 
 after_success:
   - ./deploy.sh
