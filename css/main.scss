@@ -425,6 +425,7 @@ nav > ul > li > ul > li > a::before {
 }
 
 main {
+  order: 2;
   max-width: 100%;
   padding: 1rem;
 }
@@ -459,6 +460,7 @@ main {
 
 @media all and (min-width: 1080px) {
   .wiki-content {
+    order: 1;
     max-width: 65%;
     flex: 3
   }
@@ -466,20 +468,11 @@ main {
 
 /** SIDEBAR */
 #sidebar {
+  order: 1;
   width: 100%;
   background: #F2F2F2;
   padding: 1rem;
-}
-
-#sidebar section {
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #e0e0e0;
-  box-shadow: #fff 0 1px;
-}
-
-#sidebar section:last-child {
-  border-bottom: none;
-  box-shadow: none;
+  border-bottom: 1px solid #E0E0E0;
 }
 
 #sidebar ul > li {
@@ -490,11 +483,31 @@ main {
   content: "- "
 }
 
+#sidebar .cross-references {
+  display: none;
+}
+
 @media all and (min-width: 1080px) {
   #sidebar {
+    order: 2;
     flex: 1;
     margin-left: 1rem;
     border-left: 1px solid #E0E0E0;
+  }
+
+  #sidebar section {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: #fff 0 1px;
+  }
+
+  #sidebar section:last-child {
+    border-bottom: none;
+    box-shadow: none;
+  }
+
+  #sidebar .cross-references {
+    display: block;
   }
 }
 
@@ -543,4 +556,29 @@ main {
 #footer p,
 #footer a {
 	color: #FFF;
+}
+
+
+/** MOVE TO THE TOP */
+#scroll-top::before {
+  font-family: "FontAwesome";
+  content: "\f077";
+}
+#scroll-top {
+  font-size: 1rem;
+  background: rgba(224, 224, 224, 0.6);
+  color: #0064A3;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+}
+
+@media all and (min-width: 1080px) {
+  #scroll-top {
+    display: none;
+  }
 }

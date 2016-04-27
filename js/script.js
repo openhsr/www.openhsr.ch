@@ -46,6 +46,13 @@ $(document).ready(function() {
 	});
 
 	/********************
+	 * Scroll to top
+	 ********************/
+	 $( "#scroll-top" ).click(function(){
+		 scrollTo("#top");
+	 });
+
+	/********************
 	 * Toggable
 	 ********************/
 
