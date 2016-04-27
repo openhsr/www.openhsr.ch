@@ -569,16 +569,11 @@ main {
   background: rgba(224, 224, 224, 0.6);
   color: #0064A3;
   position: fixed;
+  cursor: pointer;
+  display: none;
   bottom: 1rem;
   right: 1rem;
   width: 2rem;
   height: 2rem;
-  cursor: pointer;
   padding: 0.2rem 0.5rem;
-}
-
-@media all and (min-width: 1080px) {
-  #scroll-top {
-    display: none;
-  }
 }
