@@ -3,7 +3,7 @@ layout: page
 permalink: /contribute/
 ---
 
-# Webseite altcomp.vshsr.ch
+# Webseite altcomphsr.vshsr.ch
 
 ## Wie kann ich Mithelfen?
 Noch sind wir in einem ganz frühen Stadium und freuen uns über DEINE Mithilfe :thumbsup::tada:
@@ -25,7 +25,7 @@ verwaltet (Siehe [Seitenhierarchie]('/styleguide/#seitenhierarchie')). Diese Tex
 
 Aufgepasst: Im Verzeichnis ``_site`` solltest du nichts von Hand anpassen, denn die Änderungen werden automatisch verworfen.
 
-Für ein einheitliches Look & Feel haben wir einen einfachen **[Styleguide](http://altcomp.raphael.li/styleguide/)** erstellt. Dieser ist nicht in Stein gemeisselt - du darfst gerne Änderungen vorschlagen!
+Für ein einheitliches Look & Feel haben wir einen einfachen **[Styleguide](http://altcomphsr.vshsr.ch/styleguide/)** erstellt. Dieser ist nicht in Stein gemeisselt - du darfst gerne Änderungen vorschlagen!
 
 
 ## Beispiel eines Beitrags
@@ -75,7 +75,7 @@ Um an der Website mitarbeiten zu können benötigst du einen [Github Account](ht
    [Make Jetzt installieren](apt://make)
    [Docker Jetzt installieren](apt://docker)
 2. **Forke das Projekt auf Github**<br>
-   Gehe dazu mit dem Webbrowser auf das [Repository altcomp.vshsr.ch](https://github.com/altcomphsr/altcomphsr.vshsr.ch) und klicke auf `Fork`<br>
+   Gehe dazu mit dem Webbrowser auf das [Repository altcomphsr.vshsr.ch](https://github.com/altcomphsr/altcomphsr.vshsr.ch) und klicke auf `Fork`<br>
    ![Screenshot zum Forken eines Projekts](/assets/contribute/projekt_einrichten_1.png)
 3. Wenn du in einer Organisation bist, dann Forke das Projekt zu deinem Benutzer<br>
    ![Screenshot wohin geforkt werden soll](/assets/contribute/projekt_einrichten_2.png)
@@ -99,6 +99,6 @@ Alle Änderungen die du vornimmst, werden automatisch geladen.
 Wenn du genug hast, kannst du mit der Tastenkombination ``ctrl`` + ``c`` abbrechen.
 
 ## Technischer Hintergrund
-Die neue Seite des Altcomp ist im Gegensatz zu bisher kein dynamisches [Wiki](https://de.wikipedia.org/wiki/Wiki) sondern eine mit [Jekyll](http://jekyllrb.com) generierte statische Webseite.
+Die neue Seite des Altcomphsr ist im Gegensatz zu bisher kein dynamisches [Wiki](https://de.wikipedia.org/wiki/Wiki) sondern eine mit [Jekyll](http://jekyllrb.com) generierte statische Webseite.
 
 Mehr Details zu Jekyll findest du auf der [offiziellen Jekyll Webseite](http://jekyllrb.com).
