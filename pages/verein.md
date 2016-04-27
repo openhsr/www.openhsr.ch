@@ -36,7 +36,7 @@ Kassierin | Murièle Trentini
 Aktuar  | Oli Dias
 Beisitz (Webseite) | Michael Wieland
 
-Gemäss unseren Statuten setzt sich er Vorstand zwingend aus Präsident, Vize-Präsident, Aktuar und Kassier zusammen.  
+Gemäss unseren Statuten setzt sich der Vorstand zwingend aus Präsident, Vize-Präsident, Aktuar und Kassier zusammen.  
 Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
 
 ## Statuten und Protokolle
