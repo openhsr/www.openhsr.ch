@@ -458,6 +458,14 @@ main {
 	display: none;
 }
 
+
+.wiki-content ul > li {
+  margin-bottom: 1rem;
+}
+
+.wiki-content ul > li::before {
+  content: "- "
+}
 @media all and (min-width: 1080px) {
   .wiki-content {
     order: 1;
