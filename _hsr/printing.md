@@ -28,5 +28,5 @@ direkt unter `Optionen`  auf `Farbe` umgestellt werden.
 
 Derzeit gibt es leider keine uns bekannte Möglichkeit die Drucker unter Linux einzurichten, wir
 sichen aber nach einem Weg! Wir freuen uns auf jede Mithilfe - alle Informationen dazu findest
-du im [Github Issue #16: Drucker unter Linux einrichten](https://github.com/altcomphsr/altcomphsr.vshsr.ch/issues/16)
+du im [Github Issue #16: Drucker unter Linux einrichten](https://github.com/openhsr/altcomphsr.vshsr.ch/issues/16)
 {% endtoggle %}

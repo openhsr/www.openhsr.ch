@@ -11,7 +11,7 @@ Noch sind wir in einem ganz frühen Stadium und freuen uns über DEINE Mithilfe 
 Wenn du Ideen oder Fragen hast, über einenn Schreibfehler gestolpert bist, etwas nicht
 verständlich findest oder uns loben / kritisieren möchstest, dann freuen wir uns riesig von dir zu hören!
 
-Wir verwalten und disskutieren unsere Aufgaben mittels [Github Issues](https://github.com/altcomphsr/altcomphsr.vshsr.ch/issues).
+Wir verwalten und disskutieren unsere Aufgaben mittels [Github Issues](https://github.com/openhsr/altcomphsr.vshsr.ch/issues).
 Wenn du mit Github nicht vertraut bist, dann schreib uns einfach [eine E-Mail](mailto:altcomphsr@vshsr.ch)!
 
 Am wichtigsten, dass du dich meldest - wir helfen dir geren weiter!
@@ -75,7 +75,7 @@ Um an der Website mitarbeiten zu können benötigst du einen [Github Account](ht
    [Make Jetzt installieren](apt://make)
    [Docker Jetzt installieren](apt://docker)
 2. **Forke das Projekt auf Github**<br>
-   Gehe dazu mit dem Webbrowser auf das [Repository altcomphsr.vshsr.ch](https://github.com/altcomphsr/altcomphsr.vshsr.ch) und klicke auf `Fork`<br>
+   Gehe dazu mit dem Webbrowser auf das [Repository altcomphsr.vshsr.ch](https://github.com/openhsr/altcomphsr.vshsr.ch) und klicke auf `Fork`<br>
    ![Screenshot zum Forken eines Projekts](/assets/contribute/projekt_einrichten_1.png)
 3. Wenn du in einer Organisation bist, dann Forke das Projekt zu deinem Benutzer<br>
    ![Screenshot wohin geforkt werden soll](/assets/contribute/projekt_einrichten_2.png)
