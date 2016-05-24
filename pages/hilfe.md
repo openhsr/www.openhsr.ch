@@ -14,7 +14,7 @@ Für den Studienstart empfielt es sich, den [Überlebensguide](/start/) durchzug
 
 ## Häufig gestellte Fragen
 
-Wir haben eine Seite für [Häufige Fragen & Antworten](/faq/) durchzugehen.
+Wir haben eine Seite für [Häufige Fragen & Antworten](/faq/).
 
 ## IRC-Chat
 
