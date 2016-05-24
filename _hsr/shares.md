@@ -39,3 +39,13 @@ Bestätige mit `Verbinden`
 {% lightbox /assets/hsr/networkshares/ubuntu_networkshares_7.png --data="netzwerkfreigabe-ubuntu" --title="Lesezeichen hinzufügen" --alt="Lesezeichen hinzufügen" %}
 
 {% endtoggle %}
+
+
+{% toggle %}
+## Netzwerkfreigaben unter Mac OS X einrichten
+
+### Hinweis
+Für Zugriff von zu Hause, brauchst du eine Verbindung an die HSR via [VPN](/hsr/vpn)
+
+1. Öffne deinen Finder und
+{% endtoggle %}
