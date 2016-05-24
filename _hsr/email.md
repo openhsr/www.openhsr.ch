@@ -3,6 +3,11 @@ title: E-Mail
 ---
 ## Technische Angaben
 
+### Hinweis
+Es empfiehlt sich die email-Adresse mit dem normalen Format ```maria.muster@hsr.ch``` und nicht mit dem kurzen Format ```mmuster@hs.ch``` einzurichten.
+
+Nur mit der längeren email Adresse ist es möglich via [mobileprint](/hsr/printing) zu drucken.
+
 ### IMAP-Einstellungen
 
 Einstellung | Wert
