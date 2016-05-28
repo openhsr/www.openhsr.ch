@@ -31,6 +31,12 @@ collections:
 
 defaults:
   - scope: # content pages
+      path: "tips"
+      type: "posts"
+    values:
+      layout: "page"
+      permalink: /:categories/:title/
+  - scope: # content pages
       path: "pages"
     values:
       layout: "page"

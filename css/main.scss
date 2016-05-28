@@ -459,11 +459,11 @@ main {
 }
 
 
-.wiki-content ul > li {
+.wrapper ul > li {
   margin-bottom: 1rem;
 }
 
-.wiki-content ul > li::before {
+.wrapper ul > li::before {
   content: "- "
 }
 @media all and (min-width: 1080px) {
@@ -584,4 +584,12 @@ main {
   width: 2rem;
   height: 2rem;
   padding: 0.2rem 0.5rem;
+}
+
+/* Tips & Tricks */
+.tips-category::before {
+    content: '# ';
+}
+.tips-category {
+
 }
