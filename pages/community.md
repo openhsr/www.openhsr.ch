@@ -8,8 +8,9 @@ parent: community
 Du möchtest **Open Source an der HSR** fördern oder ein nicht offiziell unterstützes Betriebssystem an der HSR nutzen?  
 Dann bist du bei uns richtig.
 
-Um Mitglied im Verein zu werden, freuen wir uns über ein einfaches E-Mail an <altcomphsr@vhshsr.ch>.  
-[Mehr Informationen zum Verein findest du hier](/verein/).
+Um Mitglied im Verein zu werden, freuen wir uns über ein einfaches E-Mail an <altcomphsr@vhshsr.ch> (Gib auch gleich deinen Github Benutzername mit an, dann nehmen wir dich gleich in der Github Organisation auf)
+
+Mehr Informationen zum Verein findest du weiter unten auf dieser Seite.
 
 ## Mithelfen
 
