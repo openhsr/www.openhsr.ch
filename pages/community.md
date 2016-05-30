@@ -10,7 +10,7 @@ Dann bist du bei uns richtig.
 
 Um Mitglied im Verein zu werden, freuen wir uns über ein einfaches E-Mail an <altcomphsr@vhshsr.ch> (Gib auch gleich deinen Github Benutzername mit an, dann nehmen wir dich gleich in der Github Organisation auf)
 
-Mehr Informationen zum Verein findest du weiter unten auf dieser Seite.
+Mehr Informationen zum Verein findest du [weiter unten auf dieser Seite](#verein).
 
 ## Mithelfen
 
