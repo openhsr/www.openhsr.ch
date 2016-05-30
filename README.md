@@ -33,13 +33,13 @@ Folgende Schritt für Schritt Beschreibung eines Beitrags soll dir aufzeigen,
 wie du auch beitragen kannst. Konkret wird ein Tippfehler korrigiert.
 
 1. [Ich habe das Projekt lokal eingerichtet](#projekt-lokal-einrichten)
-2. Der Fehler ist auf der Unterseite Verein (`/verein/`). Anhand der [Seitenhierarchie]('/styleguide/#seitenhierarchie') finde ich heraus wo die betroffene Datei liegt: `pages/verein.md`
+2. Der Fehler ist auf der Unterseite Community (`/community/`). Anhand der [Seitenhierarchie]('/styleguide/#seitenhierarchie') finde ich heraus wo die betroffene Datei liegt: `pages/community.md`
 3. Ich öffne die Datei in meinem Editor.
 4. Der Fehler ist dank der Suchfunktion schnell gefunden. Also schnell korrigieren!
 5. Nun bin ich bereit zum check-in. Als erstes *stage* ich die betroffene Datei
 
     ```bash
-    git add pages/verein.md
+    git add pages/community.md
     ```
 6. Ich überlege mir eine kurze und aussagekräftige Commit-Message und mache den Commit:
 
