@@ -1,11 +1,11 @@
 ---
 layout: 'page'
-title: Tips &amp; Tricks
+title: Tipps &amp; Tricks
 ---
 {% for tag in site.tags %}
-    <h2 class="tips-category">{{tag[0]}}</h2>
+    <h2 class="tipps-category">{{tag[0]}}</h2>
     <ul>
-    {% for entry in site.categories['tips'] %}
+    {% for entry in site.categories['tipps'] %}
         {% if entry.tags contains tag[0] %}
             <li><a href="{{entry.url}}">{{entry.title}}</a></li>
         {% endif %}

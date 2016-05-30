@@ -31,7 +31,7 @@ collections:
 
 defaults:
   - scope: # content pages
-      path: "tips"
+      path: "tipps"
       type: "posts"
     values:
       layout: "page"
