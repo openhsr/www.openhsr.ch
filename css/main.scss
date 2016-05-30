@@ -459,11 +459,11 @@ main {
 }
 
 
-.wrapper ul > li {
+#content ul > li {
   margin-bottom: 1rem;
 }
 
-.wrapper ul > li::before {
+#content ul > li::before {
   content: "- "
 }
 @media all and (min-width: 1080px) {
