@@ -1,6 +1,7 @@
 ---
 title: Community
 parent: community
+navtitle: Verein & Community
 ---
 
 ## Be a part of it! :sunny:

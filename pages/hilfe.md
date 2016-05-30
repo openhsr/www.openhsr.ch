@@ -10,7 +10,7 @@ Du hast Fragen zu deinem Linux, OSX oder generell Open Source an der HSR? Wir he
 
 Auf dieser Webseite findest du ausführliche Anleitungen für [Programme](/app/) und übersichtliche [technische Dokumentationen](/hsr/).
 
-Für den Studienstart empfielt es sich, den [Überlebensguide](/start/) durchzugehen.
+Für den Studienstart empfielt es sich, den [Überlebensguide](/hsr/) durchzugehen.
 
 ## Häufig gestellte Fragen
 
