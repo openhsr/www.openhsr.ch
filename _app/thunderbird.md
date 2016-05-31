@@ -1,5 +1,10 @@
 ---
 title: Thunderbird
+teaser_title: E-Mails & Kalender
+teaser:
+    Die freie alternative zu Outlook auf allen Betriebssystemen.
+    Nebst E-Mail kann Thunderbird auch Kalender und Kontakte verwalten.
+teaser_image: /assets/app/thunderbird/teaser.png
 category: email
 ---
 ## E-Mail-Konto einrichten
@@ -15,6 +20,9 @@ category: email
     {% lightbox /assets/app/thunderbird/konto_einrichten_2_manuell_bearbeiten.png --data="thunderbird" --title="Manuell Bearbeiten" --alt="Manuell Bearbeiten" %}
 5. **Konfigurieren** des HSR E-Mail Servers<br>
     {% lightbox /assets/app/thunderbird/konto_einrichten_3.png --data="thunderbird" --title="Konfiguration HSR E-Mail Server" --alt="Konfiguration HSR E-Mail Server" %}
+
+## Kalender
+https://support.mozilla.org/de/kb/kalender-erweiterung-lightning-verwenden
 
 ## Links
 
