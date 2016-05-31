@@ -1,9 +1,9 @@
-title: http://altcomphsr.vshsr.ch/
+title: https://www.openhsr.ch/
 description: > # this means to ignore newlines until "baseurl:"
   Wir fördern die Open Source Community und unterstützen dich bei
   der Benutzung deines alternativen Betriebssystems an der HSR.
 baseurl: ""
-url: "http://altcomphsr.vshsr.ch/" # the base hostname & protocol for your site
+url: "https://www.openhsr.ch/" # the base hostname & protocol for your site
 
 exclude:
     - docker/

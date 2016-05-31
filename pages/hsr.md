@@ -6,7 +6,7 @@ title: Dokumentationen
 
 Der Überlebensguide hilf dir beim Start mit deinem Linux oder Mac an der HSR.
 
-Weitere Anleitungen findest du auch auf unserer Webseite unter <http://altcomphsr.vshsr.ch/>. Falls du weitere Hilfe mit deinem Linux oder Mac benötigst, findest du unter [Hilfe](/hilfe/) wie du uns kontaktieren kannst.
+Weitere Anleitungen findest du auch auf unserer Webseite unter <https://www.openhsr.ch/>. Falls du weitere Hilfe mit deinem Linux oder Mac benötigst, findest du unter [Hilfe](/hilfe/) wie du uns kontaktieren kannst.
 
 Für Mac gibt es auch eine gute Anleitungen vom ITA im *[HSR-Intranet](https://www.hsr.ch/intern)* → *IT-Informatikdienste* → *Support / IT-ServiceDesk* → *Einstieg für Erstsemestrige*.
 

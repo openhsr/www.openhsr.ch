@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Wilkommen beim alt.comp.hsr!
+title: Wilkommen beim open\HSR!
 hidden_from_navigation: true
 permalink: /
 ---

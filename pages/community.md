@@ -9,7 +9,7 @@ navtitle: Verein & Community
 Du möchtest **Open Source an der HSR** fördern oder ein nicht offiziell unterstützes Betriebssystem an der HSR nutzen?  
 Dann bist du bei uns richtig.
 
-Um Mitglied im Verein zu werden, freuen wir uns über ein einfaches E-Mail an <altcomphsr@vhshsr.ch> (Gib auch gleich deinen Github Benutzername mit an, dann nehmen wir dich gleich in der Github Organisation auf)
+Um Mitglied im Verein zu werden, freuen wir uns über ein einfaches E-Mail an <info@openhsr.ch> (Gib auch gleich deinen Github Benutzername mit an, dann nehmen wir dich gleich in der Github Organisation auf)
 
 Mehr Informationen zum Verein findest du [weiter unten auf dieser Seite](#verein).
 
@@ -23,7 +23,7 @@ Um anderen Benutzern zu helfen oder Hilfe von anderen zu bekommen, bist du auf u
 ## Events
 
 An der HSR finden verschiedene regelmässige und einige weniger regelmässige **Events zu Open Source-Themen** statt.  
-Der **alt.comp.hsr** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
+Der **open\HSR** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
 
 ### [Swiss Python Summit](http://www.python-summit.ch/)
 
@@ -37,7 +37,7 @@ Der **alt.comp.hsr** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
 
 ## Verein
 
-{% lightbox /assets/logo.png --data="logo" --title="Logo alt.comp.hsr" --alt="Logo alt.comp.hsr" --class="no-shadow" %}
+{% lightbox /assets/logo.png --data="logo" --title="Logo open\HSR" --alt="Logo open\HSR" --class="no-shadow" %}
 
 ### Unsere Ziele
 
@@ -45,7 +45,7 @@ Der **alt.comp.hsr** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
 2. Interessensvertretung an der HSR für die **Unterstützung alternativer Betriebssysteme**
 3. **Unterstützung von Einsteigern** in der Nutzung von Open Source-Software im Hinblick auf das Studium an der HSR
 
-**alt.comp.hsr** ist ein Unterverein des [VSHSR](http://www.vshsr.ch/) (Verein der Studierenden an der HSR).  
+Der **open\HSR** ist ein Unterverein des [VSHSR](https://www.vshsr.ch/) (Verein der Studierenden an der HSR).  
 Als solcher unterstützt er auch die Ziele und Ideale des VSHSR.
 
 
@@ -80,4 +80,4 @@ Pull Requests für die Statuten werden an der nächsten GV als Änderungsantrag 
 
 ### Kontakt
 
-Falls du dich für **alt.comp.hsr** interessierst, freuen wir uns immer über ein E-Mail unter <altcomphsr@vshsr.ch>.
+Falls du dich für den **open\HSR** interessierst, freuen wir uns immer über ein E-Mail unter <info@openhsr.ch>.

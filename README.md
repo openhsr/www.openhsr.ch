@@ -3,7 +3,7 @@ layout: page
 permalink: /contribute/
 ---
 
-# Webseite altcomphsr.vshsr.ch
+# Webseite [www.openhsr.ch](https://www.openhsr.ch/)
 
 ## Wie kann ich Mithelfen?
 Noch sind wir in einem ganz frühen Stadium und freuen uns über DEINE Mithilfe :thumbsup::tada:
@@ -11,8 +11,8 @@ Noch sind wir in einem ganz frühen Stadium und freuen uns über DEINE Mithilfe 
 Wenn du Ideen oder Fragen hast, über einenn Schreibfehler gestolpert bist, etwas nicht
 verständlich findest oder uns loben / kritisieren möchstest, dann freuen wir uns riesig von dir zu hören!
 
-Wir verwalten und disskutieren unsere Aufgaben mittels [Github Issues](https://github.com/openhsr/altcomphsr.vshsr.ch/issues).
-Wenn du mit Github nicht vertraut bist, dann schreib uns einfach [eine E-Mail](mailto:altcomphsr@vshsr.ch)!
+Wir verwalten und disskutieren unsere Aufgaben mittels [Github Issues](https://github.com/openhsr/www.openhsr.ch/issues).
+Wenn du mit Github nicht vertraut bist, dann schreib uns einfach [eine E-Mail](mailto:info@openhsr.ch)!
 
 Am wichtigsten, dass du dich meldest - wir helfen dir geren weiter!
 
@@ -21,11 +21,11 @@ Um mitzuarbeiten solltest du ein Grundwissen über Git haben. Ein guter Einstig 
 
 Für reine Textbeiträge musst nicht wirklich verstehen, wie die Website zusammengebaut wird.
 Alle Inhalte werden in Textdateien in den Verzeichnissen ``_hsr``, ``_app`` und ``pages``
-verwaltet (Siehe [Seitenhierarchie]('/styleguide/#seitenhierarchie')). Diese Textdateien sind in *Markdown* geschrieben. Die [einfache Einführung in Markdown von Designbits](http://www.designbits.de/artikel/markdown-eine-kleine-einfuehrung/) ist ein guter Einstiegspunkt - eine etwas ausführlichere Syntaxbeschreibung ist [Adam Pritchards Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+verwaltet (Siehe [Seitenhierarchie](https://www.openhsr.ch/styleguide/#seitenhierarchie)). Diese Textdateien sind in *Markdown* geschrieben. Die [einfache Einführung in Markdown von Designbits](http://www.designbits.de/artikel/markdown-eine-kleine-einfuehrung/) ist ein guter Einstiegspunkt - eine etwas ausführlichere Syntaxbeschreibung ist [Adam Pritchards Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 Aufgepasst: Im Verzeichnis ``_site`` solltest du nichts von Hand anpassen, denn die Änderungen werden automatisch verworfen.
 
-Für ein einheitliches Look & Feel haben wir einen einfachen **[Styleguide](http://altcomphsr.vshsr.ch/styleguide/)** erstellt. Dieser ist nicht in Stein gemeisselt - du darfst gerne Änderungen vorschlagen!
+Für ein einheitliches Look & Feel haben wir einen einfachen **[Styleguide](https://www.openhsr.ch/styleguide/)** erstellt. Dieser ist nicht in Stein gemeisselt - du darfst gerne Änderungen vorschlagen!
 
 
 ## Beispiel eines Beitrags
@@ -75,7 +75,7 @@ Um an der Website mitarbeiten zu können benötigst du einen [Github Account](ht
    [Make Jetzt installieren](apt://make)
    [Docker Jetzt installieren](apt://docker)
 2. **Forke das Projekt auf Github**<br>
-   Gehe dazu mit dem Webbrowser auf das [Repository altcomphsr.vshsr.ch](https://github.com/openhsr/altcomphsr.vshsr.ch) und klicke auf `Fork`<br>
+   Gehe dazu mit dem Webbrowser auf das [Repository www.openhsr.ch](https://github.com/openhsr/www.openhsr.ch) und klicke auf `Fork`<br>
    ![Screenshot zum Forken eines Projekts](/assets/contribute/projekt_einrichten_1.png)
 3. Wenn du in einer Organisation bist, dann Forke das Projekt zu deinem Benutzer<br>
    ![Screenshot wohin geforkt werden soll](/assets/contribute/projekt_einrichten_2.png)
@@ -85,20 +85,20 @@ Um an der Website mitarbeiten zu können benötigst du einen [Github Account](ht
 
     ```bash
     git clone <url-zum-fork>
-    cd altcomphsr.vshsr.ch
+    cd www.openhsr.ch
     ```
 6. Das war es schon. Nun kannst du mit den folgenden Kommando die Webseite bauen. Unter OSX muss make ohne sudo aufgerufen werden.
 
     ```bash
     sudo make
     ```
-7. Du kannst nun mit dem Browser auf der Addresse <http://localhost:4000> deine lokale Kopie der Altcomp Website aufrufen.
+7. Du kannst nun mit dem Browser auf der Addresse <http://localhost:4000> deine lokale Kopie der open\HSR Website aufrufen.
 
 Alle Änderungen die du vornimmst, werden automatisch geladen.
 
 Wenn du genug hast, kannst du mit der Tastenkombination ``ctrl`` + ``c`` abbrechen.
 
 ## Technischer Hintergrund
-Die neue Seite des Altcomphsr ist im Gegensatz zu bisher kein dynamisches [Wiki](https://de.wikipedia.org/wiki/Wiki) sondern eine mit [Jekyll](http://jekyllrb.com) generierte statische Webseite.
+Die neue Seite des open\HSR ist im Gegensatz zu bisher kein dynamisches [Wiki](https://de.wikipedia.org/wiki/Wiki) sondern eine mit [Jekyll](http://jekyllrb.com) generierte statische Webseite.
 
 Mehr Details zu Jekyll findest du auf der [offiziellen Jekyll Webseite](http://jekyllrb.com).

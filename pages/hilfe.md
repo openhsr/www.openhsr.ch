@@ -25,4 +25,4 @@ Im IRC findest du Ã¼brigens auch Chats zu nahezu allen Open Source-Projekten. FÃ
 
 ## E-Mail-Postfach
 
-Wenn du kompliziertere Anliegen hast, kannst du dich bei uns [per E-Mail](mailto:altcomphsr@vshsr.ch) melden. Allerdings kann es einen Moment dauern, bis wir uns wieder bei dir Melden. Darum empfehlen wir den IRC-Chat!
+Wenn du kompliziertere Anliegen hast, kannst du dich bei uns [per E-Mail](mailto:info@openhsr.ch) melden. Allerdings kann es einen Moment dauern, bis wir uns wieder bei dir Melden. Darum empfehlen wir den IRC-Chat!
