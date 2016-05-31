@@ -1,6 +1,6 @@
 ---
 title: Github Student Developer Pack
-tags: Opensource
+tags: Entwicklung
 ---
 
 Github offeriert allen Studierenden kostenlos das [Student Developer Pack
