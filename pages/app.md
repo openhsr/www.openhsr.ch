@@ -3,7 +3,7 @@ title: Programme
 ---
 
 Leider sind nicht alle Programme, die an der HSR eingesetzt werden auf Linux & co verfügbar.
-Darum haben wir dir hier Alternative aufgelistet?
+Darum haben wir dir hier Alternative aufgelistet.
 
 {% for app_page in site.app %}
 
@@ -17,4 +17,4 @@ Darum haben wir dir hier Alternative aufgelistet?
 {% endfor %}
 
 
-Fehlt dir etwas? [Dann gib uns bescheid!](/hilfe/)
+Fehlt dir etwas? [Dann gib uns Bescheid!](/hilfe/)
