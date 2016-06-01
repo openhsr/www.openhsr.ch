@@ -14,6 +14,7 @@
               <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
               {% if my_page.title == "Programme" %}
                       <ul>
+                      <li><a{% if my_page.url == page.url %} class="active"{% endif %} href="/app/">Übersicht</a></li>
                   {% for app_page in site.app %}
                          <li><a{% if app_page.url == page.url %} class="active"{% endif %} href="{{ app_page.url }}">{{ app_page.title }}</a></li>
                   {% endfor %}
