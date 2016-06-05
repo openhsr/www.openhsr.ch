@@ -23,7 +23,7 @@ immer mit sudo auf!
 
 ### Tastenkürzel
 Um ihre Arbeit speditiv zu erledigen, benutzt Maria gerne Tastenkürzel. Tastenkürzel werden immer wie folgt dargestellt.<br>
-<kbd>Alt</kbd> + <kbd>Comp</kbd> + <kbd>HSR</kbd>
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>
 
 
 ### Kurzum
