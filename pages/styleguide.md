@@ -44,9 +44,10 @@ User lokal     | ```maria```
 
  URL      | Bedeutung    | Beispiele
  -------- |------------- | ----------
- ```/SEITE```   | Chefseiten | Startseite, Vereinsstatuten etc.
- ```/hsr/NAME``` | Umgebung an der HSR | WLAN, Drucken
- ```/app/NAME``` | HSR-Programmkonfiguration | Thunderbird, eclipse
+ `/SEITE`   | Chefseiten | Startseite, Vereinsstatuten etc.
+ `/hsr/NAME` | Umgebung an der HSR | WLAN, Drucken
+ `/app/NAME` | HSR-Programmkonfiguration | Thunderbird, eclipse
+`/tipps/NAME` | Tipps & Tricks aus der Community | Github Student Developer Pack etc.
 
 ### Dokumentationen Umgebung an der HSR
 
