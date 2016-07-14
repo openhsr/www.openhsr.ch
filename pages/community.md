@@ -81,3 +81,14 @@ Pull Requests für die Statuten werden an der nächsten GV als Änderungsantrag 
 ### Kontakt
 
 Falls du dich für den **open\HSR** interessierst, freuen wir uns immer über ein E-Mail unter <info@openhsr.ch>.
+
+### Kontoinformationen
+
+```
+open\HSR
+IBAN CH13 0078 1621 1985 7200 0
+St. Galler Kantonalbank
+St. Leonhardstrasse 25
+9001 St. Gallen
+BIC KBSGCH22
+```
