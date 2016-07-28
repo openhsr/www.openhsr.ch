@@ -20,7 +20,7 @@ Wenn du dein Passwort noch nicht geändert hast, solltest du dies über das [HSR
 ## :signal_strength: WLAN
 
 Überall an der HSR hast du Zugriff auf ```HSR-Secure```-Netzwerk.  
-Alle Angaben zum einrichten findest du unter [Dokumentationen → WLAN](/hsr/wlan/).
+Alle Angaben zum Einrichten findest du unter [Dokumentationen → WLAN](/hsr/wlan/).
 
 ## :envelope: E-Mail
 
