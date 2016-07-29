@@ -9,7 +9,7 @@ navtitle: Verein & Community
 Du möchtest **Open Source an der HSR** fördern oder ein nicht offiziell unterstützes Betriebssystem an der HSR nutzen?  
 Dann bist du bei uns richtig.
 
-Um Mitglied im Verein zu werden, freuen wir uns über ein einfaches E-Mail an <info@openhsr.ch> (Gib auch gleich deinen Github Benutzername mit an, dann nehmen wir dich gleich in der Github Organisation auf)
+<a href="mailto:info@openhsr.ch?subject=Mitglied%20werden&body=Hallo%20Zusammen!%0A%0AIch%20w%C3%BCrde%20gerne%20Mitglied%20im%20Open%5CHSR%20werden!%0A%0AMein%20Github%20Username%20lautet%20%5BGITHUB%20USERNAME%5D.%0A%0ALiebe%20Gr%C3%BCsse%2C%20%0A%5BNAME%5D%0A" class="button">Jetzt Mitglied werden!</a>
 
 Mehr Informationen zum Verein findest du [weiter unten auf dieser Seite](#verein).
 
