@@ -7,4 +7,4 @@ script:
   - make buildimage build
 
 after_success:
-  - make --quiet deploy
+  - test $TRAVIS_BRANCH = "master" && make --quiet deploy
