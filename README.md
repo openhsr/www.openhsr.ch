@@ -39,23 +39,36 @@ Folgende Schritt für Schritt Beschreibung eines Beitrags soll dir aufzeigen,
 wie du auch beitragen kannst. Konkret wird ein Tippfehler korrigiert.
 
 1. [Ich habe das Projekt lokal eingerichtet](#projekt-lokal-einrichten).
-2. Der Fehler ist auf der Unterseite Community (`/community/`). Anhand der [Seitenhierarchie]('/styleguide/#seitenhierarchie') finde ich heraus wo die betroffene Datei liegt: `pages/community.md`.
-3. Ich öffne die Datei in meinem Editor.
-4. Der Fehler ist dank der Suchfunktion schnell gefunden. Also schnell korrigieren!
-5. Nun bin ich bereit zum check-in. Als erstes *stage* ich die betroffene Datei:
+2. Ehe du Änderungen vornimmst, solltest du sicherstellen, dass die aktuellste Version ausgecheckt ist
+
+    ```bash
+    git checkout master
+    git pull origin master
+    ```
+
+3. Ich erstelle und wechsle auf einen lokalen Branch
+
+    ```bash
+    git checkout -b fix-typo
+    ```
+
+4. Der Fehler ist auf der Unterseite Community (`/community/`). Anhand der [Seitenhierarchie]('/styleguide/#seitenhierarchie') finde ich heraus, wo die betroffene Datei liegt: `pages/community.md`.
+5. Ich öffne die Datei in meinem Editor.
+6. Der Fehler ist dank der Suchfunktion schnell gefunden. Also schnell korrigieren!
+7. Nun bin ich bereit zum Check-in. Als erstes *stage* ich die betroffene Datei:
 
     ```bash
     git add pages/community.md
     ```
-6. Ich überlege mir eine kurze und aussagekräftige Commit-Message und mache den Commit:
+8. Ich überlege mir eine kurze und aussagekräftige Commit-Message und mache den Commit:
 
     ```bash
     git commit -m "Fix typo in URL to statuten"
     ```
-7. Ich pushe nun meine Änderungen auf Github:
+9. Ich pushe nun meine Änderungen auf Github:
 
     ```bash
-    git push origin master
+    git push origin fix-typo
     ```
 8. Nun bin ich bereit zum [Pull-Request](https://help.github.com/articles/using-pull-requests/). <br> Vorher gehe ich die [Checkliste vor einem Pull-Request](#checkliste-vor-einem-pull-request) durch.
 
@@ -63,8 +76,8 @@ wie du auch beitragen kannst. Konkret wird ein Tippfehler korrigiert.
    ![Screenshot zum start eines Pull requests](/assets/contribute/beispiel_beitrag_1.png)
 9. Ich überprüfe folgende Punkte:
 
-    1. Der *Base Fork* enspricht dem originalen Repository (openHSR/www.openhsr.ch)
-    2. Der *Head Fork* enspricht meinem Repository
+    1. Der *Base Fork* enspricht dem originalen Repository (openHSR/www.openhsr.ch) und der *Base Branch* ist `master`
+    2. Der *Head Fork* enspricht meinem Repository und der korrekte Branch meines Repositories ist ausgewählt - hier also `fix-typo`
     3. Meine Änderungen können gemerged werden
 
     Los gehts (4)! <br>
