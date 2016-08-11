@@ -4,21 +4,32 @@ parent: community
 navtitle: Verein & Community
 ---
 
-## Be a part of it! :sunny:
+## Werde Mitglied!
 
 Du möchtest **Open Source an der HSR** fördern oder ein nicht offiziell unterstützes Betriebssystem an der HSR nutzen?  
 Dann bist du bei uns richtig.
 
-Um Mitglied im Verein zu werden, freuen wir uns über ein einfaches E-Mail an <info@openhsr.ch> (Gib auch gleich deinen Github Benutzername mit an, dann nehmen wir dich gleich in der Github Organisation auf)
+Mit deiner Mitgliedschaft ...
 
-Mehr Informationen zum Verein findest du [weiter unten auf dieser Seite](#verein).
+* wirst du Teil der lebendigen Community um Open Source Projekte in Rapperswil
+* setzt du ein Zeichen für Freie Software
+* förderst du unser Engagement für die Unterstützung von alternativen Betriebssystemen wie Linux und Mac OS X an der HSR
+* bekommst du einen Open\HSR Sticker für dein Notebook!
+* wirst du von Zeit zu Zeit mit einem kurz prägnanten Newsletter über aktuelle Veranstaltungen und Projekte informiert (kann natürlich abbestellt werden :wink:)
+
+Die **Mitgliedschaft ist kostenlos und unverbindlich**. Du darfst Mithelfen wie es dir Punkto Zeit und Laune passt!
+
+<a href="mailto:info@openhsr.ch?subject=Mitglied%20werden&body=Hallo%20Zusammen!%0A%0AIch%20w%C3%BCrde%20gerne%20Mitglied%20im%20Open%5CHSR%20werden!%0A%0AMein%20Github%20Benutzername%20lautet%20%5BGITHUB%20Benutzername%5D.%0A%5BFalls%20du%20keinen%20Github%20Account%20hast%2C%20kannst%20du%20diesen%20Absatz%20l%C3%B6schen%5D%0A%0ALiebe%20Gr%C3%BCsse%2C%0A%5BNAME%5D" class="button">Jetzt Mitglied werden!</a>
 
 ## Mithelfen
 
-Wir sind immer dankbar für Ergänzungen und Beiträge. Hast du für ein bestimmtes Problem eine tolle Lösung gefunden? Stimmt eine Angabe auf der Webseite nicht?  
-[Hier findest du raus](/contribute/), wie du diese Webseite ergänzen kannst.
+Wir sammeln Ideen für Veranstaltungen, Events, Flyer etc. und verwirklichen diese in kleineren Gruppen. Damit ist der Aufwand für die Mitglieder abschätzbar und zeitlich eingegrenzt - wir wollen schliesslich keine Last fürs Studium sein. Wo wir deine Unterstützung brauchen (Bsp. Vorstellung der Untervereine der HSR) erfährst du das über den Newsletter - oder du bringst deine Ideen ein!
 
-Um anderen Benutzern zu helfen oder Hilfe von anderen zu bekommen, bist du auf unserem **[Community-Support-Kanal](/hilfe/)** genau richtig.
+Wir freuen uns auch über kleinere Beiträge! Das kann auch eine kurze Rechtschreibprüfung einer Unterseite sein, Fehler in den Dokus melden, eine Idee für eine Veranstaltung, Unterseite etc. aufschreiben usw.
+
+Ein grosser Teil unserer Kommunikation und Arbeit findet auf Github statt. Falls du noch keine
+Erfahrung mit Git und/oder Github hast ist das kein Problem - wir helfen dir genre! Zudem ist ein Github-Account keine Voraussetzung für die Mitgliedschaft!
+
 
 ## Events
 
