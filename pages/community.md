@@ -85,7 +85,7 @@ Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
 
 ### Statuten und Protokolle
 
-Die [Statuten](/assets/verein/statuten.pdf) und Protokolle werden im Git-Repository unter <https://github.com/openhsr/verein/> verwaltet.
+Die [Statuten](https://raw.githubusercontent.com/openhsr/verein/master/statuten/statuten.pdf) und Protokolle werden im Git-Repository unter <https://github.com/openhsr/verein/> verwaltet.
 
 Pull Requests für die Statuten werden an der nächsten GV als Änderungsantrag traktandiert.
 
