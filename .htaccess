@@ -2,3 +2,6 @@ RewriteEngine On
 
 RewriteCond %{HTTP_HOST} !^www\.openhsr\.ch$ [NC]
 RewriteRule ^(.*)$ https://www.openhsr.ch/$1 [R=301,L]
+
+Redirect 301 /join /community/
+
