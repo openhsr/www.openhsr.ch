@@ -29,16 +29,16 @@ Password | ```GeHeim007```
 4. Du bist nun verbunden! :tada:
 	{% lightbox /assets/hsr/wlan/wlan_connected.png --data="wlan ubuntu" --title="Erfolgreich verbunden" --alt="Wifi-Netzwerk HSR-Secure Connected" %}
 
-## Bug in gewissen Distributionen
+## Bug in Linux Mint
 
-Die geforderte Sicherheitsstufe "WPA & WPA2 Enterprise" funktioniert bei gewissen Distributionen nicht, entdeckt wurde der Bug in Linux Mint 17 und 18. Lösung: In ein verborgenes Netzwerk einwählen (Hidden Network). 
+Die oben beschriebene Vorgehensweise in Kombination mit der Sicherheitsstufe "WPA & WPA2 Enterprise" funktioniert unter Linux Mint nicht: Es erscheint keine Abfrage, um die nötigen Informationen wie Sicherheitsstufe, Username und Passwort einzugeben. Lösung: In ein verborgenes Netzwerk einwählen (Hidden Network). 
 
 1. Im Startmenü "Netzwerk" eingeben, der Netzwerk-Manager erscheint:
-	{% lightbox /assets/hsr/wlan/lmnetwork_manager.png --data="wlan lm" --title="Network Manager von Linux Mint" --alt="Network Manager Linux Mint" %}
+	{% lightbox /assets/hsr/wlan/lm_networkmanager.png --data="wlan lm" --title="Network Manager von Linux Mint" --alt="Network Manager Linux Mint" %}
 
 2. Klicke auf ```Mit einem verborgenem Netzwerk verbinden```. Wähle im Dropdown-Menü von ```Security``` die Sicherheitsstufe "WPA & WPA2 Enterprise" aus. 
 
-3. Einstellungen für die Netzwerk-Authentifikation, Reiter "Wi-Fi": Schreibe unter SSID den Namen des Netzwerkes, mit dem du dich verbinden willst, also ```HSR-Secure```.<br> Reiter "Wifi-Security": Hier folgen alle weiteren Angaben wie in der Anleitung oben nach Schritt 2.
-	{% lightbox /assets/hsr/wlan/lmn_hiddennetwork.png --data="wlan lm" --title="Hidden Network: HSR-Secure" --alt="Hidden Network HSR-Secure" %}
+3. Einstellungen für die Netzwerk-Authentifikation, Reiter "Wi-Fi": Schreibe unter SSID den Namen des Netzwerkes, mit dem du dich verbinden willst, also ```HSR-Secure```.<br> Reiter "Wifi-Security": Hier folgen alle weiteren Angaben wie in der Anleitung oben, nach Schritt 2.
+	{% lightbox /assets/hsr/wlan/lm_hiddennetwork.png --data="wlan lm" --title="Hidden Network: HSR-Secure" --alt="Hidden Network HSR-Secure" %}
 
 {% endtoggle %}
