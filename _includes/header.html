@@ -32,7 +32,7 @@
                 <ul>
                   {% for my_sub_page in site.pages %}
                     {% if my_sub_page.parent == 'community'  %}
-                      <li><a{% if my_sub_page.url == page.url %} class="active"{% endif %} href="{{ my_sub_page.url }}">{% if my_sub_page.navtitle %} {{my_sub_page.navtitle}} {% else %}{{ my_sub_page.title }} {% endif %}</a></li>
+                      <li><a{% if my_sub_page.url == page.url %} class="active"{% endif %} href="{{ my_sub_page.url }}">{% if my_sub_page.navtitle %}{{my_sub_page.navtitle}}{% else %}{{ my_sub_page.title }}{% endif %}</a></li>
                     {% endif %}
                   {% endfor %}
                 </ul>
