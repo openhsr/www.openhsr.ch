@@ -40,6 +40,48 @@ Bestätige mit `Verbinden`
 
 {% endtoggle %}
 
+{% toggle %}
+## Netzwerkfreigaben unter Ubuntu per mount-Befehl
+
+Diese Anleitung hilft dir, falls es dir nicht gelingt, mit der obigen Variante die HSR-Ablagen einzubinden. Sie ist für diejenigen gedacht, die bereits etwas mit Ubuntu vertraut sind. Wir verwenden dazu die Unix-Eigenschaft, dass sich Verzeichnisse per ```mount```-Befehl einbinden lassen. Du kannst danach auf die HSR-Netzwerkfreigaben zugreifen, als wären sie ein gewöhnlicher Ordner in deinem Dateimanager.
+
+1. Öffne den Dateimanager und wechsle ins Verzeichnis ```/mnt```. Erstelle dort einen Ordner mit dem Namen ```HSR```.
+2. Wechsle ins Verzeichnis ```HSR``` und erstelle dort vier weitere Ordner. Du kannst ihnen irgendeinen Namen geben oder sie folgendermassen benennen:
+ * ```Ebooks``` - Ältere und neuere Ebooks
+ * ```MyShare``` - Deine private Dateiablage. Falls du an einem Kopierer der HSR etwas einscannst, landet es hier. Beachte: Der Speicherplatz ist beschränkt.
+ * ```Scratch``` - Die temporäre Ablage für alle Studiengänge
+ * ```Skripte``` - Skripte aller Studiengänge
+3. Zwar könntest du jeweils von Hand die Verzeichnisse mounten, müsstest aber alle Einzelheiten von Hand eintragen. Deswegen vereinfachen wir den Vorgang. Öffne einen Texteditor. Trage folgende Zeilen ein:<br> 
+```username=<Dein-HSR-Username>```<br>
+```password=<Dein HSR Passwort>```<br>
+Speichere die Datei in deinem Home-Verzeichnis unter dem Namen ```.fstab.credentials.hsr```. Vergiss den Punkt zu Beginn der Datei nicht! <br>
+**Wichtig:** Du speicherst damit dein HSR-Passwort auf deinem Rechner in Klartext. Solange deine Daten auf deinem Rechner nicht verschlüsselt sind, kann das ein Sicherheitsrisiko darstellen.<br>
+
+4. Setze die Zugriffsrechte für die Datei, damit niemand ausser dir darauf zugreifen kann. Öffne ein Terminalfenster und tippe:<br>
+```$ chmod 400 .fstab.credentials.hsr```<br>
+```$ sudo chown $USER.root .fstab.credentials.hsr```<br>
+Setze anstelle ```$USER``` deinen Namen, mit dem du dich in Ubuntu einloggst.<br>
+5. Nun musst du noch dem Betriebssystem sagen, wo es diese Information findet und wie es die Ordner einbinden soll, die wir oben erstellt haben. Tippe im Terminal:<br>
+```sudo gedit /etc/fstab```<br>
+6. Schreibe zuunterst folgende Zeilen in die fstab-Datei oder kopiere sie gleich:<br>
+```//c206.hsr.ch/skripte	/mnt/HSR/Skripte	cifs	credentials=/home/$UBUNTU_USERNAME/.fstab.credentials.hsr,noauto,users,iocharset=utf8  0  0```<br>
+```//c206.hsr.ch/scratch 	/mnt/HSR/Scratch	cifs	credentials=/home/$UBUNTU_USERNAME/.fstab.credentials.hsr,noauto,users,iocharset=utf8  0  0```<br>
+```//c101.hsr.ch/$HSR_USERNAME 	/mnt/HSR/MyShare	cifs 	credentials=/home/$UBUNTU_USERNAME/.fstab.credentials.hsr,noauto,users,iocharset=utf8  0  0```<br>
+```//c206.hsr.ch/ebooks 	/mnt/HSR/Ebooks		cifs	credentials=/home/$UBUNTU_USERNAME/.fstab.credentials.hsr,noauto,users,iocharset=utf8  0  0```<br>
+Schreibe anstelle ```$UBUNTU_USERNAME``` deinen Login-Namen, mit dem du dich in Ubuntu einloggst. Ersetze ```$HSR_USERNAME``` mit dem Login-Namen, den du für die HSR verwendest.<br>
+7. Nun kannst du mit folgenden Befehlen die Netzwerkfreigaben einbinden:<br>
+```mount /mnt/HSR/Skripte/```<br>
+```mount /mnt/HSR/Scratch/```<br>
+```mount /mnt/HSR/MyShare/```<br>
+```mount /mnt/HSR/Ebooks/```<br>
+Nun kannst du im Dateimanager beispielsweise im Ordner ```/mnt/HSR/Skripte``` alle Skripte von der Netzwerkablage sehen, als wären sie auf deinem Computer.
+8. Mit folgenden Befehlen trennst du die Verbindung wieder: <br>
+```umount /mnt/HSR/Skripte/```<br>
+```umount /mnt/HSR/Scratch/```<br>
+```umount /mnt/HSR/MyShare/```<br>
+```umount /mnt/HSR/Ebooks/```<br>
+{% endtoggle %}
+
 
 {% toggle %}
 ## Netzwerkfreigaben unter Mac OS X einrichten
