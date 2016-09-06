@@ -21,7 +21,7 @@ Password | ```GeHeim007```
 	Wähle unter den verfügbaren Wifi-Netzwerken ```HSR-Secure``` aus.
 	{% lightbox /assets/hsr/wlan/wlan_select-ssid.png --data="wlan ubuntu" --title="Auswählen des WLAN-Netzwerkes" --alt="Wifi-Netzwerk HSR-Secure" %}
 
-2. **Wi-Fi Netzwerk Authentifikation**<br>
+2. **Wi-Fi Netzwerk-Authentifikation**<br>
 	Wähle folgende Einstellungen für die Authentifikation des Netzwerkes:
 	{% lightbox /assets/hsr/wlan/wlan_authentication.png --data="wlan ubuntu" --title="Einstellungen Authentication" --alt="Wifi-Netzwerk HSR-Secure Authentifikation" %}
 

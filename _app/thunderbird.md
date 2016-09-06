@@ -2,7 +2,7 @@
 title: Thunderbird
 teaser_title: E-Mails & Kalender
 teaser:
-    Die freie alternative zu Outlook auf allen Betriebssystemen.
+    Die freie Alternative zu Outlook auf allen Betriebssystemen.
     Nebst E-Mail kann Thunderbird auch Kalender und Kontakte verwalten.
 teaser_image: /assets/app/thunderbird/teaser.png
 category: email
@@ -10,7 +10,7 @@ category: email
 
 ## E-Mail-Konto einrichten
 
-1. **Assistenten Starten**
+1. **Assistenten starten**
     * Wenn du Thunderbird bereits verwendet hast, ```Lokale Ordner``` + ```Neues Konto erstellen:``` + ```E-Mail```<br>
     {% lightbox /assets/app/thunderbird/neues_konto.png --data="thunderbird" --title="Neues Konto" --alt="Neues Konto" %}
 2. **Bestehende E-Mail-Adresse** einrichten<br>
@@ -45,19 +45,19 @@ Manchmal kann es nützlich sein, E-Mail Adressen im HSR-Adressbuch zu suchen.
 
     {% lightbox /assets/app/thunderbird/ldap_adressbuch_konfigurieren.png --data="ldap_thunderbird" --title="LDAP-Verzeichnis konfigurieren" --alt="LDAP-Verzeichnis konfigurieren" %}
 
-4. Mit klick auf `OK` bestätigen.
-5. Du kannst nun im Suchfeld oben Links nach einer Person suchen (Name, Kürzel usw.). <br>
+4. Mit Klick auf `OK` bestätigen.
+5. Du kannst nun im Suchfeld oben links nach einer Person suchen (Name, Kürzel usw.). <br>
 Du wirst nach deinem HSR-Kennwort gefragt.
 {% lightbox /assets/app/thunderbird/ldap_adressbuch_passwort.png --data="ldap_thunderbird" --title="Suche nach HSR-Kontakt" --alt="Suche nach HSR-Kontakt" %}
 6. Die Suchresultate tauchen nun auf!
 {% lightbox /assets/app/thunderbird/ldap_adressbuch_resultate.png --data="ldap_thunderbird" --title="Suchresultat für HSR-Kontakt" --alt="Suchresultat für HSR-Kontakt" %}
 
-Um nun eine E-Mail an einen HSR-Kontakt zu senden kannst du wie folgt vorgehen:
+Um nun eine E-Mail an einen HSR-Kontakt zu senden, kannst du wie folgt vorgehen:
 
-1. Neue E-Mail Verfassen
+1. Neue E-Mail verfassen
 {% lightbox /assets/app/thunderbird/ldap_neue_email.png --data="ldap_thunderbird" --title="Neue E-Mail verfassen" --alt="Neue E-Mail verfassen" %}
 2. Das Adressbuch über das Menu `Extras` `Adressbuch` oder mittels Tastenkürzel <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> öffnen.
-3. Suche nach dem gewünschten Kontakt
+3. Suche nach dem gewünschten Kontakt.
 4. Ziehe den Kontakt in das Empfängerfeld (Drag & Drop).
 {% lightbox /assets/app/thunderbird/ldap_drag_drop.png --data="ldap_thunderbird" --title="Kontakt als Empfänger hinzufügen (Drag & Drop)" --alt="Kontakt als Empfänger hinzufügen (Drag & Drop)" %}
 

@@ -46,10 +46,10 @@ User lokal     | ```maria```
  -------- |------------- | ----------
  `/SEITE`   | Chefseiten | Startseite, Vereinsstatuten etc.
  `/hsr/NAME` | Umgebung an der HSR | WLAN, Drucken
- `/app/NAME` | HSR-Programmkonfiguration | Thunderbird, eclipse
+ `/app/NAME` | HSR-Programmkonfiguration | Thunderbird, Eclipse
 `/tipps/NAME` | Tipps & Tricks aus der Community | Github Student Developer Pack etc.
 
-### Dokumentationen Umgebung an der HSR
+### Dokumentationen zur Umgebung an der HSR
 
 In diese Kategorie fallen grundsätzliche, programmunabhängige **technische Angaben**.
 
