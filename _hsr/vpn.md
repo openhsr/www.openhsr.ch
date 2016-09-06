@@ -15,7 +15,7 @@ Gruppenpasswort | ```hsrremote```
 {% toggle %}
 ## VPN unter Ubuntu einrichten
 
-Hinweis: Richte das VPN nicht im HSR-Secure WLAN ein - Aus dem HSR Netz können keine VPN-Verbindungen hergestellt werden.
+Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können keine VPN-Verbindungen hergestellt werden.
 
 1. **Benötigte Abhängigkeiten installieren**<br>
    Bevor du loslegen kannst, musst du noch das Paket ``network-manager-vpnc-gnome`` installieren.
@@ -50,7 +50,7 @@ Hinweis: Richte das VPN nicht im HSR-Secure WLAN ein - Aus dem HSR Netz können 
   {% lightbox /assets/hsr/vpn/mac_vpn3.png --data="vpn mac" --title="VPN Serverdaten" --alt="VPN Serverdaten" %}
 4. Gib ```hsrremote``` als Schlüssel und Gruppenname ein<br>
   {% lightbox /assets/hsr/vpn/mac_vpn4.png --data="vpn mac" --title="VPN Authentifizierungseinstellungen" --alt="VPN Authentifizierungseinstellungen" %}
-5. Optional kannst du das Häckchen setzen bei ```VPN in der Menüleiste anzeigen```. Damit erscheint ein praktisches **Icon in der Statusbar**, zum schnellen an- und abmelden.<br>
+5. Optional kannst du das Häckchen setzen bei ```VPN in der Menüleiste anzeigen```. Damit erscheint ein praktisches **Icon in der Statusbar**, zum schnellen An- und Abmelden.<br>
   {% lightbox /assets/hsr/vpn/mac_vpn5.png --data="vpn mac" --title="VPN: Hacken für Icon in der Statusbar" --alt="VPN: Hacken für Icon in der Statusbar" %}<br>
   {% lightbox /assets/hsr/vpn/mac_vpn6.png --data="vpn mac" --title="VPN Statusbar" --alt="VPN Statusbar" %}
 6. Nun kannst du dich mit deinem **HSR Login** anmelden.<br>
