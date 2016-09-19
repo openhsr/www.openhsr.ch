@@ -14,7 +14,7 @@ $ git clone https://github.com/openhsr/www.openhsr.ch.git
 $ cd www.openhsr.ch/
 ```
 
-Damit wir nicht jenen Pull-Request von Hand herunterladen müssen, ergänzen wir die Git-Konfiguration, so dass auch Pull-Requests bei einem `fetch` heruntergeladen werden.
+Damit wir nicht jeden Pull-Request von Hand herunterladen müssen, ergänzen wir die Git-Konfiguration, so dass auch Pull-Requests bei einem `fetch` heruntergeladen werden.
 
 ```bash
 $ git config --add remote.origin.fetch '+refs/pull/*/head:refs/remotes/origin/pr/*'
