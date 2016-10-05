@@ -149,6 +149,7 @@ code span.c {
 .highlight code {
   display: block;
   padding-left: 2rem;
+  overflow-x: auto;
 }
 
 /* KEYBOARD */
@@ -480,7 +481,6 @@ main {
   width: 100%;
   background: #F2F2F2;
   padding: 1rem;
-  border-bottom: 1px solid #E0E0E0;
 }
 
 #sidebar ul > li {
@@ -557,15 +557,43 @@ main {
 
 /** FOOTER */
 #footer {
-	padding: 1rem;
 	background: #0064A3;
 }
 
-#footer p,
-#footer a {
-	color: #FFF;
+#footer > section {
+	padding: 1rem;
 }
 
+#footer a,
+#footer p {
+	color: #FFF;
+	margin: 0;
+}
+
+.sponsoring {
+	background: #F2F2F2;
+	border-top: 1px solid #E0E0E0;
+}
+
+.sponsoring > h3 {
+	margin: 0.5rem 0;
+}
+
+.sponsoring > div {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: baseline;
+}
+
+.sponsoring a > img {
+	display: inline-block;
+	max-width: 10rem;
+	margin: 1rem;
+}
+
+.sponsoring .landscape {
+	max-width: 15rem;
+}
 
 /** MOVE TO THE TOP */
 #scroll-top::before {

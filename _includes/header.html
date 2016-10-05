@@ -1,6 +1,6 @@
 <header id="header">
   <div id="logo">
-    <a href="{{ site.baseurl }}/"><img src="/assets/logo_w75.png" alt="logo"></a>
+    <a href="{{ site.baseurl }}/"><img src="/assets/logo_w75.png" alt="Logo open\HSR"></a>
   </div>
   <div id="hamburger" class="toggable toggle-closed">
     <i class="fa fa-bars"></i>
@@ -32,7 +32,7 @@
                 <ul>
                   {% for my_sub_page in site.pages %}
                     {% if my_sub_page.parent == 'community'  %}
-                      <li><a{% if my_sub_page.url == page.url %} class="active"{% endif %} href="{{ my_sub_page.url }}">{% if my_sub_page.navtitle %} {{my_sub_page.navtitle}} {% else %}{{ my_sub_page.title }} {% endif %}</a></li>
+                      <li><a{% if my_sub_page.url == page.url %} class="active"{% endif %} href="{{ my_sub_page.url }}">{% if my_sub_page.navtitle %}{{my_sub_page.navtitle}}{% else %}{{ my_sub_page.title }}{% endif %}</a></li>
                     {% endif %}
                   {% endfor %}
                 </ul>
