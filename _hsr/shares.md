@@ -61,6 +61,8 @@ Diese Anleitung hilft dir, falls es dir nicht gelingt, mit der obigen Variante d
 	``` 
 
 	Speichere die Datei in deinem Home-Verzeichnis unter dem Namen ```.fstab.credentials.hsr```. Vergiss den Punkt zu Beginn der Datei nicht!
+	
+	**Wichtig:** Wenn du deine Festplatte oder dein Home-Verzeichnis nicht verschlüsselt hast, kann unter Umständen dein Passwort und dein Username leicht ausgelesen werden.
 
 4. Setze die Zugriffsrechte für die Datei, damit niemand ausser dir darauf zugreifen kann. Öffne ein Terminalfenster und tippe:
 
