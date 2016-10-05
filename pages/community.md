@@ -11,24 +11,23 @@ Dann bist du bei uns richtig.
 
 Mit deiner Mitgliedschaft ...
 
-* wirst du Teil der lebendigen Community um Open Source Projekte in Rapperswil
+* wirst du Teil der lebendigen Community um Open Source-Projekte in Rapperswil
 * setzt du ein Zeichen für Freie Software
-* förderst du unser Engagement für die Unterstützung von alternativen Betriebssystemen wie Linux und Mac OS X an der HSR
+* förderst du unser Engagement für die Unterstützung von alternativen Betriebssystemen wie Linux und Mac OSX an der HSR
 * bekommst du einen Open\HSR Sticker für dein Notebook!
-* wirst du von Zeit zu Zeit mit einem kurz prägnanten Newsletter über aktuelle Veranstaltungen und Projekte informiert (kann natürlich abbestellt werden :wink:)
+* wirst du von Zeit zu Zeit mit einem kurzen, prägnanten Newsletter über aktuelle Veranstaltungen und Projekte informiert (kann natürlich abbestellt werden :wink:)
 
-Die **Mitgliedschaft ist kostenlos und unverbindlich**. Du darfst Mithelfen wie es dir Punkto Zeit und Laune passt!
+Die **Mitgliedschaft ist kostenlos und unverbindlich**. Du darfst mithelfen, wie es dir punkto Zeit und Laune passt!
 
 <a href="mailto:info@openhsr.ch?subject=Mitglied%20werden&body=Hallo%20Zusammen!%0A%0AIch%20w%C3%BCrde%20gerne%20Mitglied%20im%20Open%5CHSR%20werden!%0A%0AMein%20Github%20Benutzername%20lautet%20%5BGITHUB%20Benutzername%5D.%0A%5BFalls%20du%20keinen%20Github%20Account%20hast%2C%20kannst%20du%20diesen%20Absatz%20l%C3%B6schen%5D%0A%0ALiebe%20Gr%C3%BCsse%2C%0A%5BNAME%5D" class="button">Jetzt Mitglied werden!</a>
 
 ## Mithelfen
 
-Wir sammeln Ideen für Veranstaltungen, Events, Flyer etc. und verwirklichen diese in kleineren Gruppen. Damit ist der Aufwand für die Mitglieder abschätzbar und zeitlich eingegrenzt - wir wollen schliesslich keine Last fürs Studium sein. Wo wir deine Unterstützung brauchen (Bsp. Vorstellung der Untervereine der HSR) erfährst du das über den Newsletter - oder du bringst deine Ideen ein!
+Wir sammeln Ideen für Veranstaltungen, Events, Flyer etc. und verwirklichen diese in kleineren Gruppen. Damit ist der Aufwand für die Mitglieder abschätzbar und zeitlich eingegrenzt - wir wollen schliesslich keine Last fürs Studium sein. Wo wir deine Unterstützung brauchen - etwa, wenn die Untervereine der HSR vorgestellt werden -, erfährst du über den Newsletter. Natürlich kannst du auch deine Ideen mit einbringen!
 
-Wir freuen uns auch über kleinere Beiträge! Das kann auch eine kurze Rechtschreibprüfung einer Unterseite sein, Fehler in den Dokus melden, eine Idee für eine Veranstaltung, Unterseite etc. aufschreiben usw.
+Wir freuen uns auch über kleinere Beiträge! Das kann die kurze Rechtschreibprüfung einer Unterseite sein, Fehler in den Dokus melden, eine Idee für eine Veranstaltung, Unterseite etc. aufschreiben usw.
 
-Ein grosser Teil unserer Kommunikation und Arbeit findet auf Github statt. Falls du noch keine
-Erfahrung mit Git und/oder Github hast ist das kein Problem - wir helfen dir genre! Zudem ist ein Github-Account keine Voraussetzung für die Mitgliedschaft!
+Ein grosser Teil unserer Kommunikation und Arbeit findet auf Github statt. Falls du noch keine Erfahrung mit Git und/oder Github hast, ist das kein Problem - wir helfen dir gerne! Zudem ist ein Github-Account keine Voraussetzung für die Mitgliedschaft!
 
 
 ## Events
@@ -85,7 +84,7 @@ Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
 
 ### Statuten und Protokolle
 
-Die [Statuten](/assets/verein/statuten.pdf) und Protokolle werden im Git-Repository unter <https://github.com/openhsr/verein/> verwaltet.
+Die [Statuten](https://raw.githubusercontent.com/openhsr/verein/master/statuten/statuten.pdf) und Protokolle werden im Git-Repository unter <https://github.com/openhsr/verein/> verwaltet.
 
 Pull Requests für die Statuten werden an der nächsten GV als Änderungsantrag traktandiert.
 

@@ -4,7 +4,7 @@ tags: Entwicklung
 ---
 
 Github offeriert allen Studierenden kostenlos das [Student Developer Pack
-](https://education.github.com/pack), welches unter anderem Folgendes beinhaltet:
+](https://education.github.com/pack), welches unter anderem Folgendes enthält:
 
 
 - Unlimitierte private Repositories auf [Github](https://github.com)

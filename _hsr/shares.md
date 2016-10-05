@@ -20,8 +20,8 @@ Persönliche Ablage| ```smb://c101.hsr.ch/mmuster```
 {% toggle %}
 ## Netzwerkfreigaben unter Ubuntu einrichten
 
-Bevor du loslegst: Du kannst nur im internen Netz der HSR auf die Netzwerkfreigaben zugreiffen.
-Wenn du also nicht mit dem HSR-Secure WLAN verbunden bist musst du dich via [VPN](/hsr/vpn/)
+Bevor du loslegst: Du kannst nur im internen Netz der HSR auf die Netzwerkfreigaben zugreifen.
+Wenn du also nicht mit dem HSR-Secure-WLAN verbunden bist, musst du dich via [VPN](/hsr/vpn/)
 verbinden.
 
 1. Öffne den Dateimanager
@@ -35,7 +35,7 @@ Bestätige mit `Verbinden`
 Bestätige mit `Verbinden`
 5. Du bist nun Verbunden! :tada:
 {% lightbox /assets/hsr/networkshares/ubuntu_networkshares_4.png --data="netzwerkfreigabe-ubuntu" --title="Netzwerkfreigabe in der Seitenleiste" --alt="Netzwerkfreigabe in der Seitenleiste" %}
-6. Die Netzwerkfreigaben erscheint in der Seitenleiste. Klicke rechts auf das Symbol und wähle ```Lesezeichen hinzufügen```. Damit kannst du das nächste mal direkt auf die Netzwerkfreigabe zugreiffen!
+6. Die Netzwerkfreigabe erscheint in der Seitenleiste. Klicke rechts auf das Symbol und wähle ```Lesezeichen hinzufügen```. Damit kannst du das nächste Mal direkt auf die Netzwerkfreigabe zugreifen!
 {% lightbox /assets/hsr/networkshares/ubuntu_networkshares_7.png --data="netzwerkfreigabe-ubuntu" --title="Lesezeichen hinzufügen" --alt="Lesezeichen hinzufügen" %}
 
 {% endtoggle %}
@@ -110,12 +110,3 @@ Diese Anleitung hilft dir, falls es dir nicht gelingt, mit der obigen Variante d
 
 {% endtoggle %}
 
-
-{% toggle %}
-## Netzwerkfreigaben unter Mac OS X einrichten
-
-### Hinweis
-Für Zugriff von zu Hause, brauchst du eine Verbindung an die HSR via [VPN](/hsr/vpn)
-
-1. Öffne deinen Finder und
-{% endtoggle %}

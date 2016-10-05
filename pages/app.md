@@ -2,8 +2,8 @@
 title: Programme
 ---
 
-Leider sind nicht alle Programme, die an der HSR eingesetzt werden auf Linux & co verfügbar.
-Darum haben wir dir hier Alternative aufgelistet.
+Leider sind nicht alle Programme, die an der HSR eingesetzt werden, auf Linux & Co verfügbar.
+Darum haben wir dir hier Alternativen aufgelistet.
 
 ## Übersicht
 Programm        | Empfohlene Alternative            |       Weitere Alternativen
