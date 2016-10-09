@@ -10,7 +10,7 @@ Programm        | Empfohlene Alternative            |       Weitere Alternativen
 ----------------|-----------------------------------|----------------------------
 Outlook         | [Thunderbird](/app/thunderbird)   | Mac Mail, Claws-Mail
 HSR Mapper      | [OpenHSR Connect](https://github.com/openhsr/connect) | [Kommandozeilen-Scripts](https://gist.github.com/raphiz/29dd1ed3145b06b9398d)
-DASYLab			| keine / Verwendung mit [Wine](/app/wine#dasylab) 	| -
+[DASYLab](/tipps/dasylab)			| keine / Verwendung mit [Wine](/tipps/wine) 	| -
 
 {% for app_page in site.app %}
 
