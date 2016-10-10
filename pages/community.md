@@ -25,6 +25,8 @@ Die **Mitgliedschaft ist kostenlos und unverbindlich**. Du darfst mithelfen, wie
 
 Wir sammeln Ideen für Veranstaltungen, Events, Flyer etc. und verwirklichen diese in kleineren Gruppen. Damit ist der Aufwand für die Mitglieder abschätzbar und zeitlich eingegrenzt - wir wollen schliesslich keine Last fürs Studium sein. Wo wir deine Unterstützung brauchen - etwa, wenn die Untervereine der HSR vorgestellt werden -, erfährst du über den Newsletter. Natürlich kannst du auch deine Ideen mit einbringen!
 
+Du kannst konkret an Projekt wie der [Website](https://github.com/openhsr/www.openhsr.ch/issues) oder dem [open\HSR-Connect](https://github.com/openhsr/connect/issues) mitarbeiten, in dem du eines aus vielen tickets auf Github mit dem Label `help wanted` in Angriff nimmst. Klärende Fragen ungehemmt ins Ticket schreiben.    
+
 Wir freuen uns auch über kleinere Beiträge! Das kann die kurze Rechtschreibprüfung einer Unterseite sein, Fehler in den Dokus melden, eine Idee für eine Veranstaltung, Unterseite etc. aufschreiben usw.
 
 Ein grosser Teil unserer Kommunikation und Arbeit findet auf Github statt. Falls du noch keine Erfahrung mit Git und/oder Github hast, ist das kein Problem - wir helfen dir gerne! Zudem ist ein Github-Account keine Voraussetzung für die Mitgliedschaft!
