@@ -76,7 +76,7 @@ wie du auch beitragen kannst. Konkret wird ein Tippfehler korrigiert.
    ![Screenshot zum start eines Pull requests](/assets/contribute/beispiel_beitrag_1.png)
 9. Ich überprüfe folgende Punkte:
 
-    1. Der *Base Fork* enspricht dem originalen Repository (openHSR/www.openhsr.ch) und der *Base Branch* ist `master`
+    1. Der *Base Fork* enspricht dem originalen Repository (openhsr/www.openhsr.ch) und der *Base Branch* ist `master`
     2. Der *Head Fork* enspricht meinem Repository und der korrekte Branch meines Repositories ist ausgewählt - hier also `fix-typo`
     3. Meine Änderungen können gemerged werden
 
