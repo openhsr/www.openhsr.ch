@@ -14,12 +14,12 @@ Mit deiner Mitgliedschaft ...
 * wirst du Teil der lebendigen Community um Open Source-Projekte in Rapperswil
 * setzt du ein Zeichen für Freie Software
 * förderst du unser Engagement für die Unterstützung von alternativen Betriebssystemen wie Linux und Mac OSX an der HSR
-* bekommst du einen Open\HSR Sticker für dein Notebook!
+* bekommst du einen open\HSR Sticker für dein Notebook!
 * wirst du von Zeit zu Zeit mit einem kurzen, prägnanten Newsletter über aktuelle Veranstaltungen und Projekte informiert (kann natürlich abbestellt werden :wink:)
 
 Die **Mitgliedschaft ist kostenlos und unverbindlich**. Du darfst mithelfen, wie es dir punkto Zeit und Laune passt!
 
-<a href="mailto:info@openhsr.ch?subject=Mitglied%20werden&body=Hallo%20Zusammen!%0A%0AIch%20w%C3%BCrde%20gerne%20Mitglied%20im%20Open%5CHSR%20werden!%0A%0AMein%20Github%20Benutzername%20lautet%20%5BGITHUB%20Benutzername%5D.%0A%5BFalls%20du%20keinen%20Github%20Account%20hast%2C%20kannst%20du%20diesen%20Absatz%20l%C3%B6schen%5D%0A%0ALiebe%20Gr%C3%BCsse%2C%0A%5BNAME%5D" class="button">Jetzt Mitglied werden!</a>
+<a href="mailto:info@openhsr.ch?subject=Mitglied%20werden&body=Hallo%20Zusammen!%0A%0AIch%20w%C3%BCrde%20gerne%20Mitglied%20im%20open%5CHSR%20werden!%0A%0AMein%20Github%20Benutzername%20lautet%20%5BGITHUB%20Benutzername%5D.%0A%5BFalls%20du%20keinen%20Github%20Account%20hast%2C%20kannst%20du%20diesen%20Absatz%20l%C3%B6schen%5D%0A%0ALiebe%20Gr%C3%BCsse%2C%0A%5BNAME%5D" class="button">Jetzt Mitglied werden!</a>
 
 ## Mithelfen
 
