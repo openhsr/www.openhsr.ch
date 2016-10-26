@@ -94,7 +94,9 @@ Pull Requests für die Statuten werden an der nächsten GV als Änderungsantrag 
 
 Falls du dich für den **open\HSR** interessierst, freuen wir uns immer über ein E-Mail unter <info@openhsr.ch>.
 
-### Kontoinformationen
+### Sponsoring & Kontoinformationen
+
+Möchtest du unseren Verein finanziell unterstützen und Sponsor werden? Sponsoren haben die Möglichkeit, ihr Logo im open\HSR Flyer, auf unserer Webseite und an open\HSR Anlässen zu platzieren. Für weitere Informationen steht der Vorstand gerne unter <info@openhsr.ch> zur Verfügung.
 
 ```
 open\HSR
