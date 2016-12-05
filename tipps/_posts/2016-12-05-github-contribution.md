@@ -64,7 +64,9 @@ $ git push origin <branch-name>
 ```
 
 ## Pull Request
-1. Öffne dein das geforkte Repository in deinem Browser. Über den grossen, grünen Balken kannst du nun einen Pull Request erstellen.
+{% lightbox /assets/tipps/github_contribution/step2_pull_request.png --data="github contribution" --title="Github Pull Request erstellen" --alt="Github Pull Request erstellen %}
+
+1. Öffne dein das geforkte Repository in deinem Browser. Über den grossen, grünen Button kannst du nun einen Pull Request erstellen.
 
 2. Füge dem Pull Request eine ausführliche Beschreibung mit Referenzen und Beweggründen hinzu.
 
