@@ -47,6 +47,9 @@ Der **open\HSR** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
 ### [Git/Github Workshop](https://github.com/openhsr/git-github-workshop/)
 > In diesem vom open\HSR organisierten Workshop werden die ersten Hürden beim Arbeiten mit Git und GitHub überwunden. Wir wollen dir die Hemmschwelle nehmen, damit du unbeschwert zu Open Source und open\HSR Projekten beitragen kannst.
 
+Dieser Workshop wird von GitHub mit Handouts & Swag unterstützt :tada: :heart: :octocat:
+
+
 ### [Swiss Python Summit](http://www.python-summit.ch/)
 
 > This summit is all about the programming language you love! Discover the wide field of Python applications, hear how others use the snake and meet Swiss Pythonistas. The conference is suited for all skill levels, from early beginners to expert developers.
