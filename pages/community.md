@@ -44,10 +44,12 @@ Ein grosser Teil unserer Kommunikation und Arbeit findet auf Github statt. Falls
 An der HSR finden verschiedene regelmässige und einige weniger regelmässige **Events zu Open Source-Themen** statt.
 Der **open\HSR** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
 
+<img src="/assets/emoji/octocat.png" style="float: right; box-shadow: none;" />
 ### [Git/Github Workshop](https://github.com/openhsr/git-github-workshop/)
+
 > In diesem vom open\HSR organisierten Workshop werden die ersten Hürden beim Arbeiten mit Git und GitHub überwunden. Wir wollen dir die Hemmschwelle nehmen, damit du unbeschwert zu Open Source und open\HSR Projekten beitragen kannst.
 
-Dieser Workshop wird von GitHub mit Handouts & Swag unterstützt :tada: :heart: :octocat:
+Dieser Workshop wird von [GitHub](https://github.com/) mit Handouts & Swag unterstützt :tada: :heart: :octocat:
 
 
 ### [Swiss Python Summit](http://www.python-summit.ch/)
