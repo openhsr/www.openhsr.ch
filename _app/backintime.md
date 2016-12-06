@@ -3,7 +3,6 @@ title: Back In Time
 teaser_title: Backup
 teaser:
     Back In Time ist ein einfaches Backup Tool für Linux das Snapshots für jedes Verzeichnis erstellt.
-teaser_image: /assets/app/thunderbird/teaser.png
 category: backup
 ---
 
