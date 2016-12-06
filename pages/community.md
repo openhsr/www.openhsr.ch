@@ -76,7 +76,7 @@ Als solcher unterstützt er auch die Ziele und Ideale des VSHSR.
 Um dieser Ziele zu erreichen,
 
 1. unterstützt der Verein **Open Source-Events** und **verknüpft die Open Source-Interessierten** an der HSR.
-2. bietet der Verein eine Sammlung von **Anleitungen und Empfehlungen** für alternative Betriebssysteme (Linux/OSX) und Software.
+2. bietet der Verein eine Sammlung von **Anleitungen und Empfehlungen** für alternative Betriebssysteme (Linux/macOS) und Software.
    Diese werden jeweils auf die an der HSR relevanten Inhalte eingeschränkt, führen aber nach Möglichkeit weiterführende Quellen auf.
 3. betreibt und unterhält der Verein geeignete Plattformen (z.B. ein E-Mail-Postfach), auf dem **Hilfe bei Fragen** angeboten wird.
 
