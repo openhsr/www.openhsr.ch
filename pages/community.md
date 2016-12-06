@@ -13,7 +13,7 @@ Mit deiner Mitgliedschaft ...
 
 * wirst du Teil der lebendigen Community um Open Source-Projekte in Rapperswil
 * setzt du ein Zeichen für Freie Software
-* förderst du unser Engagement für die Unterstützung von alternativen Betriebssystemen wie Linux und Mac OSX an der HSR
+* förderst du unser Engagement für die Unterstützung von alternativen Betriebssystemen wie Linux und macOS an der HSR
 * bekommst du einen open\HSR Sticker für dein Notebook!
 * wirst du von Zeit zu Zeit mit einem kurzen, prägnanten Newsletter über aktuelle Veranstaltungen und Projekte informiert (kann natürlich abbestellt werden :wink:)
 
