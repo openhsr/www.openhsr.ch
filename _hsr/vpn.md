@@ -39,7 +39,7 @@ Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können 
   <br>
   {% lightbox /assets/hsr/vpn/vpn_networkmanager_7.png --data="vpn ubuntu" --title="Verbindung wurde erfolgreich hergestellt" --alt="Verbindung wurde erfolgreich hergestellt" %}
 
-## VPN unter Mac OS X einrichten
+## VPN unter macOS einrichten
 
 1. **Öffne die Netzwerkeinstellungen** und klicke unten links auf das **Plus**<br>
   {% lightbox /assets/hsr/vpn/mac_vpn1.png --data="vpn mac" --title="Netzwerkeinstellungen" --alt="Netzwerkeinstellungen" %}

@@ -120,7 +120,7 @@ Um an der Webseite mitarbeiten zu können, benötigst du einen [Github Account](
     git clone <url-zum-fork>
     cd www.openhsr.ch
     ```
-6. Das war es schon. Nun kannst du mit dem folgenden Kommando die Webseite bauen. Unter OSX muss make ohne sudo aufgerufen werden:
+6. Das war es schon. Nun kannst du mit dem folgenden Kommando die Webseite bauen. Unter macOS muss make ohne sudo aufgerufen werden:
 
     ```bash
     sudo make

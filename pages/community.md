@@ -13,7 +13,7 @@ Mit deiner Mitgliedschaft ...
 
 * wirst du Teil der lebendigen Community um Open Source-Projekte in Rapperswil
 * setzt du ein Zeichen für Freie Software
-* förderst du unser Engagement für die Unterstützung von alternativen Betriebssystemen wie Linux und Mac OSX an der HSR
+* förderst du unser Engagement für die Unterstützung von alternativen Betriebssystemen wie Linux und macOS an der HSR
 * bekommst du einen open\HSR Sticker für dein Notebook!
 * wirst du von Zeit zu Zeit mit einem kurzen, prägnanten Newsletter über aktuelle Veranstaltungen und Projekte informiert (kann natürlich abbestellt werden :wink:)
 
@@ -44,8 +44,13 @@ Ein grosser Teil unserer Kommunikation und Arbeit findet auf Github statt. Falls
 An der HSR finden verschiedene regelmässige und einige weniger regelmässige **Events zu Open Source-Themen** statt.
 Der **open\HSR** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
 
+<img src="/assets/emoji/octocat.png" style="float: right; box-shadow: none;" />
 ### [Git/Github Workshop](https://github.com/openhsr/git-github-workshop/)
+
 > In diesem vom open\HSR organisierten Workshop werden die ersten Hürden beim Arbeiten mit Git und GitHub überwunden. Wir wollen dir die Hemmschwelle nehmen, damit du unbeschwert zu Open Source und open\HSR Projekten beitragen kannst.
+
+Dieser Workshop wird von [GitHub](https://github.com/) mit Handouts & Swag unterstützt :tada: :heart: :octocat:
+
 
 ### [Swiss Python Summit](http://www.python-summit.ch/)
 
@@ -76,7 +81,7 @@ Als solcher unterstützt er auch die Ziele und Ideale des VSHSR.
 Um dieser Ziele zu erreichen,
 
 1. unterstützt der Verein **Open Source-Events** und **verknüpft die Open Source-Interessierten** an der HSR.
-2. bietet der Verein eine Sammlung von **Anleitungen und Empfehlungen** für alternative Betriebssysteme (Linux/OSX) und Software.
+2. bietet der Verein eine Sammlung von **Anleitungen und Empfehlungen** für alternative Betriebssysteme (Linux/macOS) und Software.
    Diese werden jeweils auf die an der HSR relevanten Inhalte eingeschränkt, führen aber nach Möglichkeit weiterführende Quellen auf.
 3. betreibt und unterhält der Verein geeignete Plattformen (z.B. ein E-Mail-Postfach), auf dem **Hilfe bei Fragen** angeboten wird.
 
