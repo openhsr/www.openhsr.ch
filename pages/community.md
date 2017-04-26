@@ -90,13 +90,12 @@ Um dieser Ziele zu erreichen,
 
 Posten | Person
 ------ | ------
-Präsident | Fabian Hauser
-Vize-Präsident | Raphael Zimmermann
+Präsident | Dennis Ligtenberg
+Vize-Präsident | Matteo Kamm
 Kassierin | Murièle Trentini
-Aktuar  | Oli Dias
-Beisitz (Webseite) | Michael Wieland
+Beisitz | Aaron Meier
 
-Gemäss unseren Statuten setzt sich der Vorstand zwingend aus Präsident, Vize-Präsident, Aktuar und Kassier zusammen.
+Gemäss unseren Statuten setzt sich der Vorstand zwingend aus Präsident, Vize-Präsident und Kassier zusammen.
 Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
 
 ### Statuten und Protokolle
