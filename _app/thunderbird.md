@@ -93,7 +93,7 @@ oder folge [der Anleitung von Thunderbird](https://support.mozilla.org/de/kb/lig
     {% lightbox /assets/app/thunderbird/lightning/tb_calendar-tab-button.png --data="ews_setup" --title="Thunderbird's Kalender-Tab öffnen" --alt="Thunderbird's Kalender-Tab öffnen" %}
 2. Im Kontextmenu der Kalender-Übersicht links: <kbd>New Callendar...</kbd>
     {% lightbox /assets/app/thunderbird/lightning/tb_new_calendar_menu-entry.png --data="ews_setup" --title="Per Kontextmenü neuen Kalender erstellen" --alt="Per Kontextmenü neuen Kalender erstellen" %}
-3. Option `On the Network` wählen und <kbd>Next</kbd> klicken
+3. Option **On the Network** wählen und <kbd>Next</kbd> klicken
     {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_location.png --data="ews_setup" --title="Ort: 'On the Network'" --alt="Ort: 'On the Network'" %}
 4. Format `Microsoft Exchange 2007/2010/2013` wählen und <kbd>Next</kbd> klicken
     {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_format.png --data="ews_setup" --title="Format: 'Microsoft Exchange 2007/2010/2013'" --alt="Format: 'Microsoft Exchange 2007/2010/2013'" %}
