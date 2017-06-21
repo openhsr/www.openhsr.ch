@@ -90,10 +90,15 @@ oder folge [der Anleitung von Thunderbird](https://support.mozilla.org/de/kb/lig
 #### Mit Exchange-Kalender verbinden:
 
 1. In Thunderbird auf Kalender-Tab gehen
+    {% lightbox /assets/app/thunderbird/lightning/tb_calendar-tab-button.png --data="ews_setup" --title="Thunderbird's Kalender-Tab öffnen" --alt="Thunderbird's Kalender-Tab öffnen" %}
 2. Im Kontextmenu der Kalender-Übersicht links: <kbd>New Callendar...</kbd>
+    {% lightbox /assets/app/thunderbird/lightning/tb_new_calendar_menu-entry.png --data="ews_setup" --title="Per Kontextmenü neuen Kalender erstellen" --alt="Per Kontextmenü neuen Kalender erstellen" %}
 3. Option `On the Network` wählen und <kbd>Next</kbd> klicken
+    {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_location.png --data="ews_setup" --title="Ort: 'On the Network'" --alt="Ort: 'On the Network'" %}
 4. Format `Microsoft Exchange 2007/2010/2013` wählen und <kbd>Next</kbd> klicken
+    {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_format.png --data="ews_setup" --title="Format: 'Microsoft Exchange 2007/2010/2013'" --alt="Format: 'Microsoft Exchange 2007/2010/2013'" %}
 5. Name `HSR` eingeben und <kbd>Next</kbd> klicken
+    {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_name.png --data="ews_setup" --title="Name: z.B. 'HSR'" --alt="Name: z.B. 'HSR'" %}
 6. Folgende Einstellungen machen:
 
     Einstellung            | Wert
@@ -106,7 +111,10 @@ oder folge [der Anleitung von Thunderbird](https://support.mozilla.org/de/kb/lig
     Share Folder Id:       | <var>(leer lassen)</var>
 
     und <kbd>Check server and mailbox</kbd> klicken
-7. Die zusätzlich erscheinenden Einstellungen belassen:
+    {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_settings1.png --data="ews_setup" --title="Konfiguration HSR-Exchange-Kalender" --alt="Konfiguration HSR-Exchange-Kalender" %}
+7. HSR-Passwort eingeben und **Use Password Manager to remember this password.** ankreuzen
+    {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_password.png --data="ews_setup" --title="Passwort-Dialog" --alt="Passwort-Dialog" %}
+8. Die zusätzlich erscheinenden Einstellungen belassen:
 
     Einstellung            | Wert
     ---------------------- | ---
@@ -114,7 +122,9 @@ oder folge [der Anleitung von Thunderbird](https://support.mozilla.org/de/kb/lig
     Path below folder base | `/`
 
     und <kbd>next</kbd> klicken
-8. <kbd>Finish</kbd> klicken
+    {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_settings2.png --data="ews_setup" --title="Konfiguration HSR-Exchange-Kalender" --alt="Konfiguration HSR-Exchange-Kalender" %}
+9. <kbd>Finish</kbd> klicken
+    {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_final.png --data="ews_setup" --title="Konfiguration HSR-Exchange-Kalender abgeschlossen" --alt="Konfiguration HSR-Exchange-Kalender abgeschlossen" %}
 
 
 ## Links
