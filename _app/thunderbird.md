@@ -97,7 +97,9 @@ oder folge [der Anleitung von Thunderbird](https://support.mozilla.org/de/kb/lig
     {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_location.png --data="ews_setup" --title="Ort: 'On the Network'" --alt="Ort: 'On the Network'" %}
 4. Format `Microsoft Exchange 2007/2010/2013` wählen und <kbd>Next</kbd> klicken
     {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_format.png --data="ews_setup" --title="Format: 'Microsoft Exchange 2007/2010/2013'" --alt="Format: 'Microsoft Exchange 2007/2010/2013'" %}
-5. Gewünschten Kalender-Name (z.B. `HSR`) eingeben und <kbd>Next</kbd> klicken
+5. Gewünschten Kalender-Name (z.B. `HSR`) eingeben,
+    falls gewünscht Kalender-Farbe wählen (praktisch bei mehreren Kalendern)
+    und <kbd>Next</kbd> klicken
     {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_name.png --data="ews_setup" --title="Name: z.B. 'HSR'" --alt="Name: z.B. 'HSR'" %}
 6. Folgende Einstellungen machen:
 
