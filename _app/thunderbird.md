@@ -72,6 +72,45 @@ Falls dein Thunderbird Lightning noch nicht dabei hat:
 Ubuntu-Paket `xul-ext-lightning` [jetzt installieren](apt://xul-ext-lightning)
 oder folge [der Anleitung von Thunderbird](https://support.mozilla.org/de/kb/lightning-thunderbird-installieren) um die Erweiterung manuell herunterzuladen und in deinem Thunderbird-Profil zu installieren.
 
+### Persönlichem HSR-Kalender in Lightning
+
+#### Exchange-Unterstützung für Lightning installieren:
+
+1. im Browser [die Release-Liste der ExchangeCalendar-Erweiterung](https://github.com/ExchangeCalendar/exchangecalendar/releases) öffnen
+2. in Thunderbird den Add-On-Manager öffnen
+3. Browser-Fenster und Thunderbird-Fenster nebeneinander platzieren
+4. `exchangecalendar-vX.Y.Z.xpi`-Link des neusten Releases in den dunkgelgrauen Navigationsbereich des Add-On-Managers ziehen und dort loslassen (Drag & Drop)
+5. Den Anweisungen auf dem Bildschirm folgen
+
+#### Mit Exchange-Kalender verbinden:
+
+1. In Thunderbird auf Kalender-Tab gehen
+2. Im Kontextmenu der Kalender-Übersicht links: <kbd>New Callendar...</kbd>
+3. Option `On the Network` wählen und <kbd>Next</kbd> klicken
+4. Format `Microsoft Exchange 2007/2010/2013` wählen und <kbd>Next</kbd> klicken
+5. Name `HSR` eingeben und <kbd>Next</kbd> klicken
+6. Folgende Einstellungen machen:
+
+    Einstellung            | Wert
+    ---------------------- | ---
+    Exchange Type          | Hosted Exchange
+    Server URL             | `https://webmail.hsr.ch/ews/exchange.asmx`
+    Primary email address: | <var>lange HSR-Email-Adresse</var> (<code><var>vorname.nachname</var>@hsr.ch</code>) z.B.&nbsp;`maria.muster@hsr.ch`
+    Username:              | <var>kurze HSR-Email-Adresse</var> (<code><var>username</var>@hsr.ch</code>) z.B.&nbsp;`mmuster@hsr.ch`
+    Domain name:           | <var>(leer lassen)</var>
+    Share Folder Id:       | <var>(leer lassen)</var>
+
+    und <kbd>Check server and mailbox</kbd> klicken
+7. Die zusätzlich erscheinenden Einstellungen belassen:
+
+    Einstellung            | Wert
+    ---------------------- | ---
+    Folder base            | Calendar folder
+    Path below folder base | `/`
+
+    und <kbd>next</kbd> klicken
+8. <kbd>Finish</kbd> klicken
+
 
 ## Links
 
