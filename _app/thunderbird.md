@@ -78,9 +78,14 @@ oder folge [der Anleitung von Thunderbird](https://support.mozilla.org/de/kb/lig
 
 1. im Browser [die Release-Liste der ExchangeCalendar-Erweiterung](https://github.com/ExchangeCalendar/exchangecalendar/releases) öffnen
 2. in Thunderbird den Add-On-Manager öffnen
+    {% lightbox /assets/app/thunderbird/lightning/tb-menu-addons.png --data="ews_install" --title="Thunderbird-Menü-Eintrag 'Add-Ons'" --alt="Thunderbird-Menü-Eintrag 'Add-Ons'" %}
 3. Browser-Fenster und Thunderbird-Fenster nebeneinander platzieren
 4. `exchangecalendar-vX.Y.Z.xpi`-Link des neusten Releases in den dunkgelgrauen Navigationsbereich des Add-On-Managers ziehen und dort loslassen (Drag & Drop)
-5. Den Anweisungen auf dem Bildschirm folgen
+    {% lightbox /assets/app/thunderbird/lightning/drag-n-drop_ews-xpi.png --data="ews_install" --title="XPI-Datei per Drag'n'Drop installieren" --alt="XPI-Datei per Drag'n'Drop installieren" %}
+5. Warten bis der <kbd>Install</kbd>-Knopf verfügbar wird und diesen dann klicken
+    {% lightbox /assets/app/thunderbird/lightning/ews_installation_confirmation.png --data="ews_install" --title="Installations-Dialog: Exchange EWS Provider" --alt="Installations-Dialog: Exchange EWS Provider" %}
+6. Thunderbird neu starten
+    {% lightbox /assets/app/thunderbird/lightning/tb-restart_after_ews-install.png --data="ews_install" --title="Nach der Installation Thunderbird neu starten" --alt="Nach der Installation Thunderbird neu starten" %}
 
 #### Mit Exchange-Kalender verbinden:
 
