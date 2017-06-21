@@ -62,7 +62,16 @@ Um nun eine E-Mail an einen HSR-Kontakt zu senden, kannst du wie folgt vorgehen:
 {% lightbox /assets/app/thunderbird/ldap_drag_drop.png --data="ldap_thunderbird" --title="Kontakt als Empfänger hinzufügen (Drag & Drop)" --alt="Kontakt als Empfänger hinzufügen (Drag & Drop)" %}
 
 ## Kalender
-https://support.mozilla.org/de/kb/kalender-erweiterung-lightning-verwenden
+
+Kalender-Funktionalität wird in Thunderbird durch die Erweiterung [Lightning](https://support.mozilla.org/de/kb/kalender-erweiterung-lightning-verwenden) bereitgestellt. Bei manchen Thunderbird-Versionen [ist diese bereits integriert](https://support.mozilla.org/de/kb/kalender-integration-thunderbird).
+
+### Lightning installieren
+
+Falls dein Thunderbird Lightning noch nicht dabei hat:
+
+Ubuntu-Paket `xul-ext-lightning` [jetzt installieren](apt://xul-ext-lightning)
+oder folge [der Anleitung von Thunderbird](https://support.mozilla.org/de/kb/lightning-thunderbird-installieren) um die Erweiterung manuell herunterzuladen und in deinem Thunderbird-Profil zu installieren.
+
 
 ## Links
 
