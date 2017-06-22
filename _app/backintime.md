@@ -17,7 +17,7 @@ Da Back In Time einige Vorteile bietet, empfehlen wir Back In Time.
 ## Installation
 1. **Benötigte Abhängigkeiten installieren**<br>
    Bevor du loslegen kannst, musst du das Paket ``backintime-gnome`` installieren.
-   [Jetzt installieren](apt://backintime-gnome)
+   [Jetzt installieren](http://apt.ubuntu.com/p/backintime-gnome)
 {% toggle %}
 
 
