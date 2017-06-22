@@ -104,9 +104,9 @@ Um an der Webseite mitarbeiten zu können, benötigst du einen [Github Account](
 
 1. **Benötigte Abhängigkeiten installieren**<br>
    Bevor du loslegen kannst, musst du [Git](https://git-scm.com/), Make und [Docker](https://docs.docker.com/engine/installation/) installieren: <br>
-   [Git Jetzt installieren](apt://git)
-   [Make Jetzt installieren](apt://make)
-   [Docker Jetzt installieren](apt://docker)
+   [Git Jetzt installieren](http://apt.ubuntu.com/p/git)
+   [Make Jetzt installieren](http://apt.ubuntu.com/p/make)
+   [Docker Jetzt installieren](http://apt.ubuntu.com/p/docker)
 2. **Forke das Projekt auf Github**<br>
    Gehe dazu mit dem Webbrowser auf das [Repository www.openhsr.ch](https://github.com/openhsr/www.openhsr.ch) und klicke auf `Fork`:<br>
    ![Screenshot zum Forken eines Projekts](/assets/contribute/projekt_einrichten_1.png)

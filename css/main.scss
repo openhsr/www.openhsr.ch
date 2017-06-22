@@ -194,7 +194,7 @@ blockquote {
 }
 
 /** APT BUTTONS */
-a[href^="apt://"] {
+a[href^="http://apt.ubuntu.com/p/"] {
   display: block;
 	background: #2196F3;
 	border: 1px solid #0D47A1;
@@ -209,13 +209,13 @@ a[href^="apt://"] {
   transition: all 0.2s ease;
 }
 
-a[href^="apt://"]::before {
+a[href^="http://apt.ubuntu.com/p/"]::before {
   font-family: "FontAwesome";
   content: "\f019";
   padding: 0.5rem;
 }
 
-a[href^="apt://"]:hover {
+a[href^="http://apt.ubuntu.com/p/"]:hover {
   background:#1976D2;
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
 }

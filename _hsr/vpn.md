@@ -19,7 +19,7 @@ Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können 
 
 1. **Benötigte Abhängigkeiten installieren**<br>
    Bevor du loslegen kannst, musst du noch das Paket ``network-manager-vpnc-gnome`` installieren.
-   [Jetzt installieren](apt://network-manager-vpnc-gnome)
+   [Jetzt installieren](http://apt.ubuntu.com/p/network-manager-vpnc-gnome)
 2. **Öffne die Netzwerkeinstellungen** über den Netzwerkindikatoren am oberen linken Bildschirmrand via ```VPN-Verbindungen``` + ```VPN konfigurieren...```<br>
    {% lightbox /assets/hsr/vpn/vpn_networkmanager_1.png --data="vpn ubuntu" --title="Netzwerkeinstellungen über den Netzwerkindikatoren" --alt="Netzwerkeinstellungen über den Netzwerkindikatoren" %}
 3. Klick auf den Button **Hinzufügen**<br>
