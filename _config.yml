@@ -10,6 +10,8 @@ exclude:
     - Makefile
     - deploy.sh
     - wercker.yml
+    - vendor
+    - .bundle
 
 include:
     - '.htaccess'
