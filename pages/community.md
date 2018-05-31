@@ -90,10 +90,9 @@ Um dieser Ziele zu erreichen,
 
 Posten | Person
 ------ | ------
-Präsident | Dennis Ligtenberg
-Vize-Präsident | Matteo Kamm
-Kassierin | Murièle Trentini
-Beisitz | Aaron Meier
+Präsident | Matteo Kamm
+Vize-Präsident | Mike Marti
+Kassierer | André Bachmann
 
 Gemäss unseren Statuten setzt sich der Vorstand zwingend aus Präsident, Vize-Präsident und Kassier zusammen.
 Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
