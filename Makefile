@@ -14,3 +14,6 @@ serve:
 
 deploy:
 	docker run --rm --name www.openhsr.ch -v $(shell pwd):/src/ -p 4000:4000 -e "HOST=$(HOST)" -e "USER=$(USER)" -e "PASSWORD=$(PASSWORD)" -e "DIRECTORY=$(DIRECTORY)" openhsr/www.openhsr.ch /src/deploy.sh
+
+updatedeps:
+	docker run -i --rm --name www.openhsr.ch -v $(shell pwd):/src/ -p 4000:4000 openhsr/www.openhsr.ch bundle update
