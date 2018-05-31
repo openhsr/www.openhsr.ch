@@ -135,3 +135,7 @@ Wenn du genug hast, kannst du mit der Tastenkombination <kbd>ctrl</kbd> + <kbd>c
 Die neue Seite des open\HSR ist im Gegensatz zu früher kein dynamisches [Wiki](https://de.wikipedia.org/wiki/Wiki), sondern eine mit [Jekyll](http://jekyllrb.com) generierte statische Webseite.
 
 Mehr Details zu Jekyll findest du auf der [offiziellen Jekyll Webseite](http://jekyllrb.com).
+
+Die RubyGems werden über den [Bundler](https://bundler.io/) verwaltet. Das `Gemfile.lock` lockt die Gems und Dependency auf spezifische Versionen. Wenn diese geupdated werden sollen kann man im Docker Container `bundle update` ausführen. Im `Gemfile` sind sämtliche Gems aufgelistet und auf die Major-Version gelockt. Um einen Major-Update zu machen muss dies angepasst werden.
+
+Ein nützliches Tool um zu sehen, ob die Gems outdated sind oder bekannte Vulnerabilities dazu existieren kann [gemsurance](https://github.com/appfolio/gemsurance) verwendet werden. Am einfachsten installiert man es im Docker Container und führt es aus: `gem install gemsurance && gemsurance`. Dies erstellt eine `gemsurance_report.html` Datei, welche sämtliche Gems mit dem aktuellen Status auflistet.
