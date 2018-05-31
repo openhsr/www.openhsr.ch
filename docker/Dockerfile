@@ -1,9 +1,9 @@
 FROM ruby:2.3
 
-RUN apt-get update
-
 # Install lftp for deployment
-RUN apt-get install lftp
+RUN apt-get update && apt-get install -y \
+       lftp \
+    && rm -rf /var/lib/apt/lists/*
 
 # Working directory
 WORKDIR /src
