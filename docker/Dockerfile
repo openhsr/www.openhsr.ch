@@ -12,7 +12,6 @@ RUN gem install rouge -v 1.10.1
 RUN gem install jemoji -v 0.6.2
 
 # Working directory
-RUN mkdir /src
 WORKDIR /src
 
 # Create new user jekyll - to prevent user id issues
