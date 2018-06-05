@@ -31,7 +31,7 @@ Da Back In Time einige Vorteile bietet, empfehlen wir Back In Time.
 3. Im Reiter "Hinzufügen/Include" kannst du alle Ordner auswählen die du gerne sichern möchtest. Gleiches gilt für einzelne Ordner, die du gerne aus dem Backup exkludieren möchtest.
 {% lightbox /assets/app/backintime/step3.png --data="backintime configuration" --title="Initialer Konfigurations Dialog" --alt="Initialer Konfigurations Dialog %}
 
-4. Mit "OK" kann der Dialog quitiert werden. Dein Backup ist eingereichtet und funktionsbereit.
+4. Mit "OK" kann der Dialog quittiert werden. Dein Backup ist eingerichtet und funktionsbereit.
 
 
 
