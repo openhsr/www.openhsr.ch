@@ -6,5 +6,11 @@ script:
   - chmod 777 _site/
   - make buildimage build
 
-after_success:
-  - test $TRAVIS_BRANCH = "master" && make --quiet deploy
+deploy:
+  provider: pages
+  local-dir: _site
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN 
+  keep-history: true
+  on:
+    branch: master
