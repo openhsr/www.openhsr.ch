@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="open\HSR">
+  <meta name="description" content="Wer auf Github ein Projekt wartet, kennt die Situation: Ein neuer Pull-Request wird eröffnet und man möchte die Änderungen gerne lokal ausprobieren, bevor ma...">
+
+  <title>Github Pull-Requests lokal auschecken</title>
+
+  <link rel="canonical" href="https://www.openhsr.ch/tipps/checkout-pull-requests/">
+  <link rel="icon" href="/assets/logo_w75.png" type="image/png">
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/lightbox/css/lightbox.min.css" >
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link href='/assets/fonts/fonts.css' rel='stylesheet' type='text/css'>
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["setDomains", ["*.www.openhsr.ch"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//piwik.fh2.ch/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 8]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+</head>
+
+
+  <body id="top">
+    <div class="wrapper">
+      <header id="header">
+  <div id="logo">
+    <a href="/"><img src="/assets/logo_w75.png" alt="Logo open\HSR"></a>
+  </div>
+  <div id="hamburger" class="toggable toggle-closed">
+    <i class="fa fa-bars"></i>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+        
+          
+        
+          
+            <li  >
+              <a href="/app/">Programme</a>
+              
+                      <ul>
+                      <li><a href="/app/">Übersicht</a></li>
+                  
+                         <li><a href="/app/backintime/">Back In Time</a></li>
+                  
+                         <li><a href="/app/masterpdfeditor/">Master PDF Editor</a></li>
+                  
+                         <li><a href="/app/thunderbird/">Thunderbird</a></li>
+                  
+                      </ul>
+              
+              
+              
+            </li>
+          
+        
+          
+            <li  >
+              <a href="/community/">Community</a>
+              
+              
+              
+                <ul>
+                  
+                    
+                  
+                    
+                  
+                    
+                      <li><a href="/community/">Verein & Community</a></li>
+                    
+                  
+                    
+                      <li><a href="/faq/">Häufig gestellte Fragen (FAQ)</a></li>
+                    
+                  
+                    
+                      <li><a href="/hilfe/">Hilfe</a></li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              
+            </li>
+          
+        
+          
+        
+          
+        
+          
+            <li  >
+              <a href="/hsr/">Dokumentationen</a>
+              
+              
+                      <ul>
+                       <li><a href="/hsr/">Überlebensguide</a></li>
+                  
+                      <li><a href="/hsr/email/">E-Mail</a></li>
+                  
+                      <li><a href="/hsr/printing/">Drucken</a></li>
+                  
+                      <li><a href="/hsr/shares/">Netzwerkfreigaben</a></li>
+                  
+                      <li><a href="/hsr/vpn/">VPN</a></li>
+                  
+                      <li><a href="/hsr/wlan/">WLAN</a></li>
+                  
+                      </ul>
+              
+              
+            </li>
+          
+        
+          
+            <li  >
+              <a href="/tipps/">Tipps &amp; Tricks</a>
+              
+              
+              
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+    </ul>
+  </nav>
+  <div class="social">
+    <a href="/hilfe/" title="Hilfe"><i class="fa fa-comments"></i></a>
+    <a href="https://twitter.com/openhsr" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a href="mailto:info@openhsr.ch" title="E-Mail"><i class="fa fa-envelope"></i></a>
+    <a href="https://github.com/openhsr" title="Github"><i class="fa fa-github"></i></a>
+  </div>
+</header>
+
+
+<section id="content">
+  <main role="main">
+    <section>
+      <h1>Github Pull-Requests lokal auschecken</h1>
+      <article>
+        <p>Wer auf Github ein Projekt wartet, kennt die Situation: Ein neuer Pull-Request wird eröffnet und man möchte die Änderungen gerne lokal ausprobieren, bevor man sie merged. Aber wie geht das am einfachsten?</p>
+
+<p>In diesem Tipp zeige ich am Beispiel vom Repository <a href="https://github.com/openhsr/www.openhsr.ch/">openhsr/www.openhsr.ch</a>, wie man bequem Pull-Requests lokal auschecken kann.</p>
+
+<p>Falls du noch keine lokale Kopie des Projekts hast, dann klone es jetzt:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone https://github.com/openhsr/www.openhsr.ch.git
+<span class="gp">$ </span><span class="nb">cd </span>www.openhsr.ch/
+</code></pre></div>
+<p>Damit wir nicht jeden Pull-Request von Hand herunterladen müssen, ergänzen wir die Git-Konfiguration, so dass auch Pull-Requests bei einem <code>fetch</code> heruntergeladen werden.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git config --add remote.origin.fetch <span class="s1">'+refs/pull/*/head:refs/remotes/origin/pr/*'</span>
+</code></pre></div>
+<p>Wenn wir nun mittels <code>fetch</code> Änderungen aus Remote Repository herunterladen, werden auch Pull-Requests als Branches heruntergeladen:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git fetch
+remote: Counting objects: 53, <span class="k">done</span>.
+remote: Total 53 <span class="o">(</span>delta 20<span class="o">)</span>, reused 20 <span class="o">(</span>delta 20<span class="o">)</span>, pack-reused 33
+Unpacking objects: 100% <span class="o">(</span>53/53<span class="o">)</span>, <span class="k">done</span>.
+From https://github.com/openhsr/www.openhsr.ch
+ <span class="k">*</span> <span class="o">[</span>new ref]         refs/pull/14/head -&gt; origin/pr/14
+ <span class="k">*</span> <span class="o">[</span>new ref]         refs/pull/24/head -&gt; origin/pr/24
+ <span class="k">*</span> <span class="o">[</span>new ref]         refs/pull/27/head -&gt; origin/pr/27
+ <span class="k">*</span> <span class="o">[</span>new ref]         refs/pull/28/head -&gt; origin/pr/28
+ <span class="k">*</span> <span class="o">[</span>new ref]         refs/pull/29/head -&gt; origin/pr/29
+ ...
+</code></pre></div>
+<p>Mit jedem <code>fetch</code> werden nun also alle Pull-Requests als Branches heruntergeladen.</p>
+
+<p>Ein beliebiger Pull-Request kann jetzt wie jeder andere Branch ausgecheckt werden:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git checkout pr/51
+</code></pre></div>
+<p>Wenn du dieses Kommando oft brauchst, lohnt es sich einen <a href="https://wiki.ubuntuusers.de/alias/">Alias</a> einzurichten.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">alias </span>setup-pr-fetch<span class="o">=</span><span class="s2">"git config --add remote.origin.fetch '+refs/pull/*/head:refs/remotes/origin/pr/*'"</span>
+</code></pre></div>
+<h2 id="links">Links</h2>
+
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell">Git Branching - Branches in a Nutshell</a></li>
+<li><a href="https://help.github.com/articles/checking-out-pull-requests-locally/">Checking out Pull-Requests locally</a></li>
+<li><a href="http://blogs.atlassian.com/2014/08/how-to-fetch-pull-requests/">Pull-Request proficiency: Fetching abilities unlocked!</a></li>
+</ul>
+
+      </article>
+
+    </section>
+  </main>
+</section>
+
+<footer id="footer">
+	<section class="sponsoring">
+		<h3>Unsere Sponsoren</h3>
+		<div>
+			<a href="https://banking.ametiq.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_banking.svg" alt="Logo Amétiq Banking" class="no-shadow" height="150px">
+			</a>
+			<a href="https://ametiqconnect.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_connect.svg" alt="Logo Amétiq Connect" class="no-shadow"  height="150px">
+			</a>
+			<a href="https://www.ametiq.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_medical.svg" alt="Logo Amétiq Medical" class="no-shadow"  height="150px">
+			</a>
+			<a href="http://www.calandacomp.ch/" target="_blank">
+				<img src="/assets/sponsoring/logo_calandacomp.svg" alt="Logo CalandaComp" class="no-shadow"  height="150px">
+			</a>
+			<a href="https://www.nine.ch/" target="_blank">
+				<img src="/assets/sponsoring/logo_nine.png" alt="Logo Nine.ch" class="no-shadow"  height="150px">
+			</a>
+		</div>
+	</section>
+	<section class="partnership">
+		<h3>Unsere Partner</h3>
+		<div>
+			<a href="https://coredump.ch" target="_blank">
+				<img src="/assets/partnership/logo_coredump.svg" alt="Logo Coredump" class="no-shadow" height="150px">
+			</a>
+		</div>
+	</section>
+	<section class="legal">
+		<p>
+			<strong>&copy; open\HSR, <time datetime="2018-06-15">15.06.2018</time></strong>.
+			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
+		</p>
+	</section>
+</footer>
+
+<!--JS includes -->
+<script src="/assets/jquery/jquery-2.2.2.min.js"></script>
+<script src="/assets/lightbox/js/lightbox.min.js"></script>
+<script src="/js/script.js"></script>
+<noscript><p><img src="//piwik.fh2.ch/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
+
+
+    </div>
+    <div id="scroll-top"></div>
+  </body>
+</html>

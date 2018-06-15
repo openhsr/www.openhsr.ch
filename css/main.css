@@ -1,0 +1,532 @@
+/* RESET */
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/* GENERAL */
+body {
+  background-color: #0064A3;
+  background-image: url("/assets/background.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-flow: row wrap; }
+
+/* TEXT */
+h1, h2, h3 {
+  color: #0064A3;
+  margin-bottom: 0.5rem; }
+
+h1 {
+  font-size: 1.5rem; }
+
+h2 {
+  font-size: 1.3rem;
+  margin: 1.5rem 0; }
+
+h3 {
+  font-size: 1rem;
+  margin: 1.5rem 0; }
+
+a {
+  color: #0064A3;
+  text-decoration: none;
+  outline: none; }
+
+a:hover, a:active, a:focus {
+  text-decoration: none; }
+
+p {
+  margin-bottom: 1rem; }
+
+/* LISTS */
+ul {
+  list-style: none; }
+
+ol > li {
+  margin: 0 0 1rem 1rem; }
+
+dl dt {
+  font-weight: bold; }
+
+dl dd {
+  padding-left: 1rem;
+  margin-bottom: 12px; }
+
+/* IMAGES / FIGURES */
+img,
+figure img {
+  max-width: 95%;
+  height: auto;
+  margin: 1rem 0;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); }
+
+.lightbox img {
+  margin: 0; }
+
+img.emoji {
+  box-shadow: none;
+  margin: 0; }
+
+img.emoji {
+  margin: 0rem;
+  box-shadow: none; }
+
+img.no-shadow {
+  box-shadow: none; }
+
+figure figcaption {
+  text-align: center; }
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0; }
+
+th {
+  color: #FFF;
+  background: #0064A3; }
+
+table th,
+table td {
+  border: 1px solid #ECF0F1;
+  padding: 0.5em; }
+
+tbody tr:nth-child(even) {
+  background: #ECF0F1; }
+
+tbody th {
+  text-align: left; }
+
+tbody td {
+  text-align: center; }
+
+/* CODE */
+code {
+  background: #333;
+  color: #FFF;
+  border-radius: 0.2rem;
+  font-size: 90%;
+  padding: 0.2rem 0.4rem;
+  margin-bottom: 1rem; }
+
+code span.c {
+  color: #61737C; }
+
+.highlight code.language-bash::before {
+  font-family: "FontAwesome";
+  content: "\f120";
+  position: absolute;
+  margin-left: -1.5rem; }
+
+.highlight code {
+  display: block;
+  padding-left: 2rem;
+  overflow-x: auto; }
+
+/* KEYBOARD */
+kbd {
+  border-radius: 0.2rem;
+  display: inline-block;
+  margin: 0 0.1rem;
+  text-shadow: 0 1px 0 #FFF;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #FFF inset;
+  padding: .1em .6em;
+  border: 1px solid #CCC;
+  background-color: #F7F7F7;
+  color: #333; }
+
+/* BLOCKQUOTES */
+blockquote {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid #0064A3; }
+
+/** BUTTON */
+.button {
+  display: block;
+  background: #2196F3;
+  border: 1px solid #0D47A1;
+  border-radius: 0.5rem;
+  color: #FFF;
+  padding: 0.8rem;
+  margin: 2rem auto 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  max-width: 15rem;
+  transition: all 0.2s ease; }
+
+.button:hover {
+  background: #1976D2;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5); }
+
+/** APT BUTTONS */
+a[href^="http://apt.ubuntu.com/p/"] {
+  display: block;
+  background: #2196F3;
+  border: 1px solid #0D47A1;
+  border-radius: 0.5rem;
+  color: #FFF;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  max-width: 15rem;
+  transition: all 0.2s ease; }
+
+a[href^="http://apt.ubuntu.com/p/"]::before {
+  font-family: "FontAwesome";
+  content: "\f019";
+  padding: 0.5rem; }
+
+a[href^="http://apt.ubuntu.com/p/"]:hover {
+  background: #1976D2;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5); }
+
+/** HEADER */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0 1rem;
+  background: #F8F8F8;
+  border-bottom: 1px solid #0064A3; }
+
+#logo img {
+  width: 60px;
+  box-shadow: none;
+  margin: 0; }
+
+/* HAMBURGER */
+#hamburger {
+  cursor: pointer;
+  color: #000;
+  font-size: 2.5rem;
+  margin: 1rem;
+  border-radius: 0.3rem; }
+
+#hamburger + nav,
+#hamburger + nav + div.social {
+  /* hack to allow transition: should never be so big: */
+  max-height: 100vh;
+  overflow-y: visible;
+  overflow-x: hidden;
+  transition: max-height 0.5s linear; }
+
+#hamburger.toggle-closed + nav,
+#hamburger.toggle-closed + nav + div.social {
+  max-height: 0;
+  overflow-y: hidden; }
+
+@media all and (min-width: 1080px) {
+  #hamburger {
+    display: none; }
+
+  #hamburger.toggle-closed + nav,
+  #hamburger.toggle-closed + nav + div.social,
+  #hamburger + nav,
+  #hamburger + nav + div.social {
+    max-height: none;
+    overflow-y: visible;
+    overflow-x: visible; } }
+/* NAVIGATION */
+nav {
+  font-size: 0;
+  flex: 0 1 100%; }
+
+nav ul li {
+  white-space: nowrap; }
+
+nav ul li a {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0 1rem;
+  line-height: 3rem;
+  display: inline-block; }
+
+nav > ul > li.active {
+  background: #0063A3; }
+
+nav > ul > li.active a {
+  color: #FFF; }
+
+.social a {
+  line-height: 4rem;
+  display: inline-block; }
+
+.social > a > i {
+  padding: 0 0.5rem;
+  font-size: 1.5rem; }
+
+/** sub menus */
+nav > ul > li > ul {
+  display: none;
+  padding: 0.3rem 1rem;
+  background: #0063A3;
+  min-width: 100%; }
+
+nav > ul > li > ul > li > a {
+  color: #FFF;
+  line-height: normal;
+  height: auto;
+  padding: 0.5rem 0;
+  line-height: 1rem; }
+
+nav > ul > li > ul > li > a::before {
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding: 0.5rem; }
+
+@media all and (min-width: 1080px) {
+  nav {
+    display: block;
+    flex: 0 1 auto; }
+
+  .social {
+    display: inline-block; }
+
+  .social a {
+    line-height: 5rem; }
+
+  .social a:hover {
+    color: #FFF;
+    background: #0063A3; }
+
+  nav > ul > li {
+    position: relative;
+    display: inline-block; }
+
+  nav ul li a {
+    line-height: 5rem;
+    transition: all 0.2s ease; }
+
+  nav ul li:hover a {
+    background: #0063A3;
+    color: #FFF; }
+
+  nav > ul > li.active a {
+    background: #0063A3; }
+
+  /** sub menus */
+  nav > ul > li > ul {
+    position: absolute;
+    padding: 0.5rem 1rem 1rem 0.5rem; }
+
+  nav > ul > li:hover > ul {
+    display: block;
+    left: 0; } }
+/** NEWS SLIDER */
+#slider {
+  min-height: 15rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.1); }
+
+#slider h1 {
+  color: #FFF;
+  font-size: 2.5rem; }
+
+#slider h2 {
+  color: #FFF;
+  font-size: 1.5rem; }
+
+#slider .button {
+  margin: 0; }
+
+/* LAYOUT */
+.wrapper {
+  width: 100%; }
+
+@media all and (min-width: 1080px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 90%;
+    width: 62.5rem;
+    max-width: 62.5rem; } }
+/** CONTENT */
+#content {
+  display: flex;
+  flex-flow: row wrap;
+  background: #F8F8F8;
+  border-top: 1px solid #E0E0E0;
+  border-left: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0; }
+
+main {
+  order: 2;
+  max-width: 100%;
+  padding: 1rem; }
+
+.wiki-content h2 {
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 0.5rem; }
+
+/* content toggle */
+.wiki-content h2.toggable {
+  cursor: pointer; }
+
+.wiki-content h2.toggable::before {
+  font-family: "FontAwesome";
+  padding: 0.5rem; }
+
+.wiki-content h2.toggle-open::before {
+  content: "\f106"; }
+
+.wiki-content h2.toggle-closed::before {
+  content: "\f107"; }
+
+.wiki-content h2.toggle-closed + div.toggle-content {
+  display: none; }
+
+#content ul > li {
+  margin-bottom: 1rem; }
+
+#content ul > li::before {
+  content: "- "; }
+
+@media all and (min-width: 1080px) {
+  .wiki-content {
+    order: 1;
+    max-width: 65%;
+    flex: 3; } }
+/** SIDEBAR */
+#sidebar {
+  order: 1;
+  width: 100%;
+  background: #F2F2F2;
+  padding: 1rem; }
+
+#sidebar ul > li {
+  margin-bottom: 1rem; }
+
+#sidebar ul > li::before {
+  content: "- "; }
+
+#sidebar .cross-references {
+  display: none; }
+
+@media all and (min-width: 1080px) {
+  #sidebar {
+    order: 2;
+    flex: 1;
+    margin-left: 1rem;
+    border-left: 1px solid #E0E0E0; }
+
+  #sidebar section {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: #fff 0 1px; }
+
+  #sidebar section:last-child {
+    border-bottom: none;
+    box-shadow: none; }
+
+  #sidebar .cross-references {
+    display: block; } }
+/** FRONT PAGE */
+#front {
+  text-align: center; }
+
+#front > h1 {
+  font-size: 2rem;
+  margin: 1rem 0; }
+
+#front > div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+#front article {
+  background: #0064A3;
+  color: #FFF;
+  margin: 1rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  min-width: 46%;
+  flex: 1 0 46%;
+  text-align: center; }
+
+#front article h2 {
+  color: #FFF; }
+
+#front article i {
+  font-size: 4rem; }
+
+/** FOOTER */
+#footer {
+  background: #0064A3; }
+
+#footer > section {
+  padding: 1rem; }
+
+#footer a,
+#footer p {
+  color: #FFF;
+  margin: 0; }
+
+.sponsoring {
+  background: #F2F2F2;
+  border-top: 1px solid #E0E0E0; }
+
+.sponsoring > h3 {
+  margin: 0.5rem 0; }
+
+.sponsoring > div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline; }
+
+.sponsoring a > img {
+  display: inline-block;
+  max-width: 10rem;
+  margin: 1rem; }
+
+.partnership {
+  background: #F2F2F2;
+  border-top: 1px solid #E0E0E0; }
+
+.partnership > h3 {
+  margin: 0.5rem 0; }
+
+.partnership > div {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline; }
+
+.partnership a > img {
+  display: inline-block;
+  max-width: 10rem;
+  margin: 1rem; }
+
+/** MOVE TO THE TOP */
+#scroll-top::before {
+  font-family: "FontAwesome";
+  content: "\f077"; }
+
+#scroll-top {
+  font-size: 1rem;
+  background: rgba(224, 224, 224, 0.6);
+  color: #0064A3;
+  position: fixed;
+  cursor: pointer;
+  display: none;
+  bottom: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.2rem 0.5rem; }
+
+/* Tipps & Tricks */
+.tipps-category::before {
+  content: '# '; }

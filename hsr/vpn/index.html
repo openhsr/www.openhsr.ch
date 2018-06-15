@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="open\HSR">
+  <meta name="description" content="Technische Angaben">
+
+  <title>VPN</title>
+
+  <link rel="canonical" href="https://www.openhsr.ch/hsr/vpn/">
+  <link rel="icon" href="/assets/logo_w75.png" type="image/png">
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/lightbox/css/lightbox.min.css" >
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link href='/assets/fonts/fonts.css' rel='stylesheet' type='text/css'>
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["setDomains", ["*.www.openhsr.ch"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//piwik.fh2.ch/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 8]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+</head>
+
+
+  <body id="top">
+    <div class="wrapper">
+      <header id="header">
+  <div id="logo">
+    <a href="/"><img src="/assets/logo_w75.png" alt="Logo open\HSR"></a>
+  </div>
+  <div id="hamburger" class="toggable toggle-closed">
+    <i class="fa fa-bars"></i>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+        
+          
+        
+          
+            <li  >
+              <a href="/app/">Programme</a>
+              
+                      <ul>
+                      <li><a href="/app/">Übersicht</a></li>
+                  
+                         <li><a href="/app/backintime/">Back In Time</a></li>
+                  
+                         <li><a href="/app/masterpdfeditor/">Master PDF Editor</a></li>
+                  
+                         <li><a href="/app/thunderbird/">Thunderbird</a></li>
+                  
+                      </ul>
+              
+              
+              
+            </li>
+          
+        
+          
+            <li  >
+              <a href="/community/">Community</a>
+              
+              
+              
+                <ul>
+                  
+                    
+                  
+                    
+                  
+                    
+                      <li><a href="/community/">Verein & Community</a></li>
+                    
+                  
+                    
+                      <li><a href="/faq/">Häufig gestellte Fragen (FAQ)</a></li>
+                    
+                  
+                    
+                      <li><a href="/hilfe/">Hilfe</a></li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              
+            </li>
+          
+        
+          
+        
+          
+        
+          
+            <li  >
+              <a href="/hsr/">Dokumentationen</a>
+              
+              
+                      <ul>
+                       <li><a href="/hsr/">Überlebensguide</a></li>
+                  
+                      <li><a href="/hsr/email/">E-Mail</a></li>
+                  
+                      <li><a href="/hsr/printing/">Drucken</a></li>
+                  
+                      <li><a href="/hsr/shares/">Netzwerkfreigaben</a></li>
+                  
+                      <li><a class="active" href="/hsr/vpn/">VPN</a></li>
+                  
+                      <li><a href="/hsr/wlan/">WLAN</a></li>
+                  
+                      </ul>
+              
+              
+            </li>
+          
+        
+          
+            <li  >
+              <a href="/tipps/">Tipps &amp; Tricks</a>
+              
+              
+              
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+    </ul>
+  </nav>
+  <div class="social">
+    <a href="/hilfe/" title="Hilfe"><i class="fa fa-comments"></i></a>
+    <a href="https://twitter.com/openhsr" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a href="mailto:info@openhsr.ch" title="E-Mail"><i class="fa fa-envelope"></i></a>
+    <a href="https://github.com/openhsr" title="Github"><i class="fa fa-github"></i></a>
+  </div>
+</header>
+
+
+<section id="content">
+  <main role="main" class="wiki-content">
+    <section>
+      <h1>VPN</h1>
+      <article>
+        <h2 id="technische-angaben">Technische Angaben</h2>
+
+<table><thead>
+<tr>
+<th>Einstellung</th>
+<th>Wert</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Gateway</td>
+<td><code>vpn.hsr.ch</code></td>
+</tr>
+<tr>
+<td>Benutzername</td>
+<td><code>mmuster</code></td>
+</tr>
+<tr>
+<td>Benutzerpasswort</td>
+<td><code>GeHeim007</code></td>
+</tr>
+<tr>
+<td>Gruppenname</td>
+<td><code>hsrremote</code></td>
+</tr>
+<tr>
+<td>Gruppenpasswort</td>
+<td><code>hsrremote</code></td>
+</tr>
+</tbody></table>
+
+<h2 id="vpn-unter-ubuntu-einrichten" class="toggable">VPN unter Ubuntu einrichten</h2>
+
+<div class="toggle-content">
+
+<p>Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können keine VPN-Verbindungen hergestellt werden.</p>
+
+<ol>
+<li><strong>Benötigte Abhängigkeiten installieren</strong><br>
+Bevor du loslegen kannst, musst du noch das Paket <code>network-manager-vpnc-gnome</code> installieren.
+<a href="http://apt.ubuntu.com/p/network-manager-vpnc-gnome">Jetzt installieren</a></li>
+<li><strong>Öffne die Netzwerkeinstellungen</strong> über den Netzwerkindikatoren am oberen linken Bildschirmrand via <code>VPN-Verbindungen</code> + <code>VPN konfigurieren...</code><br>
+<a href="../../assets/hsr/vpn/vpn_networkmanager_1.png" data-lightbox="vpn ubuntu" data-title="Netzwerkeinstellungen über den Netzwerkindikatoren"><img src="../../assets/hsr/vpn/vpn_networkmanager_1.png" alt="Netzwerkeinstellungen über den Netzwerkindikatoren" class="" style=""/></a></li>
+<li>Klick auf den Button <strong>Hinzufügen</strong><br>
+<a href="../../assets/hsr/vpn/vpn_networkmanager_2.png" data-lightbox="vpn ubuntu" data-title="Klick auf den Button Add"><img src="../../assets/hsr/vpn/vpn_networkmanager_2.png" alt="Klick auf den Button Add" class="" style=""/></a></li>
+<li>Wähle in der Liste den Eintrag <strong>Cisco-kompatibler VPN-Client (vpnc)</strong> aus<br>
+<a href="../../assets/hsr/vpn/vpn_networkmanager_3.png" data-lightbox="vpn ubuntu" data-title="Cisco-kompatibler VPN-Client auswählen"><img src="../../assets/hsr/vpn/vpn_networkmanager_3.png" alt="Cisco-kompatibler VPN-Client auswählen" class="" style=""/></a></li>
+<li>Weiter geht&#39;s mit einem Klick auf <strong>Erzeugen...</strong></li>
+<li><strong>VPN Einstellungen eintragen</strong> - natürlich mit eigenem Benutzernamen &amp; Passwort<br>
+<a href="../../assets/hsr/vpn/vpn_networkmanager_4.png" data-lightbox="vpn ubuntu" data-title="VPN Einstellungen"><img src="../../assets/hsr/vpn/vpn_networkmanager_4.png" alt="VPN Einstellungen" class="" style=""/></a>
+<br>
+Es sind keine erweiterten Einstellungen und Konfigurationen in anderen Tabs erforderlich.</li>
+<li>Speichern mit Klick auf <strong>Speichern</strong>. Der neue Eintrag erscheint nun in der Liste<br>
+<a href="../../assets/hsr/vpn/vpn_networkmanager_5.png" data-lightbox="vpn ubuntu" data-title="HSR-VPN in der Liste der VPNs"><img src="../../assets/hsr/vpn/vpn_networkmanager_5.png" alt="HSR-VPN in der Liste der VPNs" class="" style=""/></a></li>
+<li><strong>Verbindung über den Netzwerkindikatoren</strong> am oberen linken Bildschirmrand via <code>VPN-Verbindungen</code> + <code>HSR VPN</code> herstellen<br></li>
+</ol>
+
+<p><a href="../../assets/hsr/vpn/vpn_networkmanager_6.png" data-lightbox="vpn ubuntu" data-title="Verbindung über den Netzwerkindikatoren herstellen"><img src="../../assets/hsr/vpn/vpn_networkmanager_6.png" alt="Verbindung über den Netzwerkindikatoren herstellen" class="" style=""/></a>
+  <br>
+  <a href="../../assets/hsr/vpn/vpn_networkmanager_7.png" data-lightbox="vpn ubuntu" data-title="Verbindung wurde erfolgreich hergestellt"><img src="../../assets/hsr/vpn/vpn_networkmanager_7.png" alt="Verbindung wurde erfolgreich hergestellt" class="" style=""/></a></p>
+
+</div>
+
+<h2 id="vpn-unter-macos-einrichten" class="toggable">VPN unter macOS einrichten</h2>
+
+<div class="toggle-content">
+
+<ol>
+<li><strong>Öffne die Netzwerkeinstellungen</strong> und klicke unten links auf das <strong>Plus</strong><br>
+<a href="../../assets/hsr/vpn/mac_vpn1.png" data-lightbox="vpn mac" data-title="Netzwerkeinstellungen"><img src="../../assets/hsr/vpn/mac_vpn1.png" alt="Netzwerkeinstellungen" class="" style=""/></a></li>
+<li>Wähle <code>VPN</code>, <code>Cisco IPSec</code> und wähle einen Verbindungsnamen. Klicke anschliessend auf <strong>Erstellen</strong>.<br>
+<a href="../../assets/hsr/vpn/mac_vpn2.png" data-lightbox="vpn mac" data-title="VPN Einstellungen"><img src="../../assets/hsr/vpn/mac_vpn2.png" alt="VPN Einstellungen" class="" style=""/></a></li>
+<li>Gib rechts die <strong>Serverdaten</strong> ein - natürlich mit eigenem Benutzernamen. Das Passwort kann leer gelassen werden.<br>
+Klicke auf <strong>Authentifizierungseinstellungen</strong>.
+<a href="../../assets/hsr/vpn/mac_vpn3.png" data-lightbox="vpn mac" data-title="VPN Serverdaten"><img src="../../assets/hsr/vpn/mac_vpn3.png" alt="VPN Serverdaten" class="" style=""/></a></li>
+<li>Gib <code>hsrremote</code> als Schlüssel und Gruppenname ein<br>
+<a href="../../assets/hsr/vpn/mac_vpn4.png" data-lightbox="vpn mac" data-title="VPN Authentifizierungseinstellungen"><img src="../../assets/hsr/vpn/mac_vpn4.png" alt="VPN Authentifizierungseinstellungen" class="" style=""/></a></li>
+<li>Optional kannst du das Häckchen setzen bei <code>VPN in der Menüleiste anzeigen</code>. Damit erscheint ein praktisches <strong>Icon in der Statusbar</strong>, zum schnellen An- und Abmelden.<br>
+<a href="../../assets/hsr/vpn/mac_vpn5.png" data-lightbox="vpn mac" data-title="VPN: Hacken für Icon in der Statusbar"><img src="../../assets/hsr/vpn/mac_vpn5.png" alt="VPN: Hacken für Icon in der Statusbar" class="" style=""/></a><br>
+<a href="../../assets/hsr/vpn/mac_vpn6.png" data-lightbox="vpn mac" data-title="VPN Statusbar"><img src="../../assets/hsr/vpn/mac_vpn6.png" alt="VPN Statusbar" class="" style=""/></a></li>
+<li>Nun kannst du dich mit deinem <strong>HSR Login</strong> anmelden.<br>
+<a href="../../assets/hsr/vpn/mac_vpn7.png" data-lightbox="vpn mac" data-title="VPN Login"><img src="../../assets/hsr/vpn/mac_vpn7.png" alt="VPN Login" class="" style=""/></a><br></li>
+</ol>
+
+</div>
+
+<h2 id="vpn-einrichten-unter-anderen-linux-distributionen" class="toggable">VPN einrichten unter anderen Linux Distributionen</h2>
+
+<div class="toggle-content">
+
+<h3 id="arch-linux">Arch Linux</h3>
+
+<p>Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu. Als Abhängigkeit wird das Paket <code>networkmanager-vpnc</code> benötigt, welches sich im <code>extra</code> Repository befindet.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">pacman -S networkmanager-vpnc
+</code></pre></div>
+<h3 id="fedora">Fedora</h3>
+
+<p>Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu.
+Die Abhängigkeit (Paket <code>NetworkManager-vpnc</code>) sollte bereits vorinstalliert sein.</p>
+
+</div>
+
+      </article>
+
+    </section>
+  </main>
+
+  <aside id="sidebar">
+
+    
+<section>
+  <h1>Inhaltsverzeichnis</h1>
+
+  <ol class="toc"><li><a href="#technische-angaben">Technische Angaben</a></li><li><a href="#vpn-unter-ubuntu-einrichten" class="toggable">VPN unter Ubuntu einrichten</a></li><li><a href="#vpn-unter-macos-einrichten" class="toggable">VPN unter macOS einrichten</a></li><li><a href="#vpn-einrichten-unter-anderen-linux-distributionen" class="toggable">VPN einrichten unter anderen Linux Distributionen</a></li></ol>
+
+</section>
+
+
+    <div class="cross-references">
+      
+<section>
+  <h1>Programme</h1>
+  <ul>
+  
+    <li><a href="/app/backintime/">Back In Time</a></li>
+  
+    <li><a href="/app/masterpdfeditor/">Master PDF Editor</a></li>
+  
+    <li><a href="/app/thunderbird/">Thunderbird</a></li>
+  
+  </ul>
+</section>
+
+
+      
+<section>
+  <h1>Dokumentationen</h1>
+  <ul>
+  
+    <li><a href="/hsr/email/">E-Mail</a></li>
+  
+    <li><a href="/hsr/printing/">Drucken</a></li>
+  
+    <li><a href="/hsr/shares/">Netzwerkfreigaben</a></li>
+  
+    <li><a href="/hsr/vpn/">VPN</a></li>
+  
+    <li><a href="/hsr/wlan/">WLAN</a></li>
+  
+  </ul>
+</section>
+
+    </div>
+
+  </aside>
+</section>
+
+<footer id="footer">
+	<section class="sponsoring">
+		<h3>Unsere Sponsoren</h3>
+		<div>
+			<a href="https://banking.ametiq.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_banking.svg" alt="Logo Amétiq Banking" class="no-shadow" height="150px">
+			</a>
+			<a href="https://ametiqconnect.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_connect.svg" alt="Logo Amétiq Connect" class="no-shadow"  height="150px">
+			</a>
+			<a href="https://www.ametiq.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_medical.svg" alt="Logo Amétiq Medical" class="no-shadow"  height="150px">
+			</a>
+			<a href="http://www.calandacomp.ch/" target="_blank">
+				<img src="/assets/sponsoring/logo_calandacomp.svg" alt="Logo CalandaComp" class="no-shadow"  height="150px">
+			</a>
+			<a href="https://www.nine.ch/" target="_blank">
+				<img src="/assets/sponsoring/logo_nine.png" alt="Logo Nine.ch" class="no-shadow"  height="150px">
+			</a>
+		</div>
+	</section>
+	<section class="partnership">
+		<h3>Unsere Partner</h3>
+		<div>
+			<a href="https://coredump.ch" target="_blank">
+				<img src="/assets/partnership/logo_coredump.svg" alt="Logo Coredump" class="no-shadow" height="150px">
+			</a>
+		</div>
+	</section>
+	<section class="legal">
+		<p>
+			<strong>&copy; open\HSR, <time datetime="2018-06-15">15.06.2018</time></strong>.
+			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
+		</p>
+	</section>
+</footer>
+
+<!--JS includes -->
+<script src="/assets/jquery/jquery-2.2.2.min.js"></script>
+<script src="/assets/lightbox/js/lightbox.min.js"></script>
+<script src="/js/script.js"></script>
+<noscript><p><img src="//piwik.fh2.ch/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
+
+
+    </div>
+    <div id="scroll-top"></div>
+  </body>
+</html>

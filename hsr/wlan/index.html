@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="open\HSR">
+  <meta name="description" content="Technische Angaben">
+
+  <title>WLAN</title>
+
+  <link rel="canonical" href="https://www.openhsr.ch/hsr/wlan/">
+  <link rel="icon" href="/assets/logo_w75.png" type="image/png">
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/lightbox/css/lightbox.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link href="/assets/fonts/fonts.css" rel="stylesheet" type="text/css">
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["setDomains", ["*.www.openhsr.ch"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//piwik.fh2.ch/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 8]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+</head>
+
+
+  <body id="top">
+    <div class="wrapper">
+      <header id="header">
+  <div id="logo">
+    <a href="/"><img src="/assets/logo_w75.png" alt="Logo open\HSR"></a>
+  </div>
+  <div id="hamburger" class="toggable toggle-closed">
+    <i class="fa fa-bars"></i>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+        
+          
+        
+          
+            <li>
+              <a href="/app/">Programme</a>
+              
+                      <ul>
+                      <li><a href="/app/">Übersicht</a></li>
+                  
+                         <li><a href="/app/backintime/">Back In Time</a></li>
+                  
+                         <li><a href="/app/masterpdfeditor/">Master PDF Editor</a></li>
+                  
+                         <li><a href="/app/thunderbird/">Thunderbird</a></li>
+                  
+                      </ul>
+              
+              
+              
+            </li>
+          
+        
+          
+            <li>
+              <a href="/community/">Community</a>
+              
+              
+              
+                <ul>
+                  
+                    
+                  
+                    
+                  
+                    
+                      <li><a href="/community/">Verein &amp; Community</a></li>
+                    
+                  
+                    
+                      <li><a href="/faq/">Häufig gestellte Fragen (FAQ)</a></li>
+                    
+                  
+                    
+                      <li><a href="/hilfe/">Hilfe</a></li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              
+            </li>
+          
+        
+          
+        
+          
+        
+          
+            <li>
+              <a href="/hsr/">Dokumentationen</a>
+              
+              
+                      <ul>
+                       <li><a href="/hsr/">Überlebensguide</a></li>
+                  
+                      <li><a href="/hsr/email/">E-Mail</a></li>
+                  
+                      <li><a href="/hsr/printing/">Drucken</a></li>
+                  
+                      <li><a href="/hsr/shares/">Netzwerkfreigaben</a></li>
+                  
+                      <li><a href="/hsr/vpn/">VPN</a></li>
+                  
+                      <li><a class="active" href="/hsr/wlan/">WLAN</a></li>
+                  
+                      </ul>
+              
+              
+            </li>
+          
+        
+          
+            <li>
+              <a href="/tipps/">Tipps &amp; Tricks</a>
+              
+              
+              
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+    </ul>
+  </nav>
+  <div class="social">
+    <a href="/hilfe/" title="Hilfe"><i class="fa fa-comments"></i></a>
+    <a href="https://twitter.com/openhsr" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a href="mailto:info@openhsr.ch" title="E-Mail"><i class="fa fa-envelope"></i></a>
+    <a href="https://github.com/openhsr" title="Github"><i class="fa fa-github"></i></a>
+  </div>
+</header>
+
+
+<section id="content">
+  <main role="main" class="wiki-content">
+    <section>
+      <h1>WLAN</h1>
+      <article>
+        <h2 id="technische-angaben">Technische Angaben</h2>
+
+<table>
+<thead>
+<tr>
+<th>Einstellung</th>
+<th>Wert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SSID</td>
+<td><code>HSR-Secure</code></td>
+</tr>
+<tr>
+<td>Security</td>
+<td><code>WPA &amp; WPA2 Enterprise</code></td>
+</tr>
+<tr>
+<td>Authentication</td>
+<td><code>Protected EAP (PEAP)</code></td>
+</tr>
+<tr>
+<td>PEAP version</td>
+<td><code>Automatic</code></td>
+</tr>
+<tr>
+<td>Inner authentication</td>
+<td><code>MSCHAPv2</code></td>
+</tr>
+<tr>
+<td>Username</td>
+<td><code>mmuster</code></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><code>GeHeim007</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="wlan-unter-ubuntu-einrichten" class="toggable">WLAN unter Ubuntu einrichten</h2>
+
+<div class="toggle-content">
+
+<ol>
+<li><p><strong>Netzwerk auswählen</strong><br>
+Wähle unter den verfügbaren Wifi-Netzwerken <code>HSR-Secure</code> aus.
+<a href="../../assets/hsr/wlan/wlan_select-ssid.png" data-lightbox="wlan ubuntu" data-title="Auswählen des WLAN-Netzwerkes"><img src="../../assets/hsr/wlan/wlan_select-ssid.png" alt="Wifi-Netzwerk HSR-Secure" class="" style=""></a></p></li>
+<li>
+<p><strong>Wifi Netzwerk Authentifikation</strong><br></p>
+
+<p>Wähle folgende Einstellungen für die Authentifikation des Netzwerkes:
+<a href="../../assets/hsr/wlan/wlan_authentication.png" data-lightbox="wlan ubuntu" data-title="Einstellungen Authentication"><img src="../../assets/hsr/wlan/wlan_authentication.png" alt="Wifi-Netzwerk HSR-Secure Authentifikation" class="" style=""></a></p>
+</li>
+<li><p>Die Meldung des fehlenden Zertifikates kann ignoriert werden.</p></li>
+<li><p>Du bist nun verbunden! <img class="emoji" title=":tada:" alt=":tada:" src="/assets/emoji/unicode/1f389.png" height="20" width="20" align="absmiddle">
+<a href="../../assets/hsr/wlan/wlan_connected.png" data-lightbox="wlan ubuntu" data-title="Erfolgreich verbunden"><img src="../../assets/hsr/wlan/wlan_connected.png" alt="Wifi-Netzwerk HSR-Secure Connected" class="" style=""></a></p></li>
+</ol>
+
+</div>
+
+<h2 id="bug-in-linux-mint" class="toggable">Bug in Linux Mint</h2>
+
+<div class="toggle-content">
+
+<p>Die oben beschriebene Vorgehensweise in Kombination mit der Sicherheitsstufe "WPA &amp; WPA2 Enterprise" funktioniert unter Linux Mint nicht: Es erscheint keine Abfrage, um die nötigen Informationen wie Sicherheitsstufe, Username und Passwort einzugeben. Lösung: In ein verborgenes Netzwerk einwählen (Hidden Network). </p>
+
+<ol>
+<li>
+<p>Im Startmenü "Netzwerk" eingeben, der Netzwerk-Manager erscheint:</p>
+
+<p><a href="../../assets/hsr/wlan/lm_networkmanager.png" data-lightbox="wlan lm" data-title="Network Manager von Linux Mint"><img src="../../assets/hsr/wlan/lm_networkmanager.png" alt="Network Manager Linux Mint" class="" style=""></a></p>
+</li>
+<li><p>Klicke auf <code>Mit einem verborgenem Netzwerk verbinden</code>. Wähle im Dropdown-Menü von <code>Security</code> die Sicherheitsstufe "WPA &amp; WPA2 Enterprise" aus. </p></li>
+<li>
+<p>Einstellungen für die Netzwerk-Authentifikation, Reiter "Wi-Fi": Schreibe unter SSID den Namen des Netzwerkes, mit dem du dich verbinden willst, also <code>HSR-Secure</code>.<br> Reiter "Wifi-Security": Hier folgen alle weiteren Angaben wie in der Anleitung oben, nach Schritt 2.</p>
+
+<p><a href="../../assets/hsr/wlan/lm_hiddennetwork.png" data-lightbox="wlan lm" data-title="Hidden Network: HSR-Secure"><img src="../../assets/hsr/wlan/lm_hiddennetwork.png" alt="Hidden Network HSR-Secure" class="" style=""></a></p>
+</li>
+</ol>
+
+</div>
+
+      </article>
+
+    </section>
+  </main>
+
+  <aside id="sidebar">
+
+    
+<section>
+  <h1>Inhaltsverzeichnis</h1>
+
+  <ol class="toc">
+<li><a href="#technische-angaben">Technische Angaben</a></li>
+<li><a href="#wlan-unter-ubuntu-einrichten" class="toggable">WLAN unter Ubuntu einrichten</a></li>
+<li><a href="#bug-in-linux-mint" class="toggable">Bug in Linux Mint</a></li>
+</ol>
+
+</section>
+
+
+    <div class="cross-references">
+      
+<section>
+  <h1>Programme</h1>
+  <ul>
+  
+    <li><a href="/app/backintime/">Back In Time</a></li>
+  
+    <li><a href="/app/masterpdfeditor/">Master PDF Editor</a></li>
+  
+    <li><a href="/app/thunderbird/">Thunderbird</a></li>
+  
+  </ul>
+</section>
+
+
+      
+<section>
+  <h1>Dokumentationen</h1>
+  <ul>
+  
+    <li><a href="/hsr/email/">E-Mail</a></li>
+  
+    <li><a href="/hsr/printing/">Drucken</a></li>
+  
+    <li><a href="/hsr/shares/">Netzwerkfreigaben</a></li>
+  
+    <li><a href="/hsr/vpn/">VPN</a></li>
+  
+    <li><a href="/hsr/wlan/">WLAN</a></li>
+  
+  </ul>
+</section>
+
+    </div>
+
+  </aside>
+</section>
+
+<footer id="footer">
+	<section class="sponsoring">
+		<h3>Unsere Sponsoren</h3>
+		<div>
+			<a href="https://banking.ametiq.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_banking.svg" alt="Logo Amétiq Banking" class="no-shadow" height="150px">
+			</a>
+			<a href="https://ametiqconnect.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_connect.svg" alt="Logo Amétiq Connect" class="no-shadow" height="150px">
+			</a>
+			<a href="https://www.ametiq.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_medical.svg" alt="Logo Amétiq Medical" class="no-shadow" height="150px">
+			</a>
+			<a href="http://www.calandacomp.ch/" target="_blank">
+				<img src="/assets/sponsoring/logo_calandacomp.svg" alt="Logo CalandaComp" class="no-shadow" height="150px">
+			</a>
+			<a href="https://www.nine.ch/" target="_blank">
+				<img src="/assets/sponsoring/logo_nine.png" alt="Logo Nine.ch" class="no-shadow" height="150px">
+			</a>
+		</div>
+	</section>
+	<section class="partnership">
+		<h3>Unsere Partner</h3>
+		<div>
+			<a href="https://coredump.ch" target="_blank">
+				<img src="/assets/partnership/logo_coredump.svg" alt="Logo Coredump" class="no-shadow" height="150px">
+			</a>
+		</div>
+	</section>
+	<section class="legal">
+		<p>
+			<strong>© open\HSR, <time datetime="2018-06-15">15.06.2018</time></strong>.
+			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
+		</p>
+	</section>
+</footer>
+
+<!--JS includes -->
+<script src="/assets/jquery/jquery-2.2.2.min.js"></script>
+<script src="/assets/lightbox/js/lightbox.min.js"></script>
+<script src="/js/script.js"></script>
+<noscript><p><img src="//piwik.fh2.ch/piwik.php?idsite=8" style="border:0;" alt=""></p></noscript>
+
+
+    </div>
+    <div id="scroll-top"></div>
+  </body>
+</html>

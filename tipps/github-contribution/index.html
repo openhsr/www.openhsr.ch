@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="open\HSR">
+  <meta name="description" content="Bei einer Contribution in ein öffentliches Github Projekt, gibt es einige Punkte zu beachten. Diese möchten wir die hier zeigen:">
+
+  <title>Github Contribution</title>
+
+  <link rel="canonical" href="https://www.openhsr.ch/tipps/github-contribution/">
+  <link rel="icon" href="/assets/logo_w75.png" type="image/png">
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/lightbox/css/lightbox.min.css" >
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link href='/assets/fonts/fonts.css' rel='stylesheet' type='text/css'>
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["setDomains", ["*.www.openhsr.ch"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//piwik.fh2.ch/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 8]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+</head>
+
+
+  <body id="top">
+    <div class="wrapper">
+      <header id="header">
+  <div id="logo">
+    <a href="/"><img src="/assets/logo_w75.png" alt="Logo open\HSR"></a>
+  </div>
+  <div id="hamburger" class="toggable toggle-closed">
+    <i class="fa fa-bars"></i>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+        
+          
+        
+          
+            <li  >
+              <a href="/app/">Programme</a>
+              
+                      <ul>
+                      <li><a href="/app/">Übersicht</a></li>
+                  
+                         <li><a href="/app/backintime/">Back In Time</a></li>
+                  
+                         <li><a href="/app/masterpdfeditor/">Master PDF Editor</a></li>
+                  
+                         <li><a href="/app/thunderbird/">Thunderbird</a></li>
+                  
+                      </ul>
+              
+              
+              
+            </li>
+          
+        
+          
+            <li  >
+              <a href="/community/">Community</a>
+              
+              
+              
+                <ul>
+                  
+                    
+                  
+                    
+                  
+                    
+                      <li><a href="/community/">Verein & Community</a></li>
+                    
+                  
+                    
+                      <li><a href="/faq/">Häufig gestellte Fragen (FAQ)</a></li>
+                    
+                  
+                    
+                      <li><a href="/hilfe/">Hilfe</a></li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              
+            </li>
+          
+        
+          
+        
+          
+        
+          
+            <li  >
+              <a href="/hsr/">Dokumentationen</a>
+              
+              
+                      <ul>
+                       <li><a href="/hsr/">Überlebensguide</a></li>
+                  
+                      <li><a href="/hsr/email/">E-Mail</a></li>
+                  
+                      <li><a href="/hsr/printing/">Drucken</a></li>
+                  
+                      <li><a href="/hsr/shares/">Netzwerkfreigaben</a></li>
+                  
+                      <li><a href="/hsr/vpn/">VPN</a></li>
+                  
+                      <li><a href="/hsr/wlan/">WLAN</a></li>
+                  
+                      </ul>
+              
+              
+            </li>
+          
+        
+          
+            <li  >
+              <a href="/tipps/">Tipps &amp; Tricks</a>
+              
+              
+              
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+    </ul>
+  </nav>
+  <div class="social">
+    <a href="/hilfe/" title="Hilfe"><i class="fa fa-comments"></i></a>
+    <a href="https://twitter.com/openhsr" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a href="mailto:info@openhsr.ch" title="E-Mail"><i class="fa fa-envelope"></i></a>
+    <a href="https://github.com/openhsr" title="Github"><i class="fa fa-github"></i></a>
+  </div>
+</header>
+
+
+<section id="content">
+  <main role="main">
+    <section>
+      <h1>Github Contribution</h1>
+      <article>
+        <p>Bei einer Contribution in ein öffentliches Github Projekt, gibt es einige Punkte zu beachten. Diese möchten wir die hier zeigen:</p>
+
+<h2 id="projektwahl">Projektwahl</h2>
+
+<ol>
+<li><p>Wähle ein Projekt, dass dein Interesse geweckt hat. Bist du noch auf der Suche, würden sich viele interessante <a href="https://github.com/explore">Open Source Projekte</a> über deine Mithilfe freuen.</p>
+
+<ul>
+<li>Durchsuche zuerst den Issue Tracker, ob dein Problem/Anforderung/Erweiterung bereits existiert oder sogar bereits daran gearbeitet wird.</li>
+<li>Suche nach Labels wie <code>help wanted</code>, <code>easy fix</code> oder <code>up for grabs</code></li>
+<li>Erstelle ein neues Issue, damit die Maintainer des Repository von deinem Vorhaben Bescheid wissen.</li>
+</ul></li>
+<li><p>Kläre vor jeder Contribution folgende Dinge ab:</p>
+
+<ul>
+<li>Prüfe die Software Lizenz</li>
+<li>Lebt das Projekt noch, oder arbeitest du für die Tonne?</li>
+</ul></li>
+<li><p>Lese die Anleitungen und Richtlinien für eine Contribution in dem Projekt</p>
+
+<ul>
+<li>Typischerweise gibt es Dokumente (<code>CONTRIBUTING.md</code>, <code>CONTRIBUTE.md</code>, <code>CONVENTIONS.md</code> oder ein Abschnitt in der <code>README.md</code>), wo die Maintainer beschreiben wie man Vorgehen möchte.</li>
+<li>Die Richtlinien sollten in jedem Fall beachtet werden!</li>
+</ul></li>
+</ol>
+
+<h2 id="forken-und-entwickeln">Forken und Entwickeln</h2>
+
+<ol>
+<li><p>Erstelle einen Fork des Projekts</p>
+
+<p><a href="../../assets/tipps/github_contribution/step1_fork.png" data-lightbox="github contribution" data-title="Github Fork erstellen"><img src="../../assets/tipps/github_contribution/step1_fork.png" alt="" class="" style=""/></a></p></li>
+<li><p>Klone das geforkte Projekt auf dein Notebook</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone &lt;fork_repo_url&gt; .
+<span class="gp">$ </span><span class="nb">cd</span> &lt;fork_repo_dir&gt;
+</code></pre></div></li>
+<li><p>Erstelle ein <code>upstream</code> Repository welches auf das orginal Repository der Maintainer zeigt:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git remote add upstream &lt;original_repo_url&gt; .
+</code></pre></div></li>
+<li><p>Erstelle einen neuen Branch um deine Änderungen zu entwickeln:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git checkout -b &lt;branch_name&gt;
+</code></pre></div></li>
+<li><p>Achte beim Umsetzen deiner Anpassung auf folgende Punkte:</p>
+
+<ul>
+<li>Lege deinen Fokus auf genau eine Funktion</li>
+<li>Mache sinnvolle Commits mit guten Beschreibungen</li>
+<li>Entwickle weitere Features in separaten Branches</li>
+<li>Hole die Änderungen vom <code>upstream</code> regelmässig in deinen Fork. Wie dies funktioniert, kannst du <a href="/tipps/sync-fork/">in folgendem Beitrag</a> nachlesen. Ein Sync sollte mindestens vor jedem <code>push</code> durchgeführt werden.</li>
+</ul></li>
+<li><p>Bevor der finale Pull Request erstellt wird, sollten folgende Punkte geprüft werden:</p>
+
+<ul>
+<li>Laufen alle Tests durch?</li>
+<li>Müssen eigene Tests geschrieben werden?</li>
+<li>Funktioniert noch alles wie erwartet und sind alle Rechtschreibfehler beseitigt?</li>
+</ul></li>
+<li><p>Pushe deine Änderungen in deinen Fork</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git push origin &lt;branch-name&gt;
+</code></pre></div></li>
+</ol>
+
+<h2 id="pull-request">Pull Request</h2>
+
+<ol>
+<li><p>Öffne das geforkte Repository in deinem Browser. Über den grossen, grünen Button kannst du nun einen Pull Request erstellen.
+<a href="../../assets/tipps/github_contribution/step2_pull_request.png" data-lightbox="github contribution" data-title="Github Pull Request erstellen"><img src="../../assets/tipps/github_contribution/step2_pull_request.png" alt="" class="" style=""/></a></p></li>
+<li><p>Füge dem Pull Request eine ausführliche Beschreibung mit Referenzen und Beweggründen hinzu.</p></li>
+<li><p>Warte auf Feedback, ob dein Pull Request noch einigen Anpassungen bedarf. Allfällige Änderungen werden wieder in deinem Fork entwickelt.</p>
+
+<ul>
+<li>Hole dazu wieder den aktuellen Stand vom <code>upstream</code> Repository des Maintainer. Wie dies funktioniert wird wie bereits erwähnt, <a href="/tipps/sync-fork/">in folgendem Beitrag</a> beschrieben.</li>
+<li>Nachdem die Anpassungen gemacht sind, können die Änderungen wieder in den Fork gepusht werden. Der Pull Request wird automatisch mit den neuen Commits aktualisiert.
+<code>
+$ git push orign &lt;branch_name&gt;
+</code></li>
+</ul></li>
+<li><p>Gratuliere, du konntest deine erste Contribution erfolgreich anbringen. Es empfiehlt sich nun, seine Fork noch aufzuräumen:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git branch -D &lt;branch_name&gt;
+<span class="gp">$ </span>git push origin --delete &lt;branch_name&gt;
+</code></pre></div></li>
+</ol>
+
+      </article>
+
+    </section>
+  </main>
+</section>
+
+<footer id="footer">
+	<section class="sponsoring">
+		<h3>Unsere Sponsoren</h3>
+		<div>
+			<a href="https://banking.ametiq.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_banking.svg" alt="Logo Amétiq Banking" class="no-shadow" height="150px">
+			</a>
+			<a href="https://ametiqconnect.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_connect.svg" alt="Logo Amétiq Connect" class="no-shadow"  height="150px">
+			</a>
+			<a href="https://www.ametiq.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_medical.svg" alt="Logo Amétiq Medical" class="no-shadow"  height="150px">
+			</a>
+			<a href="http://www.calandacomp.ch/" target="_blank">
+				<img src="/assets/sponsoring/logo_calandacomp.svg" alt="Logo CalandaComp" class="no-shadow"  height="150px">
+			</a>
+			<a href="https://www.nine.ch/" target="_blank">
+				<img src="/assets/sponsoring/logo_nine.png" alt="Logo Nine.ch" class="no-shadow"  height="150px">
+			</a>
+		</div>
+	</section>
+	<section class="partnership">
+		<h3>Unsere Partner</h3>
+		<div>
+			<a href="https://coredump.ch" target="_blank">
+				<img src="/assets/partnership/logo_coredump.svg" alt="Logo Coredump" class="no-shadow" height="150px">
+			</a>
+		</div>
+	</section>
+	<section class="legal">
+		<p>
+			<strong>&copy; open\HSR, <time datetime="2018-06-15">15.06.2018</time></strong>.
+			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
+		</p>
+	</section>
+</footer>
+
+<!--JS includes -->
+<script src="/assets/jquery/jquery-2.2.2.min.js"></script>
+<script src="/assets/lightbox/js/lightbox.min.js"></script>
+<script src="/js/script.js"></script>
+<noscript><p><img src="//piwik.fh2.ch/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
+
+
+    </div>
+    <div id="scroll-top"></div>
+  </body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="open\HSR">
+  <meta name="description" content="Back In Time ist eine Backup Software für Linux, basierend auf rsync.Ihr grösster Vorteil gegenüber dem vorinstallierten Déjà Dup ist, dass Snapshots erstell...">
+
+  <title>Back In Time</title>
+
+  <link rel="canonical" href="https://www.openhsr.ch/app/backintime/">
+  <link rel="icon" href="/assets/logo_w75.png" type="image/png">
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/lightbox/css/lightbox.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link href="/assets/fonts/fonts.css" rel="stylesheet" type="text/css">
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["setDomains", ["*.www.openhsr.ch"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//piwik.fh2.ch/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 8]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+</head>
+
+
+  <body id="top">
+    <div class="wrapper">
+      <header id="header">
+  <div id="logo">
+    <a href="/"><img src="/assets/logo_w75.png" alt="Logo open\HSR"></a>
+  </div>
+  <div id="hamburger" class="toggable toggle-closed">
+    <i class="fa fa-bars"></i>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+        
+          
+        
+          
+            <li>
+              <a href="/app/">Programme</a>
+              
+                      <ul>
+                      <li><a href="/app/">Übersicht</a></li>
+                  
+                         <li><a class="active" href="/app/backintime/">Back In Time</a></li>
+                  
+                         <li><a href="/app/masterpdfeditor/">Master PDF Editor</a></li>
+                  
+                         <li><a href="/app/thunderbird/">Thunderbird</a></li>
+                  
+                      </ul>
+              
+              
+              
+            </li>
+          
+        
+          
+            <li>
+              <a href="/community/">Community</a>
+              
+              
+              
+                <ul>
+                  
+                    
+                  
+                    
+                  
+                    
+                      <li><a href="/community/">Verein &amp; Community</a></li>
+                    
+                  
+                    
+                      <li><a href="/faq/">Häufig gestellte Fragen (FAQ)</a></li>
+                    
+                  
+                    
+                      <li><a href="/hilfe/">Hilfe</a></li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              
+            </li>
+          
+        
+          
+        
+          
+        
+          
+            <li>
+              <a href="/hsr/">Dokumentationen</a>
+              
+              
+                      <ul>
+                       <li><a href="/hsr/">Überlebensguide</a></li>
+                  
+                      <li><a href="/hsr/email/">E-Mail</a></li>
+                  
+                      <li><a href="/hsr/printing/">Drucken</a></li>
+                  
+                      <li><a href="/hsr/shares/">Netzwerkfreigaben</a></li>
+                  
+                      <li><a href="/hsr/vpn/">VPN</a></li>
+                  
+                      <li><a href="/hsr/wlan/">WLAN</a></li>
+                  
+                      </ul>
+              
+              
+            </li>
+          
+        
+          
+            <li>
+              <a href="/tipps/">Tipps &amp; Tricks</a>
+              
+              
+              
+            </li>
+          
+        
+          
+        
+          
+        
+          
+        
+    </ul>
+  </nav>
+  <div class="social">
+    <a href="/hilfe/" title="Hilfe"><i class="fa fa-comments"></i></a>
+    <a href="https://twitter.com/openhsr" title="Twitter"><i class="fa fa-twitter"></i></a>
+    <a href="mailto:info@openhsr.ch" title="E-Mail"><i class="fa fa-envelope"></i></a>
+    <a href="https://github.com/openhsr" title="Github"><i class="fa fa-github"></i></a>
+  </div>
+</header>
+
+
+<section id="content">
+  <main role="main" class="wiki-content">
+    <section>
+      <h1>Back In Time</h1>
+      <article>
+        <p>Back In Time ist eine Backup Software für Linux, basierend auf <a href="https://wiki.ubuntuusers.de/rsync/">rsync</a>.
+Ihr grösster Vorteil gegenüber dem vorinstallierten <a href="https://wiki.ubuntuusers.de/D%C3%A9j%C3%A0_Dup/">Déjà Dup</a> ist, dass Snapshots erstellt werden können.
+Ein Snapshot erlaubt es dir, den Stand eines Ordners zu einem bestimmten Datum wiederherzustellen.</p>
+
+<p>Da Back In Time einige Vorteile bietet, empfehlen wir Back In Time.</p>
+
+<h2 id="installation" class="toggable">Installation</h2>
+
+<div class="toggle-content">
+
+<ol>
+<li>
+<strong>Benötigte Abhängigkeiten installieren</strong><br>
+Bevor du loslegen kannst, musst du das Paket <code>backintime-gnome</code> installieren.
+<a href="http://apt.ubuntu.com/p/backintime-gnome">Jetzt installieren</a>
+</li>
+</ol>
+
+</div>
+
+<h2 id="konfiguration" class="toggable">Konfiguration</h2>
+
+<div class="toggle-content">
+
+<ol>
+<li>Beim ersten Starten von Back In Time erscheint ein Konfigurations-Dialog, bei welchem du eine bereits existierende Konfiguration wiederherstellen kanst. Da dies wahrscheinlich nicht der Fall ist, kannst du den Dialog mit "Nein/No" schliessen. Es erscheint ein weiterer Dialog in dem du alle wichtigen Parameter einstellen kannst.
+<a href="../../assets/app/backintime/step1.png" data-lightbox="backintime configuration" data-title="Initialer Konfigurations Dialog"><img src="../../assets/app/backintime/step1.png" alt="" class="" style=""></a>
+</li>
+<li><p>Im Reiter "Allgemein/General" spezifizierst du den Speicherort, wo du dein Backup erstellen möchtest. Hier wählst du am besten einen Ordner auf einer externen Festplatte aus. Zusätzlich kann hier festgelegt werden, wann das Backup normalerweise durchgeführt werden soll. Es wird empfohlen das Backup zu verschlüsseln und mit einem starken Passwort zu schützen. Dazu wählst du den Modus "Lokal verschlüsselt".
+<a href="../../assets/app/backintime/step2.png" data-lightbox="backintime configuration" data-title="Initialer Konfigurations Dialog"><img src="../../assets/app/backintime/step2.png" alt="" class="" style=""></a></p></li>
+<li><p>Im Reiter "Hinzufügen/Include" kannst du alle Ordner auswählen die du gerne sichern möchtest. Gleiches gilt für einzelne Ordner, die du gerne aus dem Backup exkludieren möchtest.
+<a href="../../assets/app/backintime/step3.png" data-lightbox="backintime configuration" data-title="Initialer Konfigurations Dialog"><img src="../../assets/app/backintime/step3.png" alt="" class="" style=""></a></p></li>
+<li><p>Mit "OK" kann der Dialog quittiert werden. Dein Backup ist eingerichtet und funktionsbereit.</p></li>
+</ol>
+
+</div>
+
+<h2 id="sichern" class="toggable">Sichern</h2>
+
+<div class="toggle-content">
+
+<p>Es gibt zwei Varianten, wie eine Sicherung durchgeführt werden kann:</p>
+
+<ol>
+<li>Manuell über die Schaltfläche "Snapshot erstellen"</li>
+<li>Automatisch zu einer bestimmten Zeit mittels konfiguriertem Cron Job. Die automatische Variante hast du bei der Konfiguration festgelegt.</li>
+</ol>
+
+<p><a href="../../assets/app/backintime/step4.png" data-lightbox="backintime save" data-title="Initialer Konfigurations Dialog"><img src="../../assets/app/backintime/step4.png" alt="" class="" style=""></a></p>
+
+</div>
+
+<h2 id="wiederherstellen" class="toggable">Wiederherstellen</h2>
+
+<div class="toggle-content">
+
+<p>Spätestens jetzt bist du froh ein Backup eingerichtet zu haben <img class="emoji" title=":smiley:" alt=":smiley:" src="/assets/emoji/unicode/1f603.png" height="20" width="20" align="absmiddle"><br>
+Das Wiederherstellen verlorener oder veränderter Datein geht zum Glück einfach von der Hand.</p>
+
+<ol>
+<li>Snapshot in der Zeitleiste auswählen</li>
+<li>Über die Schaltfläche "Wiederherstellen" wird die Datei in das ursprüngliche Verzeichnis kopiert.</li>
+<li>Vorhandene Dateien erhalten einen neuen Dateinamen "Originaldateiname.backup.datum", um zu vermeiden, dass eine bestehende Datei überschrieben wird.</li>
+</ol>
+
+<p><a href="../../assets/app/backintime/step5.png" data-lightbox="backintime rescue" data-title="Initialer Konfigurations Dialog"><img src="../../assets/app/backintime/step5.png" alt="" class="" style=""></a></p>
+
+</div>
+
+<h2 id="links" class="toggable">Links</h2>
+
+<div class="toggle-content">
+
+<ul>
+<li><a href="http://backintime.le-web.org/">Offizielle Webseite</a></li>
+<li><a href="https://wiki.ubuntuusers.de/Back_In_Time/">Back In Time im ubuntuusers-Wiki</a></li>
+</ul>
+
+</div>
+
+      </article>
+
+    </section>
+  </main>
+
+  <aside id="sidebar">
+
+    
+<section>
+  <h1>Inhaltsverzeichnis</h1>
+
+  <ol class="toc">
+<li><a href="#installation" class="toggable">Installation</a></li>
+<li><a href="#konfiguration" class="toggable">Konfiguration</a></li>
+<li><a href="#sichern" class="toggable">Sichern</a></li>
+<li><a href="#wiederherstellen" class="toggable">Wiederherstellen</a></li>
+<li><a href="#links" class="toggable">Links</a></li>
+</ol>
+
+</section>
+
+
+    <div class="cross-references">
+      
+<section>
+  <h1>Programme</h1>
+  <ul>
+  
+    <li><a href="/app/backintime/">Back In Time</a></li>
+  
+    <li><a href="/app/masterpdfeditor/">Master PDF Editor</a></li>
+  
+    <li><a href="/app/thunderbird/">Thunderbird</a></li>
+  
+  </ul>
+</section>
+
+
+      
+<section>
+  <h1>Dokumentationen</h1>
+  <ul>
+  
+    <li><a href="/hsr/email/">E-Mail</a></li>
+  
+    <li><a href="/hsr/printing/">Drucken</a></li>
+  
+    <li><a href="/hsr/shares/">Netzwerkfreigaben</a></li>
+  
+    <li><a href="/hsr/vpn/">VPN</a></li>
+  
+    <li><a href="/hsr/wlan/">WLAN</a></li>
+  
+  </ul>
+</section>
+
+    </div>
+
+  </aside>
+</section>
+
+<footer id="footer">
+	<section class="sponsoring">
+		<h3>Unsere Sponsoren</h3>
+		<div>
+			<a href="https://banking.ametiq.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_banking.svg" alt="Logo Amétiq Banking" class="no-shadow" height="150px">
+			</a>
+			<a href="https://ametiqconnect.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_connect.svg" alt="Logo Amétiq Connect" class="no-shadow" height="150px">
+			</a>
+			<a href="https://www.ametiq.com/" target="_blank">
+				<img src="/assets/sponsoring/logo_ametiq_medical.svg" alt="Logo Amétiq Medical" class="no-shadow" height="150px">
+			</a>
+			<a href="http://www.calandacomp.ch/" target="_blank">
+				<img src="/assets/sponsoring/logo_calandacomp.svg" alt="Logo CalandaComp" class="no-shadow" height="150px">
+			</a>
+			<a href="https://www.nine.ch/" target="_blank">
+				<img src="/assets/sponsoring/logo_nine.png" alt="Logo Nine.ch" class="no-shadow" height="150px">
+			</a>
+		</div>
+	</section>
+	<section class="partnership">
+		<h3>Unsere Partner</h3>
+		<div>
+			<a href="https://coredump.ch" target="_blank">
+				<img src="/assets/partnership/logo_coredump.svg" alt="Logo Coredump" class="no-shadow" height="150px">
+			</a>
+		</div>
+	</section>
+	<section class="legal">
+		<p>
+			<strong>© open\HSR, <time datetime="2018-06-15">15.06.2018</time></strong>.
+			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
+		</p>
+	</section>
+</footer>
+
+<!--JS includes -->
+<script src="/assets/jquery/jquery-2.2.2.min.js"></script>
+<script src="/assets/lightbox/js/lightbox.min.js"></script>
+<script src="/js/script.js"></script>
+<noscript><p><img src="//piwik.fh2.ch/piwik.php?idsite=8" style="border:0;" alt=""></p></noscript>
+
+
+    </div>
+    <div id="scroll-top"></div>
+  </body>
+</html>
