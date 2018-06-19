@@ -11,9 +11,6 @@ exclude:
     - deploy.sh
     - wercker.yml
 
-include:
-    - '.htaccess'
-
 host: 0.0.0.0
 
 markdown: redcarpet
@@ -23,6 +20,7 @@ redcarpet:
 
 gems:
   - jemoji
+  - jekyll-redirect-from
 
 emoji:
   src: "/assets"
