@@ -8,8 +8,13 @@ url: "https://www.openhsr.ch/" # the base hostname & protocol for your site
 exclude:
     - docker/
     - Makefile
+    - Gemfile
+    - Gemfile.lock
     - deploy.sh
     - wercker.yml
+    - vendor
+    - .bundle
+    - tmp
 
 host: 0.0.0.0
 
@@ -18,7 +23,7 @@ highlighter: rouge
 redcarpet:
   extensions: ["fenced_code_blocks", "tables", "with_toc_data"]
 
-gems:
+plugins:
   - jemoji
   - jekyll-redirect-from
 
