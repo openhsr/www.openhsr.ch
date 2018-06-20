@@ -4,6 +4,7 @@ services:
 script:
   - mkdir _site/
   - chmod 777 _site/
+  - sudo chown 1000 -R $PWD
   - make buildimage build
 
 deploy:
