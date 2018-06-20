@@ -2,7 +2,6 @@
 <html lang="de">
 
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +13,10 @@
   <link rel="canonical" href="https://www.openhsr.ch/hsr/shares/">
   <link rel="icon" href="/assets/logo_w75.png" type="image/png">
   <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/assets/lightbox/css/lightbox.min.css">
+  <link rel="stylesheet" href="/assets/lightbox/css/lightbox.min.css" >
   <link rel="stylesheet" href="/css/main.css">
 
-  <link href="/assets/fonts/fonts.css" rel="stylesheet" type="text/css">
+  <link href='/assets/fonts/fonts.css' rel='stylesheet' type='text/css'>
   <!-- Piwik -->
   <script type="text/javascript">
     var _paq = _paq || [];
@@ -239,7 +238,7 @@ Bestätige mit <code>Verbinden</code>
 <a href="../../assets/hsr/networkshares/ubuntu_networkshares_3.png" data-lightbox="netzwerkfreigabe-ubuntu" data-title="Benutzerdaten angeben"><img src="../../assets/hsr/networkshares/ubuntu_networkshares_3.png" alt="Benutzerdaten angeben" class="" style=""></a>
 Bestätige mit <code>Verbinden</code>
 </li>
-<li>Du bist nun Verbunden! <img class="emoji" title=":tada:" alt=":tada:" src="/assets/emoji/unicode/1f389.png" height="20" width="20" align="absmiddle">
+<li>Du bist nun Verbunden! <img class="emoji" title=":tada:" alt=":tada:" src="/assets/emoji/unicode/1f389.png" height="20" width="20">
 <a href="../../assets/hsr/networkshares/ubuntu_networkshares_4.png" data-lightbox="netzwerkfreigabe-ubuntu" data-title="Netzwerkfreigabe in der Seitenleiste"><img src="../../assets/hsr/networkshares/ubuntu_networkshares_4.png" alt="Netzwerkfreigabe in der Seitenleiste" class="" style=""></a>
 </li>
 <li>Die Netzwerkfreigabe erscheint in der Seitenleiste. Klicke rechts auf das Symbol und wähle <code>Lesezeichen hinzufügen</code>. Damit kannst du das nächste Mal direkt auf die Netzwerkfreigabe zugreifen!
@@ -282,14 +281,14 @@ password=GeHeim007
 </li>
 <li>
 <p>Setze die Zugriffsrechte für die Datei, damit niemand ausser dir darauf zugreifen kann. Öffne ein Terminalfenster und tippe:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">chmod 600 .fstab.credentials.hsr
-sudo chown maria.root .fstab.credentials.hsr
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">chmod </span>600 .fstab.credentials.hsr
+<span class="nb">sudo chown </span>maria.root .fstab.credentials.hsr
 </code></pre></div>
 <p>Setze anstelle <code>maria</code> deinen Namen, mit dem du dich in Ubuntu einloggst.</p>
 </li>
 <li>
 <p>Nun musst du noch dem Betriebssystem sagen, wo es diese Information findet und wie es die Ordner einbinden soll, die wir oben erstellt haben. Tippe im Terminal:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo gedit /etc/fstab
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>gedit /etc/fstab
 </code></pre></div>
 </li>
 <li>
@@ -413,7 +412,7 @@ umount /mnt/hsr/ebooks/
 	</section>
 	<section class="legal">
 		<p>
-			<strong>© open\HSR, <time datetime="2018-06-15">15.06.2018</time></strong>.
+			<strong>© open\HSR, <time datetime="2018-06-20">20.06.2018</time></strong>.
 			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
 		</p>
 	</section>

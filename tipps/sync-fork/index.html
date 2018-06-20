@@ -172,43 +172,43 @@
 <p>In diesem Tipp zeige ich am Beispiel vom Repository <a href="https://github.com/openhsr/www.openhsr.ch/">openhsr/www.openhsr.ch</a>, wie du deinen Fork in Sync halten kannst.</p>
 
 <p>Zuerst muss du deinen Fork lokal auschecken. Falls du dies bereits erledigt hast, musst du einzig in das Projektverzeichnis deines Forks wechseln.</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone https://github.com/dein-git-user/www.openhsr.ch.git
-<span class="gp">$ </span><span class="nb">cd </span>www.openhsr.ch
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git clone https://github.com/dein-git-user/www.openhsr.ch.git
+<span class="nv">$ </span><span class="nb">cd </span>www.openhsr.ch
 </code></pre></div>
 <p>Nun muss das Haupt-Repository als <code>upstream</code> Remote eingerichtet werden. Wir prüfen zuerst ob dieses nicht bereits existiert.</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git remote -v
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git remote <span class="nt">-v</span>
 origin  https://github.com/dein-git-user/www.openhsr.ch.git <span class="o">(</span>fetch<span class="o">)</span>
 origin  https://github.com/dein-git-user/www.openhsr.ch.git <span class="o">(</span>push<span class="o">)</span>
 </code></pre></div>
 <p>Der neue <code>upstream</code> Remote wird wie folgt hinzugefügt.</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git remote add upstream https://github.com/openhsr/www.openhsr.ch
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git remote add upstream https://github.com/openhsr/www.openhsr.ch
 </code></pre></div>
 <p>Nun sollten zwei Remotes zur Verfügung stehen, die wir im Folgenden abgleichen möchten.</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git remote -v
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git remote <span class="nt">-v</span>
 origin  https://github.com/dein-git-user/www.openhsr.ch.git <span class="o">(</span>fetch<span class="o">)</span>
 origin  https://github.com/dein-git-user/www.openhsr.ch.git <span class="o">(</span>push<span class="o">)</span>
 upstream    https://github.com/openhsr/www.openhsr.ch <span class="o">(</span>fetch<span class="o">)</span>
 upstream    https://github.com/openhsr/www.openhsr.ch <span class="o">(</span>push<span class="o">)</span>
 </code></pre></div>
 <p>Dazu laden wir uns alle Änderungen vom Upstream...</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git fetch upstream
-remote: Counting objects: 75, <span class="k">done</span>.
-remote: Compressing objects: 100% <span class="o">(</span>53/53<span class="o">)</span>, <span class="k">done</span>.
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git fetch upstream
+remote: Counting objects: 75, <span class="k">done</span><span class="nb">.</span>
+remote: Compressing objects: 100% <span class="o">(</span>53/53<span class="o">)</span>, <span class="k">done</span><span class="nb">.</span>
 remote: Total 62 <span class="o">(</span>delta 27<span class="o">)</span>, reused 44 <span class="o">(</span>delta 9<span class="o">)</span>
-Unpacking objects: 100% <span class="o">(</span>62/62<span class="o">)</span>, <span class="k">done</span>.
+Unpacking objects: 100% <span class="o">(</span>62/62<span class="o">)</span>, <span class="k">done</span><span class="nb">.</span>
 From https://github.com/openhsr/www.openhsr.ch
  <span class="k">*</span> <span class="o">[</span>new branch]      master     -&gt; upstream/master
 </code></pre></div>
 <p>... und mergen den Upstream in den aktuellen Branch</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git checkout &lt;dein_entwicklungs_branch&gt;
-<span class="gp">$ </span>git merge upstream/master
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git checkout &lt;dein_entwicklungs_branch&gt;
+<span class="nv">$ </span>git merge upstream/master
 </code></pre></div>
 <p>Nun sind alle Änderungen des <code>upstream</code> Repository in deinem lokalen Fork. Diese wollen wir nun noch in dein <code>origin</code> Repository pushen. Falls lokale Konflikte existieren, müssen diese wie gewohnt behoben und dann gestashed und commited werden. Diesen Schritt kannst du auslassen, wenn keine Konflike existieren. Anschliessend pushen wir die lokalen Änderungen in das Remote Repository auf Github.</p>
 <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># optional</span>
-<span class="gp">$ </span>git add .
-<span class="gp">$ </span>git commit -m <span class="s2">"fork synced with upstream"</span>
+<span class="nv">$ </span>git add <span class="nb">.</span>
+<span class="nv">$ </span>git commit <span class="nt">-m</span> <span class="s2">"fork synced with upstream"</span>
 <span class="c"># mandatory</span>
-<span class="gp">$ </span>git push origin master
+<span class="nv">$ </span>git push origin master
 </code></pre></div>
       </article>
 
@@ -247,7 +247,7 @@ From https://github.com/openhsr/www.openhsr.ch
 	</section>
 	<section class="legal">
 		<p>
-			<strong>&copy; open\HSR, <time datetime="2018-06-15">15.06.2018</time></strong>.
+			<strong>&copy; open\HSR, <time datetime="2018-06-20">20.06.2018</time></strong>.
 			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
 		</p>
 	</section>

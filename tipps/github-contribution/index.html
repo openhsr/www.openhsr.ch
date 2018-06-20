@@ -200,14 +200,14 @@
 
 <p><a href="../../assets/tipps/github_contribution/step1_fork.png" data-lightbox="github contribution" data-title="Github Fork erstellen"><img src="../../assets/tipps/github_contribution/step1_fork.png" alt="" class="" style=""/></a></p></li>
 <li><p>Klone das geforkte Projekt auf dein Notebook</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone &lt;fork_repo_url&gt; .
-<span class="gp">$ </span><span class="nb">cd</span> &lt;fork_repo_dir&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git clone &lt;fork_repo_url&gt; <span class="nb">.</span>
+<span class="nv">$ </span><span class="nb">cd</span> &lt;fork_repo_dir&gt;
 </code></pre></div></li>
 <li><p>Erstelle ein <code>upstream</code> Repository welches auf das orginal Repository der Maintainer zeigt:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git remote add upstream &lt;original_repo_url&gt; .
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git remote add upstream &lt;original_repo_url&gt; <span class="nb">.</span>
 </code></pre></div></li>
 <li><p>Erstelle einen neuen Branch um deine Änderungen zu entwickeln:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git checkout -b &lt;branch_name&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git checkout <span class="nt">-b</span> &lt;branch_name&gt;
 </code></pre></div></li>
 <li><p>Achte beim Umsetzen deiner Anpassung auf folgende Punkte:</p>
 
@@ -225,7 +225,7 @@
 <li>Funktioniert noch alles wie erwartet und sind alle Rechtschreibfehler beseitigt?</li>
 </ul></li>
 <li><p>Pushe deine Änderungen in deinen Fork</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git push origin &lt;branch-name&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git push origin &lt;branch-name&gt;
 </code></pre></div></li>
 </ol>
 
@@ -245,8 +245,8 @@ $ git push orign &lt;branch_name&gt;
 </code></li>
 </ul></li>
 <li><p>Gratuliere, du konntest deine erste Contribution erfolgreich anbringen. Es empfiehlt sich nun, seine Fork noch aufzuräumen:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git branch -D &lt;branch_name&gt;
-<span class="gp">$ </span>git push origin --delete &lt;branch_name&gt;
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git branch <span class="nt">-D</span> &lt;branch_name&gt;
+<span class="nv">$ </span>git push origin <span class="nt">--delete</span> &lt;branch_name&gt;
 </code></pre></div></li>
 </ol>
 
@@ -287,7 +287,7 @@ $ git push orign &lt;branch_name&gt;
 	</section>
 	<section class="legal">
 		<p>
-			<strong>&copy; open\HSR, <time datetime="2018-06-15">15.06.2018</time></strong>.
+			<strong>&copy; open\HSR, <time datetime="2018-06-20">20.06.2018</time></strong>.
 			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
 		</p>
 	</section>

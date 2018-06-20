@@ -172,17 +172,17 @@
 <p>In diesem Tipp zeige ich am Beispiel vom Repository <a href="https://github.com/openhsr/www.openhsr.ch/">openhsr/www.openhsr.ch</a>, wie man bequem Pull-Requests lokal auschecken kann.</p>
 
 <p>Falls du noch keine lokale Kopie des Projekts hast, dann klone es jetzt:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone https://github.com/openhsr/www.openhsr.ch.git
-<span class="gp">$ </span><span class="nb">cd </span>www.openhsr.ch/
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git clone https://github.com/openhsr/www.openhsr.ch.git
+<span class="nv">$ </span><span class="nb">cd </span>www.openhsr.ch/
 </code></pre></div>
 <p>Damit wir nicht jeden Pull-Request von Hand herunterladen müssen, ergänzen wir die Git-Konfiguration, so dass auch Pull-Requests bei einem <code>fetch</code> heruntergeladen werden.</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git config --add remote.origin.fetch <span class="s1">'+refs/pull/*/head:refs/remotes/origin/pr/*'</span>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git config <span class="nt">--add</span> remote.origin.fetch <span class="s1">'+refs/pull/*/head:refs/remotes/origin/pr/*'</span>
 </code></pre></div>
 <p>Wenn wir nun mittels <code>fetch</code> Änderungen aus Remote Repository herunterladen, werden auch Pull-Requests als Branches heruntergeladen:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git fetch
-remote: Counting objects: 53, <span class="k">done</span>.
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git fetch
+remote: Counting objects: 53, <span class="k">done</span><span class="nb">.</span>
 remote: Total 53 <span class="o">(</span>delta 20<span class="o">)</span>, reused 20 <span class="o">(</span>delta 20<span class="o">)</span>, pack-reused 33
-Unpacking objects: 100% <span class="o">(</span>53/53<span class="o">)</span>, <span class="k">done</span>.
+Unpacking objects: 100% <span class="o">(</span>53/53<span class="o">)</span>, <span class="k">done</span><span class="nb">.</span>
 From https://github.com/openhsr/www.openhsr.ch
  <span class="k">*</span> <span class="o">[</span>new ref]         refs/pull/14/head -&gt; origin/pr/14
  <span class="k">*</span> <span class="o">[</span>new ref]         refs/pull/24/head -&gt; origin/pr/24
@@ -194,7 +194,7 @@ From https://github.com/openhsr/www.openhsr.ch
 <p>Mit jedem <code>fetch</code> werden nun also alle Pull-Requests als Branches heruntergeladen.</p>
 
 <p>Ein beliebiger Pull-Request kann jetzt wie jeder andere Branch ausgecheckt werden:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git checkout pr/51
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>git checkout <span class="nb">pr</span>/51
 </code></pre></div>
 <p>Wenn du dieses Kommando oft brauchst, lohnt es sich einen <a href="https://wiki.ubuntuusers.de/alias/">Alias</a> einzurichten.</p>
 <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">alias </span>setup-pr-fetch<span class="o">=</span><span class="s2">"git config --add remote.origin.fetch '+refs/pull/*/head:refs/remotes/origin/pr/*'"</span>
@@ -244,7 +244,7 @@ From https://github.com/openhsr/www.openhsr.ch
 	</section>
 	<section class="legal">
 		<p>
-			<strong>&copy; open\HSR, <time datetime="2018-06-15">15.06.2018</time></strong>.
+			<strong>&copy; open\HSR, <time datetime="2018-06-20">20.06.2018</time></strong>.
 			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
 		</p>
 	</section>
