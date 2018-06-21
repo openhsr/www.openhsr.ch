@@ -24,7 +24,7 @@ Die **Mitgliedschaft ist kostenlos und unverbindlich**. Du darfst mithelfen, wie
 ## Treffpunkt
 **Community** - das ist das Herzstück von Open Source. Und damit auch von unserem Verein! Sei es, um Fragen zu macOS und Linux zu klären, an unseren Open Source Projekten mitzuhelfen - oder einfach Teil der Community zu sein: Du bist willkommen!
 
-Leider findet der Treffpunkt derzeit nicht regelmässig statt. Solltest du Interesse haben, dann melde dich [beim Vorstand](info@openhsr.ch)!
+Leider findet der Treffpunkt derzeit nicht regelmässig statt. Solltest du Interesse haben, dann melde dich [beim Vorstand](mailto:info@openhsr.ch)!
 
 
 
