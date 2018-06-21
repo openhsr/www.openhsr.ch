@@ -1,7 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{HTTP_HOST} !^www\.openhsr\.ch$ [NC]
-RewriteRule ^(.*)$ https://www.openhsr.ch/$1 [R=301,L]
-
-Redirect 302 /join /community/
-Redirect 302 /treffpunkt /community/#treffpunkt
