@@ -2,6 +2,9 @@
 title: Community
 parent: community
 navtitle: Verein & Community
+redirect_from:
+  - /join/
+  - /treffpunkt/
 ---
 
 ## Werde Mitglied!

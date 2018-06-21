@@ -16,9 +16,6 @@ exclude:
     - .bundle
     - tmp
 
-include:
-    - '.htaccess'
-
 host: 0.0.0.0
 
 markdown: redcarpet
@@ -28,6 +25,7 @@ redcarpet:
 
 plugins:
   - jemoji
+  - jekyll-redirect-from
 
 emoji:
   src: "/assets"
