@@ -82,10 +82,10 @@ Diese Anleitung hilft dir, falls es dir nicht gelingt, mit der obigen Variante d
 6. Schreibe zuunterst folgende Zeilen in die fstab-Datei oder kopiere sie gleich:
 
 	```
-	//c206.hsr.ch/skripte	/mnt/HSR/skripte	cifs	credentials=/home/maria/.fstab.credentials.hsr,noauto,users,iocharset=utf8,soft,ro  0  0
-	//c206.hsr.ch/scratch 	/mnt/hsr/scratch	cifs	credentials=/home/maria/.fstab.credentials.hsr,noauto,users,iocharset=utf8,soft  0  0
-	//c101.hsr.ch/mmuster 	/mnt/hsr/myshare	cifs 	credentials=/home/maria/.fstab.credentials.hsr,noauto,users,iocharset=utf8,soft  0  0
-	//c206.hsr.ch/ebooks 	/mnt/hsr/ebooks		cifs	credentials=/home/maria/.fstab.credentials.hsr,noauto,users,iocharset=utf8,soft,ro  0  0
+	//c206.hsr.ch/skripte	/mnt/HSR/skripte	cifs	credentials=/home/maria/.fstab.credentials.hsr,noauto,users,iocharset=utf8,soft,vers=3.0,ro  0  0
+	//c206.hsr.ch/scratch 	/mnt/hsr/scratch	cifs	credentials=/home/maria/.fstab.credentials.hsr,noauto,users,iocharset=utf8,soft,vers=3.0  0  0
+	//c101.hsr.ch/mmuster 	/mnt/hsr/myshare	cifs 	credentials=/home/maria/.fstab.credentials.hsr,noauto,users,iocharset=utf8,soft,vers=3.0  0  0
+	//c206.hsr.ch/ebooks 	/mnt/hsr/ebooks		cifs	credentials=/home/maria/.fstab.credentials.hsr,noauto,users,iocharset=utf8,soft,vers=3.0,ro  0  0
 	```
 
 	Schreibe anstelle ```maria``` deinen Login-Namen, mit dem du dich in Ubuntu einloggst. Ersetze ```mmuster``` mit dem Login-Namen, den du für die HSR verwendest.
