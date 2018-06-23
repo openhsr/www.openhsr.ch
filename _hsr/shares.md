@@ -100,6 +100,8 @@ Diese Anleitung hilft dir, falls es dir nicht gelingt, mit der obigen Variante d
 	```
 
 	Nun kannst du im Dateimanager beispielsweise im Ordner ```/mnt/hsr/skripte``` alle Skripte von der Netzwerkablage sehen, als wären sie auf deinem Computer.
+Falls der mount Befehl mit dem Fehler "`This program is not installed setuid root -  "user" CIFS mounts not supported."` abgebrochen wird, müssen noch die Rechte für den `mount.cifs` Befehl angepasst werden:
+```sudo chmod u+s /sbin/mount.cifs```
 
 8. Mit folgenden Befehlen trennst du die Verbindung wieder:
 
