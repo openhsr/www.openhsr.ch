@@ -30,7 +30,7 @@ Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können 
   <br>
   Es sind keine erweiterten Einstellungen und Konfigurationen in anderen Tabs erforderlich.
 6. Speichern mit Klick auf **Speichern**. Der neue Eintrag erscheint nun in der Liste<br>
-  {% lightbox /assets/hsr/vpn/vpn_networkmanager_5.png --data="vpn ubuntu" --title="HSR-VPN in der Liste der VPNs" --alt="HSR-VPN in der Liste der VPNs" %}
+  {% lightbox /assets/hsr/vpn/vpn05.png --data="vpn ubuntu" --title="HSR-VPN in der Liste der VPNs" --alt="HSR-VPN in der Liste der VPNs" %}
 7. **Verbindung über den Netzwerkindikatoren** am oberen rechten Bildschirmrand via ```VPN``` + ```HSR``` herstellen<br>
   {% lightbox /assets/hsr/vpn/vpn06.png --data="vpn ubuntu" --title="Verbindung über den Netzwerkindikatoren herstellen" --alt="Verbindung über den Netzwerkindikatoren herstellen" %}
 8. Einloggen mit User, Passwort und achtstelligem Swivel Token und **Verbinden**<br>
