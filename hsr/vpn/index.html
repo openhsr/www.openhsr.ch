@@ -199,15 +199,9 @@
 <td>Benutzerpasswort</td>
 <td><code>GeHeim007</code></td>
 </tr>
-<tr>
-<td>Gruppenname</td>
-<td><code>hsrremote</code></td>
-</tr>
-<tr>
-<td>Gruppenpasswort</td>
-<td><code>hsrremote</code></td>
-</tr>
 </tbody></table>
+
+<p>Zusätzlich brauchst du die SwivelSecure App. Einen Link solltest du vom HSR Helpdesk erhalten haben.</p>
 
 <h2 id="vpn-unter-ubuntu-einrichten" class="toggable">VPN unter Ubuntu einrichten</h2>
 
@@ -217,27 +211,27 @@
 
 <ol>
 <li><strong>Benötigte Abhängigkeiten installieren</strong><br>
-Bevor du loslegen kannst, musst du noch das Paket <code>network-manager-vpnc-gnome</code> installieren.
-<a href="http://apt.ubuntu.com/p/network-manager-vpnc-gnome">Jetzt installieren</a></li>
-<li><strong>Öffne die Netzwerkeinstellungen</strong> über den Netzwerkindikatoren am oberen linken Bildschirmrand via <code>VPN-Verbindungen</code> + <code>VPN konfigurieren...</code><br>
-<a href="../../assets/hsr/vpn/vpn_networkmanager_1.png" data-lightbox="vpn ubuntu" data-title="Netzwerkeinstellungen über den Netzwerkindikatoren"><img src="../../assets/hsr/vpn/vpn_networkmanager_1.png" alt="Netzwerkeinstellungen über den Netzwerkindikatoren" class="" style=""/></a></li>
-<li>Klick auf den Button <strong>Hinzufügen</strong><br>
-<a href="../../assets/hsr/vpn/vpn_networkmanager_2.png" data-lightbox="vpn ubuntu" data-title="Klick auf den Button Add"><img src="../../assets/hsr/vpn/vpn_networkmanager_2.png" alt="Klick auf den Button Add" class="" style=""/></a></li>
-<li>Wähle in der Liste den Eintrag <strong>Cisco-kompatibler VPN-Client (vpnc)</strong> aus<br>
-<a href="../../assets/hsr/vpn/vpn_networkmanager_3.png" data-lightbox="vpn ubuntu" data-title="Cisco-kompatibler VPN-Client auswählen"><img src="../../assets/hsr/vpn/vpn_networkmanager_3.png" alt="Cisco-kompatibler VPN-Client auswählen" class="" style=""/></a></li>
-<li>Weiter geht&#39;s mit einem Klick auf <strong>Erzeugen...</strong></li>
+Bevor du loslegen kannst, musst du noch das Paket <code>network-manager-openconnect-gnome</code> installieren.
+<a href="http://apt.ubuntu.com/p/network-manager-openconnect-gnome">Jetzt installieren</a></li>
+<li><strong>Öffne die Netzwerkeinstellungen</strong> über den Netzwerkindikatoren am oberen rechten Bildschirmrand via dem <code>Werkzeug-Symbol</code> + <code>Netzwerkeinstellungen</code><br>
+<a href="../../assets/hsr/vpn/vpn01.png" data-lightbox="vpn ubuntu" data-title="Netzwerkeinstellungen über den Netzwerkindikatoren"><img src="../../assets/hsr/vpn/vpn01.png" alt="Netzwerkeinstellungen über den Netzwerkindikatoren" class="" style=""/></a></li>
+<li>Klick auf den Button <strong>+</strong> um eine neue VPN Konfiguration hinzuzufügen<br>
+<a href="../../assets/hsr/vpn/vpn02.png" data-lightbox="vpn ubuntu" data-title="Klick auf den Button +"><img src="../../assets/hsr/vpn/vpn02.png" alt="Klick auf den Button +" class="" style=""/></a></li>
+<li>Wähle in der Liste den Eintrag <strong>Cisco AnyConnect Compatible VPN (openconnect)</strong> aus<br>
+<a href="../../assets/hsr/vpn/vpn03.png" data-lightbox="vpn ubuntu" data-title="Cisco AnyConnect Compatible VPN-Client auswählen"><img src="../../assets/hsr/vpn/vpn03.png" alt="Cisco AnyConnect Compatible VPN-Client auswählen" class="" style=""/></a></li>
 <li><strong>VPN Einstellungen eintragen</strong> - natürlich mit eigenem Benutzernamen &amp; Passwort<br>
-<a href="../../assets/hsr/vpn/vpn_networkmanager_4.png" data-lightbox="vpn ubuntu" data-title="VPN Einstellungen"><img src="../../assets/hsr/vpn/vpn_networkmanager_4.png" alt="VPN Einstellungen" class="" style=""/></a>
+<a href="../../assets/hsr/vpn/vpn04.png" data-lightbox="vpn ubuntu" data-title="VPN Einstellungen"><img src="../../assets/hsr/vpn/vpn04.png" alt="VPN Einstellungen" class="" style=""/></a>
 <br>
 Es sind keine erweiterten Einstellungen und Konfigurationen in anderen Tabs erforderlich.</li>
 <li>Speichern mit Klick auf <strong>Speichern</strong>. Der neue Eintrag erscheint nun in der Liste<br>
-<a href="../../assets/hsr/vpn/vpn_networkmanager_5.png" data-lightbox="vpn ubuntu" data-title="HSR-VPN in der Liste der VPNs"><img src="../../assets/hsr/vpn/vpn_networkmanager_5.png" alt="HSR-VPN in der Liste der VPNs" class="" style=""/></a></li>
-<li><strong>Verbindung über den Netzwerkindikatoren</strong> am oberen linken Bildschirmrand via <code>VPN-Verbindungen</code> + <code>HSR VPN</code> herstellen<br></li>
+<a href="../../assets/hsr/vpn/vpn05.png" data-lightbox="vpn ubuntu" data-title="HSR-VPN in der Liste der VPNs"><img src="../../assets/hsr/vpn/vpn05.png" alt="HSR-VPN in der Liste der VPNs" class="" style=""/></a></li>
+<li><strong>Verbindung über den Netzwerkindikatoren</strong> am oberen rechten Bildschirmrand via <code>VPN</code> + <code>HSR</code> herstellen<br>
+<a href="../../assets/hsr/vpn/vpn06.png" data-lightbox="vpn ubuntu" data-title="Verbindung über den Netzwerkindikatoren herstellen"><img src="../../assets/hsr/vpn/vpn06.png" alt="Verbindung über den Netzwerkindikatoren herstellen" class="" style=""/></a></li>
+<li>Einloggen mit User, Passwort und achtstelligem Swivel Token und <strong>Verbinden</strong><br>
+<a href="../../assets/hsr/vpn/vpn07.png" data-lightbox="vpn ubuntu" data-title="HSR-VPN Login"><img src="../../assets/hsr/vpn/vpn07.png" alt="HSR-VPN Login" class="" style=""/></a>
+<br>
+<a href="../../assets/hsr/vpn/vpn08.png" data-lightbox="vpn ubuntu" data-title="Verbindung wurde erfolgreich hergestellt"><img src="../../assets/hsr/vpn/vpn08.png" alt="Verbindung wurde erfolgreich hergestellt" class="" style=""/></a></li>
 </ol>
-
-<p><a href="../../assets/hsr/vpn/vpn_networkmanager_6.png" data-lightbox="vpn ubuntu" data-title="Verbindung über den Netzwerkindikatoren herstellen"><img src="../../assets/hsr/vpn/vpn_networkmanager_6.png" alt="Verbindung über den Netzwerkindikatoren herstellen" class="" style=""/></a>
-  <br>
-  <a href="../../assets/hsr/vpn/vpn_networkmanager_7.png" data-lightbox="vpn ubuntu" data-title="Verbindung wurde erfolgreich hergestellt"><img src="../../assets/hsr/vpn/vpn_networkmanager_7.png" alt="Verbindung wurde erfolgreich hergestellt" class="" style=""/></a></p>
 
 </div>
 
@@ -366,7 +360,7 @@ Die Abhängigkeit (Paket <code>NetworkManager-vpnc</code>) sollte bereits vorins
 	</section>
 	<section class="legal">
 		<p>
-			<strong>&copy; open\HSR, <time datetime="2018-07-08">08.07.2018</time></strong>.
+			<strong>&copy; open\HSR, <time datetime="2018-10-03">03.10.2018</time></strong>.
 			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
 		</p>
 	</section>
