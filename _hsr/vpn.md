@@ -59,10 +59,10 @@ Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können 
 
 ### Arch Linux
 
-Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu. Als Abhängigkeit wird das Paket `networkmanager-vpnc` benötigt, welches sich im `extra` Repository befindet.
+Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu. Als Abhängigkeit wird das Paket `networkmanager-openconnect` benötigt, welches sich im `extra` Repository befindet.
 
 ```bash
-pacman -S networkmanager-vpnc
+pacman -S networkmanager-openconnect
 ```
 
 ### Fedora
