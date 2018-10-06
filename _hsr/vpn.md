@@ -65,9 +65,4 @@ Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu. Als Abhängigkeit
 pacman -S networkmanager-openconnect
 ```
 
-### Fedora
-
-Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu.
-Die Abhängigkeit (Paket `NetworkManager-vpnc`) sollte bereits vorinstalliert sein.
-
 {% endtoggle %}
