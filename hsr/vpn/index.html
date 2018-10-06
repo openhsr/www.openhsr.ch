@@ -50,7 +50,7 @@
           
         
           
-            <li  >
+            <li>
               <a href="/app/">Programme</a>
               
                       <ul>
@@ -70,7 +70,7 @@
           
         
           
-            <li  >
+            <li>
               <a href="/community/">Community</a>
               
               
@@ -82,7 +82,7 @@
                     
                   
                     
-                      <li><a href="/community/">Verein & Community</a></li>
+                      <li><a href="/community/">Verein &amp; Community</a></li>
                     
                   
                     
@@ -119,7 +119,7 @@
           
         
           
-            <li  >
+            <li>
               <a href="/hsr/">Dokumentationen</a>
               
               
@@ -143,7 +143,7 @@
           
         
           
-            <li  >
+            <li>
               <a href="/tipps/">Tipps &amp; Tricks</a>
               
               
@@ -181,12 +181,14 @@
       <article>
         <h2 id="technische-angaben">Technische Angaben</h2>
 
-<table><thead>
+<table>
+<thead>
 <tr>
 <th>Einstellung</th>
 <th>Wert</th>
 </tr>
-</thead><tbody>
+</thead>
+<tbody>
 <tr>
 <td>Gateway</td>
 <td><code>vpn.hsr.ch</code></td>
@@ -199,7 +201,8 @@
 <td>Benutzerpasswort</td>
 <td><code>GeHeim007</code></td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 
 <p>Zusätzlich brauchst du die SwivelSecure App. Einen Link solltest du vom HSR Helpdesk erhalten haben.</p>
 
@@ -210,27 +213,38 @@
 <p>Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können keine VPN-Verbindungen hergestellt werden.</p>
 
 <ol>
-<li><strong>Benötigte Abhängigkeiten installieren</strong><br>
+<li>
+<strong>Benötigte Abhängigkeiten installieren</strong><br>
 Bevor du loslegen kannst, musst du noch das Paket <code>network-manager-openconnect-gnome</code> installieren.
-<a href="http://apt.ubuntu.com/p/network-manager-openconnect-gnome">Jetzt installieren</a></li>
-<li><strong>Öffne die Netzwerkeinstellungen</strong> über den Netzwerkindikatoren am oberen rechten Bildschirmrand via dem <code>Werkzeug-Symbol</code> + <code>Netzwerkeinstellungen</code><br>
-<a href="../../assets/hsr/vpn/vpn01.png" data-lightbox="vpn ubuntu" data-title="Netzwerkeinstellungen über den Netzwerkindikatoren"><img src="../../assets/hsr/vpn/vpn01.png" alt="Netzwerkeinstellungen über den Netzwerkindikatoren" class="" style=""/></a></li>
+<a href="http://apt.ubuntu.com/p/network-manager-openconnect-gnome">Jetzt installieren</a>
+</li>
+<li>
+<strong>Öffne die Netzwerkeinstellungen</strong> über den Netzwerkindikatoren am oberen rechten Bildschirmrand via dem <code>Werkzeug-Symbol</code> + <code>Netzwerkeinstellungen</code><br>
+<a href="../../assets/hsr/vpn/vpn01.png" data-lightbox="vpn ubuntu" data-title="Netzwerkeinstellungen über den Netzwerkindikatoren"><img src="../../assets/hsr/vpn/vpn01.png" alt="Netzwerkeinstellungen über den Netzwerkindikatoren" class="" style=""></a>
+</li>
 <li>Klick auf den Button <strong>+</strong> um eine neue VPN Konfiguration hinzuzufügen<br>
-<a href="../../assets/hsr/vpn/vpn02.png" data-lightbox="vpn ubuntu" data-title="Klick auf den Button +"><img src="../../assets/hsr/vpn/vpn02.png" alt="Klick auf den Button +" class="" style=""/></a></li>
+<a href="../../assets/hsr/vpn/vpn02.png" data-lightbox="vpn ubuntu" data-title="Klick auf den Button +"><img src="../../assets/hsr/vpn/vpn02.png" alt="Klick auf den Button +" class="" style=""></a>
+</li>
 <li>Wähle in der Liste den Eintrag <strong>Cisco AnyConnect Compatible VPN (openconnect)</strong> aus<br>
-<a href="../../assets/hsr/vpn/vpn03.png" data-lightbox="vpn ubuntu" data-title="Cisco AnyConnect Compatible VPN-Client auswählen"><img src="../../assets/hsr/vpn/vpn03.png" alt="Cisco AnyConnect Compatible VPN-Client auswählen" class="" style=""/></a></li>
-<li><strong>VPN Einstellungen eintragen</strong> - natürlich mit eigenem Benutzernamen &amp; Passwort<br>
-<a href="../../assets/hsr/vpn/vpn04.png" data-lightbox="vpn ubuntu" data-title="VPN Einstellungen"><img src="../../assets/hsr/vpn/vpn04.png" alt="VPN Einstellungen" class="" style=""/></a>
+<a href="../../assets/hsr/vpn/vpn03.png" data-lightbox="vpn ubuntu" data-title="Cisco AnyConnect Compatible VPN-Client auswählen"><img src="../../assets/hsr/vpn/vpn03.png" alt="Cisco AnyConnect Compatible VPN-Client auswählen" class="" style=""></a>
+</li>
+<li>
+<strong>VPN Einstellungen eintragen</strong> - natürlich mit eigenem Benutzernamen &amp; Passwort<br>
+<a href="../../assets/hsr/vpn/vpn04.png" data-lightbox="vpn ubuntu" data-title="VPN Einstellungen"><img src="../../assets/hsr/vpn/vpn04.png" alt="VPN Einstellungen" class="" style=""></a>
 <br>
 Es sind keine erweiterten Einstellungen und Konfigurationen in anderen Tabs erforderlich.</li>
 <li>Speichern mit Klick auf <strong>Speichern</strong>. Der neue Eintrag erscheint nun in der Liste<br>
-<a href="../../assets/hsr/vpn/vpn05.png" data-lightbox="vpn ubuntu" data-title="HSR-VPN in der Liste der VPNs"><img src="../../assets/hsr/vpn/vpn05.png" alt="HSR-VPN in der Liste der VPNs" class="" style=""/></a></li>
-<li><strong>Verbindung über den Netzwerkindikatoren</strong> am oberen rechten Bildschirmrand via <code>VPN</code> + <code>HSR</code> herstellen<br>
-<a href="../../assets/hsr/vpn/vpn06.png" data-lightbox="vpn ubuntu" data-title="Verbindung über den Netzwerkindikatoren herstellen"><img src="../../assets/hsr/vpn/vpn06.png" alt="Verbindung über den Netzwerkindikatoren herstellen" class="" style=""/></a></li>
-<li>Einloggen mit User, Passwort und achtstelligem Swivel Token und <strong>Verbinden</strong><br>
-<a href="../../assets/hsr/vpn/vpn07.png" data-lightbox="vpn ubuntu" data-title="HSR-VPN Login"><img src="../../assets/hsr/vpn/vpn07.png" alt="HSR-VPN Login" class="" style=""/></a>
+<a href="../../assets/hsr/vpn/vpn05.png" data-lightbox="vpn ubuntu" data-title="HSR-VPN in der Liste der VPNs"><img src="../../assets/hsr/vpn/vpn05.png" alt="HSR-VPN in der Liste der VPNs" class="" style=""></a>
+</li>
+<li>
+<strong>Verbindung über den Netzwerkindikatoren</strong> am oberen rechten Bildschirmrand via <code>VPN</code> + <code>HSR</code> herstellen<br>
+<a href="../../assets/hsr/vpn/vpn06.png" data-lightbox="vpn ubuntu" data-title="Verbindung über den Netzwerkindikatoren herstellen"><img src="../../assets/hsr/vpn/vpn06.png" alt="Verbindung über den Netzwerkindikatoren herstellen" class="" style=""></a>
+</li>
+<li>Einloggen mit Usernamen, Passwort und achtstelligem Swivel Token und <strong>Verbinden</strong>. <img class="emoji" title=":warning:" alt=":warning:" src="/assets/emoji/unicode/26a0.png" height="20" width="20"> Setze die Checkbox Save passwords <strong>nicht</strong>, da dadurch dein Account temporär gesperrt werden könnte<br>
+<a href="../../assets/hsr/vpn/vpn07.png" data-lightbox="vpn ubuntu" data-title="HSR-VPN Login"><img src="../../assets/hsr/vpn/vpn07.png" alt="HSR-VPN Login" class="" style=""></a>
 <br>
-<a href="../../assets/hsr/vpn/vpn08.png" data-lightbox="vpn ubuntu" data-title="Verbindung wurde erfolgreich hergestellt"><img src="../../assets/hsr/vpn/vpn08.png" alt="Verbindung wurde erfolgreich hergestellt" class="" style=""/></a></li>
+<a href="../../assets/hsr/vpn/vpn08.png" data-lightbox="vpn ubuntu" data-title="Verbindung wurde erfolgreich hergestellt"><img src="../../assets/hsr/vpn/vpn08.png" alt="Verbindung wurde erfolgreich hergestellt" class="" style=""></a>
+</li>
 </ol>
 
 </div>
@@ -240,20 +254,27 @@ Es sind keine erweiterten Einstellungen und Konfigurationen in anderen Tabs erfo
 <div class="toggle-content">
 
 <ol>
-<li><strong>Öffne die Netzwerkeinstellungen</strong> und klicke unten links auf das <strong>Plus</strong><br>
-<a href="../../assets/hsr/vpn/mac_vpn1.png" data-lightbox="vpn mac" data-title="Netzwerkeinstellungen"><img src="../../assets/hsr/vpn/mac_vpn1.png" alt="Netzwerkeinstellungen" class="" style=""/></a></li>
+<li>
+<strong>Öffne die Netzwerkeinstellungen</strong> und klicke unten links auf das <strong>Plus</strong><br>
+<a href="../../assets/hsr/vpn/mac_vpn1.png" data-lightbox="vpn mac" data-title="Netzwerkeinstellungen"><img src="../../assets/hsr/vpn/mac_vpn1.png" alt="Netzwerkeinstellungen" class="" style=""></a>
+</li>
 <li>Wähle <code>VPN</code>, <code>Cisco IPSec</code> und wähle einen Verbindungsnamen. Klicke anschliessend auf <strong>Erstellen</strong>.<br>
-<a href="../../assets/hsr/vpn/mac_vpn2.png" data-lightbox="vpn mac" data-title="VPN Einstellungen"><img src="../../assets/hsr/vpn/mac_vpn2.png" alt="VPN Einstellungen" class="" style=""/></a></li>
+<a href="../../assets/hsr/vpn/mac_vpn2.png" data-lightbox="vpn mac" data-title="VPN Einstellungen"><img src="../../assets/hsr/vpn/mac_vpn2.png" alt="VPN Einstellungen" class="" style=""></a>
+</li>
 <li>Gib rechts die <strong>Serverdaten</strong> ein - natürlich mit eigenem Benutzernamen. Das Passwort kann leer gelassen werden.<br>
 Klicke auf <strong>Authentifizierungseinstellungen</strong>.
-<a href="../../assets/hsr/vpn/mac_vpn3.png" data-lightbox="vpn mac" data-title="VPN Serverdaten"><img src="../../assets/hsr/vpn/mac_vpn3.png" alt="VPN Serverdaten" class="" style=""/></a></li>
+<a href="../../assets/hsr/vpn/mac_vpn3.png" data-lightbox="vpn mac" data-title="VPN Serverdaten"><img src="../../assets/hsr/vpn/mac_vpn3.png" alt="VPN Serverdaten" class="" style=""></a>
+</li>
 <li>Gib <code>hsrremote</code> als Schlüssel und Gruppenname ein<br>
-<a href="../../assets/hsr/vpn/mac_vpn4.png" data-lightbox="vpn mac" data-title="VPN Authentifizierungseinstellungen"><img src="../../assets/hsr/vpn/mac_vpn4.png" alt="VPN Authentifizierungseinstellungen" class="" style=""/></a></li>
+<a href="../../assets/hsr/vpn/mac_vpn4.png" data-lightbox="vpn mac" data-title="VPN Authentifizierungseinstellungen"><img src="../../assets/hsr/vpn/mac_vpn4.png" alt="VPN Authentifizierungseinstellungen" class="" style=""></a>
+</li>
 <li>Optional kannst du das Häckchen setzen bei <code>VPN in der Menüleiste anzeigen</code>. Damit erscheint ein praktisches <strong>Icon in der Statusbar</strong>, zum schnellen An- und Abmelden.<br>
-<a href="../../assets/hsr/vpn/mac_vpn5.png" data-lightbox="vpn mac" data-title="VPN: Hacken für Icon in der Statusbar"><img src="../../assets/hsr/vpn/mac_vpn5.png" alt="VPN: Hacken für Icon in der Statusbar" class="" style=""/></a><br>
-<a href="../../assets/hsr/vpn/mac_vpn6.png" data-lightbox="vpn mac" data-title="VPN Statusbar"><img src="../../assets/hsr/vpn/mac_vpn6.png" alt="VPN Statusbar" class="" style=""/></a></li>
+<a href="../../assets/hsr/vpn/mac_vpn5.png" data-lightbox="vpn mac" data-title="VPN: Hacken für Icon in der Statusbar"><img src="../../assets/hsr/vpn/mac_vpn5.png" alt="VPN: Hacken für Icon in der Statusbar" class="" style=""></a><br>
+<a href="../../assets/hsr/vpn/mac_vpn6.png" data-lightbox="vpn mac" data-title="VPN Statusbar"><img src="../../assets/hsr/vpn/mac_vpn6.png" alt="VPN Statusbar" class="" style=""></a>
+</li>
 <li>Nun kannst du dich mit deinem <strong>HSR Login</strong> anmelden.<br>
-<a href="../../assets/hsr/vpn/mac_vpn7.png" data-lightbox="vpn mac" data-title="VPN Login"><img src="../../assets/hsr/vpn/mac_vpn7.png" alt="VPN Login" class="" style=""/></a><br></li>
+<a href="../../assets/hsr/vpn/mac_vpn7.png" data-lightbox="vpn mac" data-title="VPN Login"><img src="../../assets/hsr/vpn/mac_vpn7.png" alt="VPN Login" class="" style=""></a><br>
+</li>
 </ol>
 
 </div>
@@ -264,14 +285,9 @@ Klicke auf <strong>Authentifizierungseinstellungen</strong>.
 
 <h3 id="arch-linux">Arch Linux</h3>
 
-<p>Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu. Als Abhängigkeit wird das Paket <code>networkmanager-vpnc</code> benötigt, welches sich im <code>extra</code> Repository befindet.</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">pacman <span class="nt">-S</span> networkmanager-vpnc
+<p>Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu. Als Abhängigkeit wird das Paket <code>networkmanager-openconnect</code> benötigt, welches sich im <code>extra</code> Repository befindet.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">pacman <span class="nt">-S</span> networkmanager-openconnect
 </code></pre></div>
-<h3 id="fedora">Fedora</h3>
-
-<p>Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu.
-Die Abhängigkeit (Paket <code>NetworkManager-vpnc</code>) sollte bereits vorinstalliert sein.</p>
-
 </div>
 
       </article>
@@ -285,7 +301,12 @@ Die Abhängigkeit (Paket <code>NetworkManager-vpnc</code>) sollte bereits vorins
 <section>
   <h1>Inhaltsverzeichnis</h1>
 
-  <ol class="toc"><li><a href="#technische-angaben">Technische Angaben</a></li><li><a href="#vpn-unter-ubuntu-einrichten" class="toggable">VPN unter Ubuntu einrichten</a></li><li><a href="#vpn-unter-macos-einrichten" class="toggable">VPN unter macOS einrichten</a></li><li><a href="#vpn-einrichten-unter-anderen-linux-distributionen" class="toggable">VPN einrichten unter anderen Linux Distributionen</a></li></ol>
+  <ol class="toc">
+<li><a href="#technische-angaben">Technische Angaben</a></li>
+<li><a href="#vpn-unter-ubuntu-einrichten" class="toggable">VPN unter Ubuntu einrichten</a></li>
+<li><a href="#vpn-unter-macos-einrichten" class="toggable">VPN unter macOS einrichten</a></li>
+<li><a href="#vpn-einrichten-unter-anderen-linux-distributionen" class="toggable">VPN einrichten unter anderen Linux Distributionen</a></li>
+</ol>
 
 </section>
 
@@ -360,7 +381,7 @@ Die Abhängigkeit (Paket <code>NetworkManager-vpnc</code>) sollte bereits vorins
 	</section>
 	<section class="legal">
 		<p>
-			<strong>&copy; open\HSR, <time datetime="2018-10-03">03.10.2018</time></strong>.
+			<strong>© open\HSR, <time datetime="2018-10-06">06.10.2018</time></strong>.
 			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
 		</p>
 	</section>
@@ -370,7 +391,7 @@ Die Abhängigkeit (Paket <code>NetworkManager-vpnc</code>) sollte bereits vorins
 <script src="/assets/jquery/jquery-2.2.2.min.js"></script>
 <script src="/assets/lightbox/js/lightbox.min.js"></script>
 <script src="/js/script.js"></script>
-<noscript><p><img src="//piwik.fh2.ch/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
+<noscript><p><img src="//piwik.fh2.ch/piwik.php?idsite=8" style="border:0;" alt=""></p></noscript>
 
 
     </div>
