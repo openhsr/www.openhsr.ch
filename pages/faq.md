@@ -18,6 +18,15 @@ hidden_from_navigation: true
 </dl>
 
 <dl class="faq">
-	<dt>Was kann ich tun, wenn ich ein Windows Programm auf meinem Rechner benötige?</dt>
-	<dd>Auch hier gibt es mehrere Varianten um das Problem zu lösen. Du kannst zum Beispiel mit VirtualBox eine Windows-VM starten und dann das benötigte Programm dort ausführen. Oder du kannst <a href="../tipps/wine">Wine</a> verwenden, eine Laufzeitumgebung, die die Ausführung von Windows Software auf Linux ermöglicht. Eine Sammlung bei den <a href="../tipps">Tipps</a> listet die Erfahrungen auf, die wir mit verschiedenen Programmen mit Wine gesammelt haben. Wir freuen uns, wenn du hilfst, diese Liste zu <a href="https://github.com/openhsr/www.openhsr.ch">ergänzen</a> :smiley:</dd>
+    <dt>Was kann ich tun, wenn ich ein Windows Programm auf meinem Rechner benötige?</dt>
+    <dd>
+        Auch hierfür gibt es mehrere Lösungen. So kannst du zum Beispiel mit VirtualBox eine
+        Windows-VM einrichten und das benötigte Programm dort ausführen. Oder du kannst
+        <a href="../tipps/wine">Wine</a> verwenden, eine Laufzeitumgebung, die die Ausführung
+        von Windows Software auf Linux ermöglicht. Unter den <a href="../tipps">Tipps</a> findest
+        du eine Liste von Erfahrungsberichten, die wir mit der Verwendung von verschiedenen Programmen
+        mit Wine sammeln konnten. Wir würden uns über
+        <a href="https://github.com/openhsr/www.openhsr.ch">deine Ergänzung</a> dieser Liste sehr
+        freuen. :smiley:
+    </dd>
 </dl>
