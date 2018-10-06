@@ -15,7 +15,7 @@ Dann bist du bei uns richtig.
 Mit deiner Mitgliedschaft ...
 
 * wirst du Teil der lebendigen Community um Open Source-Projekte in Rapperswil
-* setzt du ein Zeichen für Freie Software
+* setzt du ein Zeichen für freie Software
 * förderst du unser Engagement für die Unterstützung von alternativen Betriebssystemen wie Linux und macOS an der HSR
 * bekommst du einen open\HSR Sticker für dein Notebook!
 * wirst du von Zeit zu Zeit mit einem kurzen, prägnanten Newsletter über aktuelle Veranstaltungen und Projekte informiert (kann natürlich abbestellt werden :wink:)
@@ -35,11 +35,11 @@ Leider findet der Treffpunkt derzeit nicht regelmässig statt. Solltest du Inter
 
 Wir sammeln Ideen für Veranstaltungen, Events, Flyer etc. und verwirklichen diese in kleineren Gruppen. Damit ist der Aufwand für die Mitglieder abschätzbar und zeitlich eingegrenzt - wir wollen schliesslich keine Last fürs Studium sein. Wo wir deine Unterstützung brauchen - etwa, wenn die Untervereine der HSR vorgestellt werden -, erfährst du über den Newsletter. Natürlich kannst du auch deine Ideen mit einbringen!
 
-Du kannst konkret an Projekt wie der [Website](https://github.com/openhsr/www.openhsr.ch/issues) oder dem [open\HSR-Connect](https://github.com/openhsr/connect/issues) mitarbeiten, in dem du eines aus vielen tickets auf Github mit dem Label `help wanted` in Angriff nimmst. Klärende Fragen ungehemmt ins Ticket schreiben.
+Du kannst konkret an Projekten wie der [Website](https://github.com/openhsr/www.openhsr.ch/issues) oder dem [open\HSR-Connect](https://github.com/openhsr/connect/issues) mitarbeiten, in dem du eines aus vielen Tickets auf GitHub mit dem Label `help wanted` in Angriff nimmst. Klärende Fragen ungehemmt ins Ticket schreiben.
 
 Wir freuen uns auch über kleinere Beiträge! Das kann die kurze Rechtschreibprüfung einer Unterseite sein, Fehler in den Dokus melden, eine Idee für eine Veranstaltung, Unterseite etc. aufschreiben usw.
 
-Ein grosser Teil unserer Kommunikation und Arbeit findet auf Github statt. Falls du noch keine Erfahrung mit Git und/oder Github hast, ist das kein Problem - wir helfen dir gerne! Zudem ist ein Github-Account keine Voraussetzung für die Mitgliedschaft!
+Ein grosser Teil unserer Kommunikation und Arbeit findet auf GitHub statt. Falls du noch keine Erfahrung mit Git und/oder GitHub hast, ist das kein Problem - wir helfen dir gerne! Zudem ist ein GitHub-Account keine Voraussetzung für die Mitgliedschaft!
 
 
 ## Events
@@ -48,7 +48,7 @@ An der HSR finden verschiedene regelmässige und einige weniger regelmässige **
 Der **open\HSR** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
 
 <img src="/assets/emoji/octocat.png" style="float: right; box-shadow: none;" />
-### [Git/Github Workshop](https://github.com/openhsr/git-github-workshop/)
+### [Git/GitHub Workshop](https://github.com/openhsr/git-github-workshop/)
 
 > In diesem vom open\HSR organisierten Workshop werden die ersten Hürden beim Arbeiten mit Git und GitHub überwunden. Wir wollen dir die Hemmschwelle nehmen, damit du unbeschwert zu Open Source und open\HSR Projekten beitragen kannst.
 
@@ -62,7 +62,7 @@ Dieser Workshop wird von [GitHub](https://github.com/) mit Handouts & Swag unter
 
 ### [Swiss PGDay](http://www.pgday.ch/)
 > An diesem Tag dreht sich alles um PostgreSQL - "the world's most advanced open source database"!
-> Treffen Sie sich mit anderen an dieser Datenbank Interessierten an dieser einzigartigen Konferenz. Sie ist für alle geeignet, vom Einsteiger bis zum Experten, vom Sachbearbeiter bis zum Führungsverantwortlichen.
+> Triff dich mit anderen Datenbank-Interessierten an dieser einzigartigen Konferenz. Sie ist für alle geeignet, vom Einsteiger bis zum Experten, vom Sachbearbeiter bis zum Führungsverantwortlichen.
 <http://www.pgday.ch/>
 
 ## Verein
@@ -81,7 +81,7 @@ Als solcher unterstützt er auch die Ziele und Ideale des VSHSR.
 
 ### Umsetzung der Ziele
 
-Um dieser Ziele zu erreichen,
+Um diese Ziele zu erreichen,
 
 1. unterstützt der Verein **Open Source-Events** und **verknüpft die Open Source-Interessierten** an der HSR.
 2. bietet der Verein eine Sammlung von **Anleitungen und Empfehlungen** für alternative Betriebssysteme (Linux/macOS) und Software.
@@ -95,7 +95,7 @@ Posten | Person
 ------ | ------
 Präsident | Matteo Kamm
 Vize-Präsident | Mike Marti
-Kassierer | André Bachmann
+Kassier | André Bachmann
 
 Gemäss unseren Statuten setzt sich der Vorstand zwingend aus Präsident, Vize-Präsident und Kassier zusammen.
 Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
