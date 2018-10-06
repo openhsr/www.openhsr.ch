@@ -33,7 +33,7 @@ Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können 
   {% lightbox /assets/hsr/vpn/vpn05.png --data="vpn ubuntu" --title="HSR-VPN in der Liste der VPNs" --alt="HSR-VPN in der Liste der VPNs" %}
 7. **Verbindung über den Netzwerkindikatoren** am oberen rechten Bildschirmrand via ```VPN``` + ```HSR``` herstellen<br>
   {% lightbox /assets/hsr/vpn/vpn06.png --data="vpn ubuntu" --title="Verbindung über den Netzwerkindikatoren herstellen" --alt="Verbindung über den Netzwerkindikatoren herstellen" %}
-8. Einloggen mit User, Passwort und achtstelligem Swivel Token und **Verbinden**<br>
+8. Einloggen mit Usernamen, Passwort und achtstelligem Swivel Token und **Verbinden**. :warning: Setze die Checkbox Save passwords **nicht**, da dadurch dein Account temporär gesperrt werden könnte<br>
   {% lightbox /assets/hsr/vpn/vpn07.png --data="vpn ubuntu" --title="HSR-VPN Login" --alt="HSR-VPN Login" %}
   <br>
   {% lightbox /assets/hsr/vpn/vpn08.png --data="vpn ubuntu" --title="Verbindung wurde erfolgreich hergestellt" --alt="Verbindung wurde erfolgreich hergestellt" %}
