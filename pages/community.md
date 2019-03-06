@@ -93,9 +93,9 @@ Um diese Ziele zu erreichen,
 
 Posten | Person
 ------ | ------
-Präsident | Matteo Kamm
-Vize-Präsident | Mike Marti
-Kassier | André Bachmann
+Präsident | Fabian Hauser
+Vize-Präsident | Dominic Hüppi
+Kassier | Lukas Volk
 
 Gemäss unseren Statuten setzt sich der Vorstand zwingend aus Präsident, Vize-Präsident und Kassier zusammen.
 Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
