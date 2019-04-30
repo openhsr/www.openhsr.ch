@@ -207,9 +207,55 @@ direkt unter <code>Optionen</code>  auf <code>Farbe</code> umgestellt werden.</l
 
 <div class="toggle-content">
 
-<p>Derzeit gibt es leider keine uns bekannte Möglichkeit, die Drucker unter Linux einzurichten, wir
-suchen aber nach einem Weg! Wir freuen uns auf jede Mithilfe - alle Informationen dazu findest
-du im <a href="https://github.com/openhsr/www.openhsr.ch/issues/16">Github Issue #16: Drucker unter Linux einrichten</a></p>
+<h3 id="canon-mfp-bw">Canon MFP-BW</h3>
+
+<p>Um die Canon S/W Multifunktionsdrucker unter Linux nutzen zu können, benötigt man zunächst die passenden <a href="https://de.canon.ch/support/products/imagerunner/imagerunner-advance-8585-pro.html?type=drivers">Treiber</a>.</p>
+
+<p>Das Treiberarchiv muss entpackt werden und die darin enthaltene <strong>install.sh</strong> Datei mit sudo ausgeführt werden:</p>
+
+<p><code>sudo ./install.sh</code></p>
+
+<p>Die Treiber benötigen auf einem 64bit System einige i386 Pakete. Diese werden von dem Installationsscript automatisch nachinstalliert.</p>
+
+<p>Mit dem Treiberpaket werden eine Vielzahl von neuen PPD-Dateien installiert. Um das passende PPD für den Drucker herauszufinden, gibt man folgenden Befehl ein:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">lpinfo --make-and-model "Canon iR-ADV 8585/8595 III UFR II" -m
+</code></pre></div>
+<p>Die Ausgabe sollte wie folgt aussehen:</p>
+
+<p><strong>CNCUPSIRADV85853ZK.ppd Canon iR-ADV 8585/8595 III UFR II</strong></p>
+
+<p>Wichtig ist hierbei der Name der PPD Datei, da dieser im folgenden angegeben werden muss.</p>
+
+<p>Der Drucker kann nun mit Hilfe von <strong>lpadmin</strong> eingerichtet werden:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">sudo /usr/sbin/lpadmin \
+-p MFP-BW \
+-o 'printer-is-shared=false' \
+-o 'auth-info-required=username,password' \
+-o 'media=A4' \
+-E \
+-v "smb://HSR.ch/printsrv-a.hsr.ch/MFP-BW" \
+-D "MFP-BW" \
+-m CNCUPSIRADV85853ZK.ppd
+</code></pre></div>
+<p>Überprüfen lässt sich die Einrichtung mit dem Befehl:</p>
+
+<p><code>lpoptions -p MFP-BW</code></p>
+
+<p>Für die Anmeldung am Drucker wird das HSR.ch-Login benötigt. Damit die Anmeldedaten abgefragt werden, muss das Paket system-config-printer installiert werden:</p>
+
+<p><code>sudo apt-get install system-config-printer</code></p>
+
+<p>Das Applet muss automatisch beim einloggen des Benutzers gestartet werden:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">cp /etc/xdg/autostart/print-applet.desktop ~/.config/autostart/
+sed -i 's/NotShowIn=KDE;GNOME;Cinnamon;/NotShowIn=KDE;Cinnamon;/' ~/.config/autostart/print-applet.desktop
+</code></pre></div>
+<p>Sollte nicht GNOME zum Einsatz kommen, kann der obige Befehl entsprechend angepasst werden.</p>
+
+<p>Es wird empfohlen sich einmal von der Desktopumgebung abzumelden und wieder anzumelden. Alternativ kann man das applet manuell starten. Dazu gibt man <strong>Alt+F2</strong> ein und tippt dort <strong>system-config-printer-applet</strong> gefolgt von Enter ein.</p>
+
+<p>Nun öffnet man eine GTK3 Applikation wie <strong>gedit</strong> und löst von dort einen Druck aus. Es sollte eine Username/Passwortaufforderung erscheinen. Als Benutzername wird der HSR.ch Kurzname angegeben. Der Haken bei &#39;Passwort speichern&#39; sollte gesetzt werden.</p>
+
+<p>Weitere Informationen dazu findest du im <a href="https://github.com/openhsr/www.openhsr.ch/issues/16">Github Issue #16: Drucker unter Linux einrichten</a></p>
 
 </div>
 
@@ -299,7 +345,7 @@ du im <a href="https://github.com/openhsr/www.openhsr.ch/issues/16">Github Issue
 	</section>
 	<section class="legal">
 		<p>
-			<strong>&copy; open\HSR, <time datetime="2019-03-06">06.03.2019</time></strong>.
+			<strong>&copy; open\HSR, <time datetime="2019-04-30">30.04.2019</time></strong>.
 			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
 		</p>
 	</section>
