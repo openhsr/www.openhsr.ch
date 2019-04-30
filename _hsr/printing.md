@@ -59,7 +59,7 @@ sudo /usr/sbin/lpadmin \
 -E \
 -v "smb://HSR.ch/printsrv-a.hsr.ch/MFP-BW" \
 -D "MFP-BW" \
--m CNCUPSIRADV85853ZK
+-m CNCUPSIRADV85853ZK.ppd
 ```
 
 Überprüfen lässt sich die Einrichtung mit dem Befehl:
