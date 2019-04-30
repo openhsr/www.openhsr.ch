@@ -30,27 +30,31 @@ direkt unter `Optionen`  auf `Farbe` umgestellt werden.
 
 Um die Canon S/W Multifunktionsdrucker unter Linux nutzen zu können, benötigt man zunächst die passenden [Treiber](https://de.canon.ch/support/products/imagerunner/imagerunner-advance-8585-pro.html?type=drivers).
 
-Das Treiberarchiv muss entpackt werden und die darin enthaltene **install.sh** Datei mit sudo ausgeführt werden:
+Das Treiberarchiv muss entpackt werden und die darin enthaltene `install.sh` Datei mit sudo ausgeführt werden:
 
-`sudo ./install.sh`
+```bash
+sudo ./install.sh
+```
 
 Die Treiber benötigen auf einem 64bit System einige i386 Pakete. Diese werden von dem Installationsscript automatisch nachinstalliert.
 
 Mit dem Treiberpaket werden eine Vielzahl von neuen PPD-Dateien installiert. Um das passende PPD für den Drucker herauszufinden, gibt man folgenden Befehl ein:
 
-```
+```bash
 lpinfo --make-and-model "Canon iR-ADV 8585/8595 III UFR II" -m
 ```
 
 Die Ausgabe sollte wie folgt aussehen:
 
-**CNCUPSIRADV85853ZK.ppd Canon iR-ADV 8585/8595 III UFR II**
+```
+CNCUPSIRADV85853ZK.ppd Canon iR-ADV 8585/8595 III UFR II
+```
 
 Wichtig ist hierbei der Name der PPD Datei, da dieser im folgenden angegeben werden muss.
 
 Der Drucker kann nun mit Hilfe von **lpadmin** eingerichtet werden:
 
-```
+```bash
 sudo /usr/sbin/lpadmin \
 -p MFP-BW \
 -o 'printer-is-shared=false' \
@@ -64,22 +68,26 @@ sudo /usr/sbin/lpadmin \
 
 Überprüfen lässt sich die Einrichtung mit dem Befehl:
 
-`lpoptions -p MFP-BW`
+```bash
+lpoptions -p MFP-BW`
+```
 
 Für die Anmeldung am Drucker wird das HSR.ch-Login benötigt. Damit die Anmeldedaten abgefragt werden, muss das Paket system-config-printer installiert werden:
 
-`sudo apt-get install system-config-printer`
+```bash
+sudo apt-get install system-config-printer
+```
 
 Das Applet muss automatisch beim einloggen des Benutzers gestartet werden:
 
-```
+```bash
 cp /etc/xdg/autostart/print-applet.desktop ~/.config/autostart/
 sed -i 's/NotShowIn=KDE;GNOME;Cinnamon;/NotShowIn=KDE;Cinnamon;/' ~/.config/autostart/print-applet.desktop
 ```
 
 Sollte nicht GNOME zum Einsatz kommen, kann der obige Befehl entsprechend angepasst werden.
 
-Es wird empfohlen sich einmal von der Desktopumgebung abzumelden und wieder anzumelden. Alternativ kann man das applet manuell starten. Dazu gibt man **Alt+F2** ein und tippt dort **system-config-printer-applet** gefolgt von Enter ein.
+Es wird empfohlen sich einmal von der Desktopumgebung abzumelden und wieder anzumelden. Alternativ kann man das applet manuell starten. Dazu gibt man **Alt+F2** ein und tippt dort `system-config-printer-applet` gefolgt von **Enter** ein.
 
 Nun öffnet man eine GTK3 Applikation wie **gedit** und löst von dort einen Druck aus. Es sollte eine Username/Passwortaufforderung erscheinen. Als Benutzername wird der HSR.ch Kurzname angegeben. Der Haken bei 'Passwort speichern' sollte gesetzt werden.
 
