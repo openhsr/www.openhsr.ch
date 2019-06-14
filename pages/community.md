@@ -65,6 +65,11 @@ Dieser Workshop wird von [GitHub](https://github.com/) mit Handouts & Swag unter
 > Triff dich mit anderen Datenbank-Interessierten an dieser einzigartigen Konferenz. Sie ist für alle geeignet, vom Einsteiger bis zum Experten, vom Sachbearbeiter bis zum Führungsverantwortlichen.
 <http://www.pgday.ch/>
 
+### [ZuriHac](https://www.zurihac.info/)
+
+>  ZuriHac is the biggest [Haskell](https://haskell.org/) Hackathon in the world: a completely free, three-day grassroots coding festival organized by [Zürich Friends of Haskell](https://zfoh.ch/). It features fantastic keynotes, interesting tracks, and of course lots of hacking and socializing!
+<https://www.zurihac.info/>
+
 ## Verein
 
 {% lightbox /assets/logo.png --data="logo" --title="Logo open\HSR" --alt="Logo open\HSR" --class="no-shadow" %}
