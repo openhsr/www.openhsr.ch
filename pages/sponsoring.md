@@ -1,4 +1,7 @@
-# Sponsoring
+---
+title: Sponsoring
+hidden_from_navigation: true
+---
 
 Dieses Dokument gibt eine Übersicht über das Sponsoring im open\HSR.
 
@@ -73,3 +76,7 @@ Die Einstufung wird nach geschätzter Zielgruppengrösse und Streuung gemacht.
 
 **Leistungen**: 
 - 1 Logo auf der open\HSR-Website
+
+## Interessiert?
+
+<a href="mailto:info@openhsr.ch?subject=Sponsoring" class="button">Schreiben Sie uns!</a>
