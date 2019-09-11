@@ -40,12 +40,14 @@ Die Einstufung wird nach geschätzter Zielgruppengrösse und Streuung gemacht.
 **Kosten:** 2000 CHF / Jahr
 
 **Zielgruppen:**
+
 - Sämtliche Studierenden der HSR (ca. 1500 Personen)
 - Nutzer [studentenportal.ch](https://studentenportal.ch) (ca. 100'000 Seitenaufrufe/Jahr)
 - open\HSR-Mitglieder
 - Benutzer von OpenSource-Software und alternativen Betriebssystemen an der HSR (in erster Linie Linux und macOS)
 
 **Leistungen**:
+
 - 1 Logo auf open\HSR-Flyer (ca. Briefmarkengross)  
   Der open\HSR Flyer wird an sämtliche neu eintretenden HSR-Studierende verteilt.
 - 1 Logo auf der open\HSR-Website
@@ -58,11 +60,13 @@ Die Einstufung wird nach geschätzter Zielgruppengrösse und Streuung gemacht.
 **Kosten:** 1300 CHF / Jahr
 
 **Zielgruppen:**
+
 - Nutzer [studentenportal.ch](https://studentenportal.ch) (ca. 100'000 Seitenaufrufe/Jahr)
 - open\HSR-Mitglieder
 - Benutzer von OpenSource-Software und alternativen Betriebssystemen an der HSR (in erster Linie Linux und macOS)
 
 **Leistungen:**
+
 - 1 Logo auf der open\HSR-Website
 - 1 Logo auf der Startseite des HSR Studentenportals
 
@@ -71,10 +75,12 @@ Die Einstufung wird nach geschätzter Zielgruppengrösse und Streuung gemacht.
 **Kosten:** 600 CHF / Jahr
 
 **Zielgruppen:**
+
 - open\HSR-Mitglieder
 - Benutzer von OpenSource-Software und alternativen Betriebssystemen an der HSR (in erster Linie Linux und macOS)
 
 **Leistungen**: 
+
 - 1 Logo auf der open\HSR-Website
 
 ## Interessiert?
