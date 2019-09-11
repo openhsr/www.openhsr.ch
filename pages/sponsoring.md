@@ -1,6 +1,7 @@
 ---
 title: Sponsoring
 hidden_from_navigation: true
+parent: community
 ---
 
 Dieses Dokument gibt eine Übersicht über das Sponsoring im open\HSR.
