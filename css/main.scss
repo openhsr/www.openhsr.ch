@@ -588,8 +588,13 @@ main {
 
 .sponsoring a > img {
 	display: inline-block;
-	max-width: 15rem;
+	max-width: 17rem;
+    max-height: 5rem;
 	margin: 1rem;
+}
+
+#footer .sponsoring a.button {
+    margin-left: 1rem;
 }
 
 .partnership {
