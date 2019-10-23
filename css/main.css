@@ -485,11 +485,12 @@ main {
 .sponsoring > div {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
   align-items: center; }
 
 .sponsoring a > img {
   display: inline-block;
-  max-width: 17rem;
+  max-width: 19rem;
   max-height: 5rem;
   margin: 1rem; }
 
@@ -506,6 +507,7 @@ main {
 .partnership > div {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
   align-items: baseline; }
 
 .partnership a > img {
