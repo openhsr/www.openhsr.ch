@@ -262,16 +262,16 @@ a[href^="http://apt.ubuntu.com/p/"]:hover {
 
 @media all and (min-width: 1080px) {
   #hamburger {
-    display: none;
+	display: none;
   }
 
   #hamburger.toggle-closed + nav,
   #hamburger.toggle-closed + nav + div.social,
   #hamburger + nav,
   #hamburger + nav + div.social {
-    max-height: none;
-    overflow-y: visible;
-    overflow-x: visible;
+	max-height: none;
+	overflow-y: visible;
+	overflow-x: visible;
   }
 
 }
@@ -336,47 +336,47 @@ nav > ul > li > ul > li > a::before {
 
 @media all and (min-width: 1080px) {
   nav {
-    display: block;
-    flex: 0 1 auto;
+	display: block;
+	flex: 0 1 auto;
   }
   .social {
-    display: inline-block;
+	display: inline-block;
   }
   .social a {
-    line-height: 5rem;
+	line-height: 5rem;
   }
   .social a:hover {
-    color: #FFF;
-    background: #0063A3;
+	color: #FFF;
+	background: #0063A3;
   }
   nav > ul > li {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
   }
 
   nav ul li a {
-    line-height: 5rem;
-    transition: all 0.2s ease;
+	line-height: 5rem;
+	transition: all 0.2s ease;
   }
 
   nav ul li:hover a {
-    background: #0063A3;
-    color: #FFF;
+	background: #0063A3;
+	color: #FFF;
   }
 
   nav > ul > li.active a {
-    background: #0063A3;
+	background: #0063A3;
   }
 
   /** sub menus */
   nav > ul > li > ul {
-    position: absolute;
-    padding: 0.5rem 1rem 1rem 0.5rem;
+	position: absolute;
+	padding: 0.5rem 1rem 1rem 0.5rem;
   }
 
   nav > ul > li:hover > ul {
-    display: block;
-    left: 0;
+	display: block;
+	left: 0;
   }
 }
 
@@ -409,10 +409,10 @@ nav > ul > li > ul > li > a::before {
 
 @media all and (min-width: 1080px) {
   .wrapper {
-    margin: 0 auto;
+	margin: 0 auto;
   	width: 90%;
-    width: 62.5rem;
-    max-width: 62.5rem;
+	width: 62.5rem;
+	max-width: 62.5rem;
   }
 }
 
@@ -470,9 +470,9 @@ main {
 }
 @media all and (min-width: 1080px) {
   .wiki-content {
-    order: 1;
-    max-width: 65%;
-    flex: 3
+	order: 1;
+	max-width: 65%;
+	flex: 3
   }
 }
 
@@ -498,25 +498,25 @@ main {
 
 @media all and (min-width: 1080px) {
   #sidebar {
-    order: 2;
-    flex: 1;
-    margin-left: 1rem;
-    border-left: 1px solid #E0E0E0;
+	order: 2;
+	flex: 1;
+	margin-left: 1rem;
+	border-left: 1px solid #E0E0E0;
   }
 
   #sidebar section {
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #e0e0e0;
-    box-shadow: #fff 0 1px;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid #e0e0e0;
+	box-shadow: #fff 0 1px;
   }
 
   #sidebar section:last-child {
-    border-bottom: none;
-    box-shadow: none;
+	border-bottom: none;
+	box-shadow: none;
   }
 
   #sidebar .cross-references {
-    display: block;
+	display: block;
   }
 }
 
@@ -583,18 +583,19 @@ main {
 .sponsoring > div {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: space-between;
 	align-items: center;
 }
 
 .sponsoring a > img {
 	display: inline-block;
-	max-width: 17rem;
-    max-height: 5rem;
+	max-width: 19rem;
+	max-height: 5rem;
 	margin: 1rem;
 }
 
 #footer .sponsoring a.button {
-    margin-left: 1rem;
+	margin-left: 1rem;
 }
 
 .partnership {
@@ -609,6 +610,7 @@ main {
 .partnership > div {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: space-between;
 	align-items: baseline;
 }
 
@@ -639,7 +641,7 @@ main {
 
 /* Tipps & Tricks */
 .tipps-category::before {
-    content: '# ';
+	content: '# ';
 }
 .tipps-category {
 
