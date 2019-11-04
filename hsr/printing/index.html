@@ -217,16 +217,19 @@ direkt unter <code>Optionen</code>  auf <code>Farbe</code> umgestellt werden.</l
 
 <p>Um die Canon S/W Multifunktionsdrucker unter Linux nutzen zu können, benötigt man zunächst die passenden <a href="https://de.canon.ch/support/products/imagerunner/imagerunner-advance-8585-pro.html?type=drivers">Treiber</a>.</p>
 
+<p>Wir gehen von der Verwendung des <em>UFR II/UFRII LT Printer Driver for Linux</em> aus.</p>
+
 <p>Das Treiberarchiv muss entpackt werden und die darin enthaltene <code>install.sh</code> Datei mit sudo ausgeführt werden:</p>
 <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo</span> ./install.sh
 </code></pre></div>
-<p>Die Treiber benötigen auf einem 64bit System einige i386 Pakete. Diese werden von dem Installationsscript automatisch nachinstalliert.</p>
-
+<p>Die Treiber benötigen auf einem 64bit System einige i386 Pakete. Diese werden von dem Installationsscript automatisch nachinstalliert. Da die Anbindung des Druckers über das <em>SMB</em> Protokoll erfolgt, muss gegebenenfalls noch der smbclient nachinstalliert werden:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get <span class="nb">install </span>smbclient
+</code></pre></div>
 <p>Mit dem Treiberpaket werden eine Vielzahl von neuen PPD-Dateien installiert. Um das passende PPD für den Drucker herauszufinden, gibt man folgenden Befehl ein:</p>
 <div class="highlight"><pre><code class="language-bash" data-lang="bash">lpinfo <span class="nt">--make-and-model</span> <span class="s2">"Canon iR-ADV 8585/8595 III UFR II"</span> <span class="nt">-m</span>
 </code></pre></div>
 <p>Die Ausgabe sollte wie folgt aussehen:</p>
-<div class="highlight"><pre><code class="language-" data-lang="">CNCUPSIRADV85853ZK.ppd Canon iR-ADV 8585/8595 III UFR II
+<div class="highlight"><pre><code class="language-" data-lang="">CNRCUPSIRADV85853ZK.ppd Canon iR-ADV 8585/8595 III UFR II
 </code></pre></div>
 <p>Wichtig ist hierbei der Name der PPD Datei, da dieser im folgenden angegeben werden muss.</p>
 
@@ -239,10 +242,10 @@ direkt unter <code>Optionen</code>  auf <code>Farbe</code> umgestellt werden.</l
 <span class="nt">-E</span> <span class="se">\</span>
 <span class="nt">-v</span> <span class="s2">"smb://HSR.ch/printsrv-a.hsr.ch/MFP-BW"</span> <span class="se">\</span>
 <span class="nt">-D</span> <span class="s2">"MFP-BW"</span> <span class="se">\</span>
-<span class="nt">-m</span> CNCUPSIRADV85853ZK.ppd
+<span class="nt">-m</span> CNRCUPSIRADV85853ZK.ppd
 </code></pre></div>
 <p>Überprüfen lässt sich die Einrichtung mit dem Befehl:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">lpoptions <span class="nt">-p</span> MFP-BW<span class="sb">`</span>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">lpoptions <span class="nt">-p</span> MFP-BW
 </code></pre></div>
 <p>Für die Anmeldung am Drucker wird das HSR.ch-Login benötigt. Damit die Anmeldedaten abgefragt werden, muss das Paket system-config-printer installiert werden:</p>
 <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get <span class="nb">install </span>system-config-printer
@@ -342,7 +345,7 @@ direkt unter <code>Optionen</code>  auf <code>Farbe</code> umgestellt werden.</l
 	</section>
 	<section class="legal">
 		<p>
-			<strong>&copy; open\HSR, <time datetime="2019-10-23">23.10.2019</time></strong>.
+			<strong>&copy; open\HSR, <time datetime="2019-11-04">04.11.2019</time></strong>.
 			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
 		</p>
 	</section>
