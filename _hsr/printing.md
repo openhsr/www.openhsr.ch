@@ -30,13 +30,19 @@ direkt unter `Optionen`  auf `Farbe` umgestellt werden.
 
 Um die Canon S/W Multifunktionsdrucker unter Linux nutzen zu können, benötigt man zunächst die passenden [Treiber](https://de.canon.ch/support/products/imagerunner/imagerunner-advance-8585-pro.html?type=drivers).
 
+Wir gehen von der Verwendung des *UFR II/UFRII LT Printer Driver for Linux* aus.
+
 Das Treiberarchiv muss entpackt werden und die darin enthaltene `install.sh` Datei mit sudo ausgeführt werden:
 
 ```bash
 sudo ./install.sh
 ```
 
-Die Treiber benötigen auf einem 64bit System einige i386 Pakete. Diese werden von dem Installationsscript automatisch nachinstalliert.
+Die Treiber benötigen auf einem 64bit System einige i386 Pakete. Diese werden von dem Installationsscript automatisch nachinstalliert. Da die Anbindung des Druckers über das *SMB* Protokoll erfolgt, muss gegebenenfalls noch der smbclient nachinstalliert werden:
+
+```bash
+sudo apt-get install smbclient
+```
 
 Mit dem Treiberpaket werden eine Vielzahl von neuen PPD-Dateien installiert. Um das passende PPD für den Drucker herauszufinden, gibt man folgenden Befehl ein:
 
@@ -47,7 +53,7 @@ lpinfo --make-and-model "Canon iR-ADV 8585/8595 III UFR II" -m
 Die Ausgabe sollte wie folgt aussehen:
 
 ```
-CNCUPSIRADV85853ZK.ppd Canon iR-ADV 8585/8595 III UFR II
+CNRCUPSIRADV85853ZK.ppd Canon iR-ADV 8585/8595 III UFR II
 ```
 
 Wichtig ist hierbei der Name der PPD Datei, da dieser im folgenden angegeben werden muss.
@@ -63,13 +69,13 @@ sudo /usr/sbin/lpadmin \
 -E \
 -v "smb://HSR.ch/printsrv-a.hsr.ch/MFP-BW" \
 -D "MFP-BW" \
--m CNCUPSIRADV85853ZK.ppd
+-m CNRCUPSIRADV85853ZK.ppd
 ```
 
 Überprüfen lässt sich die Einrichtung mit dem Befehl:
 
 ```bash
-lpoptions -p MFP-BW`
+lpoptions -p MFP-BW
 ```
 
 Für die Anmeldung am Drucker wird das HSR.ch-Login benötigt. Damit die Anmeldedaten abgefragt werden, muss das Paket system-config-printer installiert werden:
