@@ -98,9 +98,10 @@ Um diese Ziele zu erreichen,
 
 Posten | Person
 ------ | ------
-Präsident | Fabian Hauser
-Vize-Präsident | Dominic Hüppi
-Kassier | Lukas Volk
+Präsident | Fabian Gehrmann
+Vize-Präsident | Floris Staub
+Kassier | Hansruedi Patzen
+Beisitz (Studentenportal) | Fabian Hauser
 
 Gemäss unseren Statuten setzt sich der Vorstand zwingend aus Präsident, Vize-Präsident und Kassier zusammen.
 Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
