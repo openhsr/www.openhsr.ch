@@ -98,7 +98,7 @@ Um diese Ziele zu erreichen,
 
 Posten | Person
 ------ | ------
-Präsident | Fabian Gehrmann
+Präsident | Fabian Germann 
 Vize-Präsident | Floris Staub
 Kassier | Hansruedi Patzen
 Beisitz (Studentenportal) | Fabian Hauser
