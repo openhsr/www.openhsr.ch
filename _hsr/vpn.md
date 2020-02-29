@@ -40,9 +40,7 @@ Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können 
 
 ## VPN unter macOS einrichten
 
-### 1. openconnect installieren
-
-**Variante 1**: Mittels [Homebrew](https://brew.sh)
+### 1. OpenConnect mittels [Homebrew](https://brew.sh) installieren
 
 ```bash
 brew update
@@ -53,19 +51,13 @@ brew install openconnect
 
 Weiterführende Informationen: [OpenConnect VPN on Mac OS X](https://gist.github.com/moklett/3170636) (siehe Kommentare)
 
-**Variante 2**: Source builden
-
-Siehe [Building OpenConnect](http://www.infradead.org/openconnect/building.html)
-
 ### 2. Verbindung öffnen
 
 ```bash
 sudo openconnect vpn.hsr.ch
 ```
 
-1. Beim ersten Promt den Benutzernamen eingeben,
-2. beim zweiten das Passwort und
-3. beim dritten den Code aus der Swivel-App.
+Beim ersten Promt den **Benutzernamen**, beim zweiten das **Passwort** und beim dritten den **Code aus der Swivel-App** eingeben.
 
 ## VPN einrichten unter anderen Linux Distributionen
 
