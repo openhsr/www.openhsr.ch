@@ -8,7 +8,7 @@ Der Überlebensguide hilft dir beim Start mit deinem Linux oder Mac an der HSR.
 
 Weitere Anleitungen findest du auch auf unserer Webseite unter <https://www.openhsr.ch/>. Falls du weitere Hilfe mit deinem Linux oder Mac benötigst, findest du unter [Hilfe](/hilfe/), wie du uns kontaktieren kannst.
 
-Für Mac gibt es auch gute Anleitungen vom ITA im *[HSR-Intranet](https://www.hsr.ch/intern)* → *IT-Informatikdienste* → *Support / IT-ServiceDesk* → *Einstieg für Erstsemestrige*.
+Für Mac gibt es auch gute Anleitungen vom ITA im *[HSR-Intranet](https://intranet.hsr.ch)* → *IT-Informatikdienste* → *Support / IT-ServiceDesk* → *Einstieg für Erstsemestrige*.
 
 ##  :closed\_lock\_with\_key: HSR-Login
 
