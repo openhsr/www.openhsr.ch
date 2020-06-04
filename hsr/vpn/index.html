@@ -259,29 +259,18 @@ Es sind keine erweiterten Einstellungen und Konfigurationen in anderen Tabs erfo
 
 <div class="toggle-content">
 
-<ol>
-<li>
-<strong>Öffne die Netzwerkeinstellungen</strong> und klicke unten links auf das <strong>Plus</strong><br>
-<a href="../../assets/hsr/vpn/mac_vpn1.png" data-lightbox="vpn mac" data-title="Netzwerkeinstellungen"><img src="../../assets/hsr/vpn/mac_vpn1.png" alt="Netzwerkeinstellungen" class="" style=""></a>
-</li>
-<li>Wähle <code>VPN</code>, <code>Cisco IPSec</code> und wähle einen Verbindungsnamen. Klicke anschliessend auf <strong>Erstellen</strong>.<br>
-<a href="../../assets/hsr/vpn/mac_vpn2.png" data-lightbox="vpn mac" data-title="VPN Einstellungen"><img src="../../assets/hsr/vpn/mac_vpn2.png" alt="VPN Einstellungen" class="" style=""></a>
-</li>
-<li>Gib rechts die <strong>Serverdaten</strong> ein - natürlich mit eigenem Benutzernamen. Das Passwort kann leer gelassen werden.<br>
-Klicke auf <strong>Authentifizierungseinstellungen</strong>.
-<a href="../../assets/hsr/vpn/mac_vpn3.png" data-lightbox="vpn mac" data-title="VPN Serverdaten"><img src="../../assets/hsr/vpn/mac_vpn3.png" alt="VPN Serverdaten" class="" style=""></a>
-</li>
-<li>Gib <code>hsrremote</code> als Schlüssel und Gruppenname ein<br>
-<a href="../../assets/hsr/vpn/mac_vpn4.png" data-lightbox="vpn mac" data-title="VPN Authentifizierungseinstellungen"><img src="../../assets/hsr/vpn/mac_vpn4.png" alt="VPN Authentifizierungseinstellungen" class="" style=""></a>
-</li>
-<li>Optional kannst du das Häckchen setzen bei <code>VPN in der Menüleiste anzeigen</code>. Damit erscheint ein praktisches <strong>Icon in der Statusbar</strong>, zum schnellen An- und Abmelden.<br>
-<a href="../../assets/hsr/vpn/mac_vpn5.png" data-lightbox="vpn mac" data-title="VPN: Hacken für Icon in der Statusbar"><img src="../../assets/hsr/vpn/mac_vpn5.png" alt="VPN: Hacken für Icon in der Statusbar" class="" style=""></a><br>
-<a href="../../assets/hsr/vpn/mac_vpn6.png" data-lightbox="vpn mac" data-title="VPN Statusbar"><img src="../../assets/hsr/vpn/mac_vpn6.png" alt="VPN Statusbar" class="" style=""></a>
-</li>
-<li>Nun kannst du dich mit deinem <strong>HSR Login</strong> anmelden.<br>
-<a href="../../assets/hsr/vpn/mac_vpn7.png" data-lightbox="vpn mac" data-title="VPN Login"><img src="../../assets/hsr/vpn/mac_vpn7.png" alt="VPN Login" class="" style=""></a><br>
-</li>
-</ol>
+<h3 id="1-openconnect-mittels-homebrew-installieren">1. OpenConnect mittels <a href="https://brew.sh">Homebrew</a> installieren</h3>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">brew update
+brew <span class="nb">install </span>openconnect
+</code></pre></div>
+<p>Ältere Versionen von OS X (<a href="http://www.infradead.org/openconnect/building.html">10.6 und älter</a>) benötigen zusätzlich einen TUN/TAP-Treiber wie <a href="http://tuntaposx.sourceforge.net">TunTap</a>.</p>
+
+<p>Weiterführende Informationen: <a href="https://gist.github.com/moklett/3170636">OpenConnect VPN on Mac OS X</a> (siehe Kommentare)</p>
+
+<h3 id="2-verbindung-ffnen">2. Verbindung öffnen</h3>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>openconnect vpn.hsr.ch
+</code></pre></div>
+<p>Beim ersten Promt den <strong>Benutzernamen</strong>, beim zweiten das <strong>Passwort</strong> und beim dritten den <strong>Code aus der Swivel-App</strong> eingeben.</p>
 
 </div>
 
@@ -385,7 +374,7 @@ Klicke auf <strong>Authentifizierungseinstellungen</strong>.
 	</section>
 	<section class="legal">
 		<p>
-			<strong>© open\HSR, <time datetime="2020-05-07">07.05.2020</time></strong>.
+			<strong>© open\HSR, <time datetime="2020-06-04">04.06.2020</time></strong>.
 			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
 		</p>
 	</section>
