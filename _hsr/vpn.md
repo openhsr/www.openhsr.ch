@@ -40,20 +40,24 @@ Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können 
 
 ## VPN unter macOS einrichten
 
-1. **Öffne die Netzwerkeinstellungen** und klicke unten links auf das **Plus**<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn1.png --data="vpn mac" --title="Netzwerkeinstellungen" --alt="Netzwerkeinstellungen" %}
-2. Wähle ```VPN```, ```Cisco IPSec``` und wähle einen Verbindungsnamen. Klicke anschliessend auf **Erstellen**.<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn2.png --data="vpn mac" --title="VPN Einstellungen" --alt="VPN Einstellungen" %}
-3. Gib rechts die **Serverdaten** ein - natürlich mit eigenem Benutzernamen. Das Passwort kann leer gelassen werden.<br>
-   Klicke auf **Authentifizierungseinstellungen**.
-  {% lightbox /assets/hsr/vpn/mac_vpn3.png --data="vpn mac" --title="VPN Serverdaten" --alt="VPN Serverdaten" %}
-4. Gib ```hsrremote``` als Schlüssel und Gruppenname ein<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn4.png --data="vpn mac" --title="VPN Authentifizierungseinstellungen" --alt="VPN Authentifizierungseinstellungen" %}
-5. Optional kannst du das Häckchen setzen bei ```VPN in der Menüleiste anzeigen```. Damit erscheint ein praktisches **Icon in der Statusbar**, zum schnellen An- und Abmelden.<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn5.png --data="vpn mac" --title="VPN: Hacken für Icon in der Statusbar" --alt="VPN: Hacken für Icon in der Statusbar" %}<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn6.png --data="vpn mac" --title="VPN Statusbar" --alt="VPN Statusbar" %}
-6. Nun kannst du dich mit deinem **HSR Login** anmelden.<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn7.png --data="vpn mac" --title="VPN Login" --alt="VPN Login" %}<br>
+### 1. OpenConnect mittels [Homebrew](https://brew.sh) installieren
+
+```bash
+brew update
+brew install openconnect
+```
+
+Ältere Versionen von OS X ([10.6 und älter](http://www.infradead.org/openconnect/building.html)) benötigen zusätzlich einen TUN/TAP-Treiber wie [TunTap](http://tuntaposx.sourceforge.net).
+
+Weiterführende Informationen: [OpenConnect VPN on Mac OS X](https://gist.github.com/moklett/3170636) (siehe Kommentare)
+
+### 2. Verbindung öffnen
+
+```bash
+sudo openconnect vpn.hsr.ch
+```
+
+Beim ersten Promt den **Benutzernamen**, beim zweiten das **Passwort** und beim dritten den **Code aus der Swivel-App** eingeben.
 
 ## VPN einrichten unter anderen Linux Distributionen
 
