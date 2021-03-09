@@ -41,7 +41,7 @@ Es gibt zwei Möglichkeiten zum Drucken:
 ### E-Mail mit PDF im Anhang
 
 Dies ist die einfachste Lösung, ohne dass du Treiber auf deinem Computer installieren musst.  
-Sende einfach ein E-Mail mit einem PDF im Anhang an ```mobileprint@hsr.ch```. Du kannst das Dokument danach mit deinem Badge an jedem Drucker der HSR abrufen.
+Sende einfach ein E-Mail mit einem PDF im Anhang an ```mobileprint.rj@ost.ch```. Du kannst das Dokument danach mit deinem Badge an jedem Drucker der HSR abrufen.
 
 ### Drucker einrichten
 

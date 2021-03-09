@@ -7,8 +7,8 @@ title: Drucken
 Drucken per E-Mail ist die einfachste und bequemste Variante, um von Linux aus deine Dokumente zu drucken.
 
 1. Öffne dein E-Mail Programm und erstelle eine neue E-Mail.
-2. Stell sicher, dass du deine HSR-E-Mail als Absender verwendest.
-2. Tippe als Empfänger die Adresse `mobileprint@hsr.ch` ein.
+2. Stell sicher, dass du deine OST-E-Mail als Absender verwendest.
+2. Tippe als Empfänger die Adresse `mobileprint.rj@ost.ch` ein.
 3. Hänge eine oder mehr PDF-Dokumente an.
 4. Sende die E-Mail ab (Betreff und Inhalt braucht es nicht). <br>
 5. Kurze Zeit später solltest du eine Bestätigungsemail erhalten.
@@ -18,7 +18,7 @@ Drucken per E-Mail ist die einfachste und bequemste Variante, um von Linux aus d
 
 ### Hinweise
 
-* Stelle sicher, dass deine E-Mail nach dem Muster `vorname.nachname@hsr.ch` eingerichtet ist. Wenn deine E-Mail das Kürzel (wie `mmuster`) verwendet, funktioniert der Druck nicht.
+* Stelle sicher, dass deine E-Mail nach dem Muster `vorname.nachname@ost.ch` eingerichtet ist. Wenn deine E-Mail das Kürzel (wie `mmuster`) verwendet, funktioniert der Druck nicht.
 * Die Standardeinstellung für alle E-Mail-Druckaufträge ist schwarz-weiss. Dies kann am Drucker
 direkt unter `Optionen`  auf `Farbe` umgestellt werden.
 
