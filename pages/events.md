@@ -12,7 +12,7 @@ Der **open\HSR** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
 Mehr zu [{{ event_page.title }}]({{ event_page.url }})</a></p>
 
 {% if event_page.teaser_image %}
-![{{ event_page.teaser_title }}]({{ event_page.teaser_image }})" />
+![{{ event_page.teaser_title }}]({{ event_page.teaser_image }})
 {% endif %}
 
 {% endfor %}
