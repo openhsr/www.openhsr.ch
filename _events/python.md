@@ -41,3 +41,6 @@ Mit Florian Bruhin
 - Type-Annotationen
 - Automatisches Testen mit pytest
 - Häufige Fehler/Probleme
+
+## Anmeldung
+Bitte meldet euch doch bei simon<punkt>kindhauser<at>ost<dot>ch, wenn ihr Teilnehmen wollt. Wir freuen uns auf dich!
