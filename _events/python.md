@@ -1,7 +1,7 @@
 ---
-title: Python Kurs FS2021
-teaser_title: Python Kurs
-teaser: Der open\OST organisiert gleich zwei Python Kurse! Einer für Einsteiger und einer mit Best Practices. Es hat bestimmt für alle was dabei! Wir freuen uns auf dich im online Kurs begrüssen zu dürfen. Melde dich jetzt an!
+title: Python-Kurse FS2021
+teaser_title: Python-Kurse
+teaser: Der open\OST organisiert gleich zwei Python-Kurse! Einen für Einsteiger und einen mit Best Practices. Es hat bestimmt für alle was dabei! Wir freuen uns darauf, dich im online-Kurs begrüssen zu dürfen. Melde dich jetzt an!
 teaser_image: /assets/events/python/python_teaser.png
 ---
 
@@ -13,8 +13,7 @@ Mit Raphael Das Gupta
 
 ### Zielgruppe
 * Programmiereinsteiger
-* Python als Zweitsprache
-* Studiengang Elektrotechnik, Maschinenbau, Informatik etc
+* aufs Programmieren "gwundrige" Studierende und andere interessierte OST-Angehörige
 
 ### Themen
 * Konsole bedienen?
@@ -29,7 +28,7 @@ Mit Florian Bruhin
 ### Zielgruppe
 * Python bereits genutzt
 * Erfahrung in mind. einer Programmiersprache
-* Studiengang Informatik, Elektrotechnik, Maschinenbau etc
+* Studiengang Informatik, Elektrotechnik, Maschinenbau, ...
 
 ### Themen
 - Python-Versionen (Spoiler: Python 2 ist tot)
@@ -43,4 +42,4 @@ Mit Florian Bruhin
 - Häufige Fehler/Probleme
 
 ## Anmeldung
-Bitte meldet euch doch bei simon<punkt>kindhauser<at>ost<dot>ch, wenn ihr Teilnehmen wollt. Wir freuen uns auf dich!
+Bitte meldet euch doch bei simon&lt;punkt>kindhauser&lt;at>ost&lt;dot>ch, wenn ihr Teilnehmen wollt. Wir freuen uns auf dich!
