@@ -16,10 +16,11 @@ Mit Raphael Das Gupta
 * aufs Programmieren "gwundrige" Studierende und andere interessierte OST-Angehörige
 
 ### Themen
-* Konsole bedienen?
-* Python Prompt
-* Typen wie Strings und Zahlen
-* Syntax, Funktionen und Klassen
+* 🧙‍♀️ Einführung in die Kommandozeile
+* 🐍 Python-Einführung:
+* 🔢 Python als Taschenrechner
+* ✍ Texte, 🗒 Listen und 📑 "Dictionaries"
+* ⚖ Bedingungen und 👩‍🏭 Fuktionen
 
 ## Best Practices
 Am 2021-04-29 von 19:00 bis 21:00  
