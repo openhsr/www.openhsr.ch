@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="open\HSR">
-  <meta name="description" content="Technische Angaben">
+  <meta name="description" content="">
 
-  <title>VPN</title>
+  <title>Python-Kurse FS2021</title>
 
-  <link rel="canonical" href="https://www.openhsr.ch/hsr/vpn/">
+  <link rel="canonical" href="https://www.openhsr.ch/events/python/">
   <link rel="icon" href="/assets/logo_w75.png" type="image/png">
   <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/lightbox/css/lightbox.min.css" >
@@ -50,7 +50,7 @@
           
         
           
-            <li>
+            <li  >
               <a href="/app/">Programme</a>
               
                       <ul>
@@ -71,7 +71,7 @@
           
         
           
-            <li>
+            <li  >
               <a href="/community/">Community</a>
               
               
@@ -83,7 +83,7 @@
                     
                   
                     
-                      <li><a href="/community/">Verein &amp; Community</a></li>
+                      <li><a href="/community/">Verein & Community</a></li>
                     
                   
                     
@@ -123,7 +123,7 @@
           
         
           
-            <li>
+            <li  >
               <a href="/events/">Events</a>
               
               
@@ -132,7 +132,7 @@
                       <ul>
                       <li><a href="/events/">Übersicht</a></li>
                   
-                         <li><a href="/events/python/">Python-Kurse FS2021</a></li>
+                         <li><a class="active" href="/events/python/">Python-Kurse FS2021</a></li>
                   
                       </ul>
               
@@ -144,7 +144,7 @@
           
         
           
-            <li>
+            <li  >
               <a href="/hsr/">Dokumentationen</a>
               
               
@@ -157,7 +157,7 @@
                   
                       <li><a href="/hsr/shares/">Netzwerkfreigaben</a></li>
                   
-                      <li><a class="active" href="/hsr/vpn/">VPN</a></li>
+                      <li><a href="/hsr/vpn/">VPN</a></li>
                   
                       <li><a href="/hsr/wlan/">WLAN</a></li>
                   
@@ -169,7 +169,7 @@
           
         
           
-            <li>
+            <li  >
               <a href="/tipps/">Tipps &amp; Tricks</a>
               
               
@@ -206,107 +206,62 @@
 <section id="content">
   <main role="main" class="wiki-content">
     <section>
-      <h1>VPN</h1>
+      <h1>Python-Kurse FS2021</h1>
       <article>
-        <h2 id="technische-angaben">Technische Angaben</h2>
+        <p><img src="/assets/events/python/python_teaser.png" alt="flyer"></p>
 
-<table>
-<thead>
-<tr>
-<th>Einstellung</th>
-<th>Wert</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Gateway</td>
-<td><code>vpn.hsr.ch</code></td>
-</tr>
-<tr>
-<td>Benutzername</td>
-<td><code>mmuster</code></td>
-</tr>
-<tr>
-<td>Benutzerpasswort</td>
-<td><code>GeHeim007</code></td>
-</tr>
-</tbody>
-</table>
+<h2 id="einf-hrung">Einführung</h2>
 
-<p>Zusätzlich brauchst du die SwivelSecure App. Einen Link solltest du vom HSR Helpdesk erhalten haben.</p>
+<p>Am 2021-04-27 von 19:00 bis 21:00<br>
+Mit Raphael Das Gupta</p>
 
-<h2 id="vpn-unter-ubuntu-einrichten" class="toggable">VPN unter Ubuntu einrichten</h2>
+<h3 id="zielgruppe">Zielgruppe</h3>
 
-<div class="toggle-content">
+<ul>
+<li>Programmiereinsteiger</li>
+<li>aufs Programmieren &quot;gwundrige&quot; Studierende und andere interessierte OST-Angehörige</li>
+</ul>
 
-<p>Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können keine VPN-Verbindungen hergestellt werden.</p>
+<h3 id="themen">Themen</h3>
 
-<ol>
-<li>
-<strong>Benötigte Abhängigkeiten installieren</strong><br>
-Bevor du loslegen kannst, musst du noch das Paket <code>network-manager-openconnect-gnome</code> installieren.
-<a href="http://apt.ubuntu.com/p/network-manager-openconnect-gnome">Jetzt installieren</a>
-</li>
-<li>
-<strong>Öffne die Netzwerkeinstellungen</strong> über den Netzwerkindikatoren am oberen rechten Bildschirmrand via dem <code>Werkzeug-Symbol</code> + <code>Netzwerkeinstellungen</code><br>
-<a href="../../assets/hsr/vpn/vpn01.png" data-lightbox="vpn ubuntu" data-title="Netzwerkeinstellungen über den Netzwerkindikatoren"><img src="../../assets/hsr/vpn/vpn01.png" alt="Netzwerkeinstellungen über den Netzwerkindikatoren" class="" style=""></a>
-</li>
-<li>Klick auf den Button <strong>+</strong> um eine neue VPN Konfiguration hinzuzufügen<br>
-<a href="../../assets/hsr/vpn/vpn02.png" data-lightbox="vpn ubuntu" data-title="Klick auf den Button +"><img src="../../assets/hsr/vpn/vpn02.png" alt="Klick auf den Button +" class="" style=""></a>
-</li>
-<li>Wähle in der Liste den Eintrag <strong>Cisco AnyConnect Compatible VPN (openconnect)</strong> aus<br>
-<a href="../../assets/hsr/vpn/vpn03.png" data-lightbox="vpn ubuntu" data-title="Cisco AnyConnect Compatible VPN-Client auswählen"><img src="../../assets/hsr/vpn/vpn03.png" alt="Cisco AnyConnect Compatible VPN-Client auswählen" class="" style=""></a>
-</li>
-<li>
-<strong>VPN Einstellungen eintragen</strong> - natürlich mit eigenem Benutzernamen &amp; Passwort<br>
-<a href="../../assets/hsr/vpn/vpn04.png" data-lightbox="vpn ubuntu" data-title="VPN Einstellungen"><img src="../../assets/hsr/vpn/vpn04.png" alt="VPN Einstellungen" class="" style=""></a>
-<br>
-Es sind keine erweiterten Einstellungen und Konfigurationen in anderen Tabs erforderlich.</li>
-<li>Speichern mit Klick auf <strong>Speichern</strong>. Der neue Eintrag erscheint nun in der Liste<br>
-<a href="../../assets/hsr/vpn/vpn05.png" data-lightbox="vpn ubuntu" data-title="HSR-VPN in der Liste der VPNs"><img src="../../assets/hsr/vpn/vpn05.png" alt="HSR-VPN in der Liste der VPNs" class="" style=""></a>
-</li>
-<li>
-<strong>Verbindung über den Netzwerkindikatoren</strong> am oberen rechten Bildschirmrand via <code>VPN</code> + <code>HSR</code> herstellen<br>
-<a href="../../assets/hsr/vpn/vpn06.png" data-lightbox="vpn ubuntu" data-title="Verbindung über den Netzwerkindikatoren herstellen"><img src="../../assets/hsr/vpn/vpn06.png" alt="Verbindung über den Netzwerkindikatoren herstellen" class="" style=""></a>
-</li>
-<li>Einloggen mit Usernamen, Passwort und achtstelligem Swivel Token und <strong>Verbinden</strong>. <img class="emoji" title=":warning:" alt=":warning:" src="/assets/emoji/unicode/26a0.png" height="20" width="20"> Setze die Checkbox Save passwords <strong>nicht</strong>, da dadurch dein Account temporär gesperrt werden könnte<br>
-<a href="../../assets/hsr/vpn/vpn07.png" data-lightbox="vpn ubuntu" data-title="HSR-VPN Login"><img src="../../assets/hsr/vpn/vpn07.png" alt="HSR-VPN Login" class="" style=""></a>
-<br>
-<a href="../../assets/hsr/vpn/vpn08.png" data-lightbox="vpn ubuntu" data-title="Verbindung wurde erfolgreich hergestellt"><img src="../../assets/hsr/vpn/vpn08.png" alt="Verbindung wurde erfolgreich hergestellt" class="" style=""></a>
-</li>
-</ol>
+<ul>
+<li>🧙‍♀️ Einführung in die Kommandozeile</li>
+<li>🐍 Python-Einführung:</li>
+<li>🔢 Python als Taschenrechner</li>
+<li>✍ Texte, 🗒 Listen und 📑 &quot;Dictionaries&quot;</li>
+<li>⚖ Bedingungen und 👩‍🏭 Fuktionen</li>
+</ul>
 
-</div>
+<h2 id="best-practices">Best Practices</h2>
 
-<h2 id="vpn-unter-macos-einrichten" class="toggable">VPN unter macOS einrichten</h2>
+<p>Am 2021-04-29 von 19:00 bis 21:00<br>
+Mit Florian Bruhin</p>
 
-<div class="toggle-content">
+<h3 id="zielgruppe">Zielgruppe</h3>
 
-<h3 id="1-openconnect-mittels-homebrew-installieren">1. OpenConnect mittels <a href="https://brew.sh">Homebrew</a> installieren</h3>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">brew update
-brew <span class="nb">install </span>openconnect
-</code></pre></div>
-<p>Ältere Versionen von OS X (<a href="http://www.infradead.org/openconnect/building.html">10.6 und älter</a>) benötigen zusätzlich einen TUN/TAP-Treiber wie <a href="http://tuntaposx.sourceforge.net">TunTap</a>.</p>
+<ul>
+<li>Python bereits genutzt</li>
+<li>Erfahrung in mind. einer Programmiersprache</li>
+<li>Studiengang Informatik, Elektrotechnik, Maschinenbau, ...</li>
+</ul>
 
-<p>Weiterführende Informationen: <a href="https://gist.github.com/moklett/3170636">OpenConnect VPN on Mac OS X</a> (siehe Kommentare)</p>
+<h3 id="themen">Themen</h3>
 
-<h3 id="2-verbindung-ffnen">2. Verbindung öffnen</h3>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>openconnect vpn.hsr.ch
-</code></pre></div>
-<p>Beim ersten Promt den <strong>Benutzernamen</strong>, beim zweiten das <strong>Passwort</strong> und beim dritten den <strong>Code aus der Swivel-App</strong> eingeben.</p>
+<ul>
+<li>Python-Versionen (Spoiler: Python 2 ist tot)</li>
+<li>JupyterLab und Entwicklungsumgebungen (PyCharm, VS Code)</li>
+<li>Code Style basics</li>
+<li>Datenstrukturen</li>
+<li>Virtualenvs</li>
+<li>Iteration (Loop Like a Native)</li>
+<li>Type-Annotationen</li>
+<li>Automatisches Testen mit pytest</li>
+<li>Häufige Fehler/Probleme</li>
+</ul>
 
-</div>
+<h2 id="anmeldung">Anmeldung</h2>
 
-<h2 id="vpn-einrichten-unter-anderen-linux-distributionen" class="toggable">VPN einrichten unter anderen Linux Distributionen</h2>
-
-<div class="toggle-content">
-
-<h3 id="arch-linux">Arch Linux</h3>
-
-<p>Die Einrichtung via Netzwerk-Manager erfolgt analog zu Ubuntu. Als Abhängigkeit wird das Paket <code>networkmanager-openconnect</code> benötigt, welches sich im <code>extra</code> Repository befindet.</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">pacman <span class="nt">-S</span> networkmanager-openconnect
-</code></pre></div>
-</div>
+<p>Bitte meldet euch doch bei simon&lt;punkt&gt;kindhauser&lt;at&gt;ost&lt;dot&gt;ch, wenn ihr Teilnehmen wollt. Wir freuen uns auf dich!</p>
 
       </article>
 
@@ -319,12 +274,7 @@ brew <span class="nb">install </span>openconnect
 <section>
   <h1>Inhaltsverzeichnis</h1>
 
-  <ol class="toc">
-<li><a href="#technische-angaben">Technische Angaben</a></li>
-<li><a href="#vpn-unter-ubuntu-einrichten" class="toggable">VPN unter Ubuntu einrichten</a></li>
-<li><a href="#vpn-unter-macos-einrichten" class="toggable">VPN unter macOS einrichten</a></li>
-<li><a href="#vpn-einrichten-unter-anderen-linux-distributionen" class="toggable">VPN einrichten unter anderen Linux Distributionen</a></li>
-</ol>
+  <ol class="toc"><li><a href="#einf-hrung">Einführung</a></li><li><a href="#best-practices">Best Practices</a></li><li><a href="#anmeldung">Anmeldung</a></li></ol>
 
 </section>
 
@@ -394,7 +344,7 @@ brew <span class="nb">install </span>openconnect
 			<a href="https://news.infomaniak.com/de/kostenloses-hosting-fuer-studenten/" target="_blank">
 				<img src="/assets/sponsoring/logo_infomaniak.png" alt="Sponsor Logo Infomaniak" class="no-shadow">
 			</a>
-			<a class="button" href="/sponsoring">Sponsor werden</a>
+			<a class='button' href="/sponsoring">Sponsor werden</a>
 		</div>
 	</section>
 	<section class="partnership">
@@ -407,7 +357,7 @@ brew <span class="nb">install </span>openconnect
 	</section>
 	<section class="legal">
 		<p>
-			<strong>© open\HSR, <time datetime="2021-03-29">29.03.2021</time></strong>.
+			<strong>&copy; open\HSR, <time datetime="2021-03-29">29.03.2021</time></strong>.
 			Der Inhalt ist unter der <a href="https://www.gnu.org/copyleft/fdl.html" rel="license">GNU Free Documentation License</a> verfügbar, sofern nicht anders angegeben.
 		</p>
 	</section>
@@ -417,7 +367,7 @@ brew <span class="nb">install </span>openconnect
 <script src="/assets/jquery/jquery-2.2.2.min.js"></script>
 <script src="/assets/lightbox/js/lightbox.min.js"></script>
 <script src="/js/script.js"></script>
-<noscript><p><img src="//piwik.fh2.ch/piwik.php?idsite=8" style="border:0;" alt=""></p></noscript>
+<noscript><p><img src="//piwik.fh2.ch/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
 
 
     </div>

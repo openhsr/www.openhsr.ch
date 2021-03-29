@@ -82,6 +82,10 @@ img.no-shadow {
 figure figcaption {
   text-align: center; }
 
+.icon {
+  box-shadow: none;
+  width: 4em; }
+
 /* TABLE */
 table {
   width: 100%;
@@ -351,8 +355,8 @@ nav > ul > li > ul > li > a::before {
   .wrapper {
     margin: 0 auto;
     width: 90%;
-    width: 62.5rem;
-    max-width: 62.5rem; } }
+    width: 65rem;
+    max-width: 65rem; } }
 /** CONTENT */
 #content {
   display: flex;
