@@ -37,6 +37,8 @@ collections:
     output: true
   app:
     output: true
+  events:
+    output: true
 
 defaults:
   - scope: # content pages
@@ -62,3 +64,9 @@ defaults:
     values:
       layout: "app"
       permalink: /app/:slug/
+  - scope: # events
+      type: events
+      path: ""
+    values:
+      layout: "events"
+      permalink: /events/:slug/
