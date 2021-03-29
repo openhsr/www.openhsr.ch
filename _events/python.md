@@ -16,8 +16,10 @@ Mit Raphael Das Gupta
 * aufs Programmieren "gwundrige" Studierende und andere interessierte OST-Angehörige
 
 ### Themen
-* 🧙‍♀️ Einführung in die Kommandozeile
-* 🐍 Python-Einführung:
+🧙‍♀️ Einführung in die Kommandozeile
+
+🐍 Python-Einführung:
+
 * 🔢 Python als Taschenrechner
 * ✍ Texte, 🗒 Listen und 📑 "Dictionaries"
 * ⚖ Bedingungen und 👩‍🏭 Fuktionen
