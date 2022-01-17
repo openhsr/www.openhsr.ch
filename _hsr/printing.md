@@ -47,7 +47,7 @@ sudo apt-get install smbclient
 Mit dem Treiberpaket werden eine Vielzahl von neuen PPD-Dateien installiert. Um das passende PPD für den Drucker herauszufinden, gibt man folgenden Befehl ein:
 
 ```bash
-lpinfo --make-and-model "Canon iR-ADV 8585/8595 III UFR II" -m
+sudo lpinfo --make-and-model "Canon iR-ADV 8585/8595 III UFR II" -m
 ```
 
 Die Ausgabe sollte wie folgt aussehen:
@@ -67,7 +67,7 @@ sudo /usr/sbin/lpadmin \
 -o 'auth-info-required=username,password' \
 -o 'media=A4' \
 -E \
--v "smb://HSR.ch/printsrv-a.hsr.ch/MFP-BW" \
+-v "smb://print-rj-a.ost.ch/FollowMe-RJ-BW" \
 -D "MFP-BW" \
 -m CNRCUPSIRADV85853ZK.ppd
 ```
