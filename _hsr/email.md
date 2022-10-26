@@ -29,7 +29,7 @@ Passwort | ```GeHeim007```
 Passwort-Verschlüsselung | Keine (Normales Passwort)
 
 ## OAuth2
-Nach dem Ausfüllen der Date wird eine Webpage geöffnet, bei welcher man sich bei Microsoft einloggen muss, danach ist der Account bereit.
+Nach dem Ausfüllen der Daten wird eine Webpage geöffnet, bei welcher man sich bei Microsoft einloggen muss, danach ist der Account bereit.
 
 ## Empfehlung
 Wir empfehlen die Nutzung der Open Source Software Thunderbird. Eine Anleitung zu Thunderbird findest du hier: [Thunderbird](/app/thunderbird)
