@@ -7,11 +7,12 @@ title: E-Mail
 
 Einstellung | Wert
 ----------- | ----
-E-Mail Format | ```maria.muster@hsr.ch```
-Server | ```imap.hsr.ch```
+E-Mail Format | ```maria.muster@ost.ch```
+Server | ```outlook.office365.com```
 Port | ```993```
 Verschlüsselung | SSL/TLS
-Benutzername | ```mmuster```
+Authentifizierungsmethode | OAuth2
+Benutzername | ```maria.muster@ost.ch```
 Passwort | ```GeHeim007```
 Passwort-Verschlüsselung | Keine (Normales Passwort)
 
@@ -19,12 +20,16 @@ Passwort-Verschlüsselung | Keine (Normales Passwort)
 
 Einstellung | Wert
 ----------- | ----
-Server | ```smtp.hsr.ch```
+Server | ```smtp.office365.com```
 Port | ```587```
 Verschlüsselung | STARTTLS
-Benutzername | ```mmuster```
+Authentifizierungsmethode | OAuth2
+Benutzername | ```maria.muster@ost.ch```
 Passwort | ```GeHeim007```
 Passwort-Verschlüsselung | Keine (Normales Passwort)
+
+## OAuth2
+Nach dem Ausfüllen der Date wird eine Webpage geöffnet, bei welcher man sich bei Microsoft einloggen muss, danach ist der Account bereit.
 
 ## Empfehlung
 Wir empfehlen die Nutzung der Open Source Software Thunderbird. Eine Anleitung zu Thunderbird findest du hier: [Thunderbird](/app/thunderbird)
