@@ -1,8 +1,8 @@
 ---
 title: Events
 ---
-An der HSR finden verschiedene regelmässige und einige weniger regelmässige **Events zu Open Source-Themen** statt.
-Der **open\HSR** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
+An der OST finden verschiedene regelmässige und einige weniger regelmässige **Events zu Open Source-Themen** statt.
+Der **open\OST** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
 
 {% for event_page in site.events %}
 
@@ -20,7 +20,7 @@ Mehr zu [{{ event_page.title }}]({{ event_page.url }})</a></p>
 <img src="/assets/emoji/octocat.png" style="float: right; box-shadow: none;" />
 # [Git/GitHub Workshop](https://github.com/openhsr/git-github-workshop/)
 
-> In diesem vom open\HSR organisierten Workshop werden die ersten Hürden beim Arbeiten mit Git und GitHub überwunden. Wir wollen dir die Hemmschwelle nehmen, damit du unbeschwert zu Open Source und open\HSR Projekten beitragen kannst.
+> In diesem vom open\OST organisierten Workshop werden die ersten Hürden beim Arbeiten mit Git und GitHub überwunden. Wir wollen dir die Hemmschwelle nehmen, damit du unbeschwert zu Open Source und open\OST Projekten beitragen kannst.
 
 Dieser Workshop wird von [GitHub](https://github.com/) mit Handouts & Swag unterstützt :tada: :heart: :octocat:
 

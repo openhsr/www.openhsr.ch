@@ -3,7 +3,7 @@ layout: page
 permalink: /contribute/
 ---
 
-# Webseite [www.openhsr.ch](https://www.openhsr.ch/)
+# Webseite [www.openost.ch](https://www.openost.ch/)
 
 ## Wie kann ich mithelfen?
 Erst einmal: Wir freuen uns über DEINE Mithilfe :thumbsup::tada:
