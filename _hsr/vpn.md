@@ -5,16 +5,16 @@ title: VPN
 
 Einstellung | Wert
 ----------- | ----
-Gateway | ```vpn.hsr.ch```
-Benutzername | ```mmuster```
+Gateway | ```vpn.ost.ch```
+Benutzername | ```maria.muster@@ost.ch```
 Benutzerpasswort | ```GeHeim007```
 
-Zusätzlich brauchst du die SwivelSecure App. Einen Link solltest du vom HSR Helpdesk erhalten haben.
+Zusätzlich brauchst du die Microsoft Authenticator App. Einen Link solltest du vom OST Helpdesk erhalten haben.
 
 {% toggle %}
 ## VPN unter Ubuntu einrichten
 
-Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können keine VPN-Verbindungen hergestellt werden.
+Hinweis: Richte das VPN nicht im eduroam der OST ein - aus dem eduroam können keine VPN-Verbindungen hergestellt werden.
 
 1. **Benötigte Abhängigkeiten installieren**<br>
    Bevor du loslegen kannst, musst du noch das Paket ``network-manager-openconnect-gnome`` installieren.
@@ -30,11 +30,11 @@ Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können 
   <br>
   Es sind keine erweiterten Einstellungen und Konfigurationen in anderen Tabs erforderlich.
 6. Speichern mit Klick auf **Speichern**. Der neue Eintrag erscheint nun in der Liste<br>
-  {% lightbox /assets/hsr/vpn/vpn05.png --data="vpn ubuntu" --title="HSR-VPN in der Liste der VPNs" --alt="HSR-VPN in der Liste der VPNs" %}
-7. **Verbindung über den Netzwerkindikatoren** am oberen rechten Bildschirmrand via ```VPN``` + ```HSR``` herstellen<br>
+  {% lightbox /assets/hsr/vpn/vpn05.png --data="vpn ubuntu" --title="OST-VPN in der Liste der VPNs" --alt="OST-VPN in der Liste der VPNs" %}
+7. **Verbindung über den Netzwerkindikatoren** am oberen rechten Bildschirmrand via ```VPN``` + ```OST``` herstellen<br>
   {% lightbox /assets/hsr/vpn/vpn06.png --data="vpn ubuntu" --title="Verbindung über den Netzwerkindikatoren herstellen" --alt="Verbindung über den Netzwerkindikatoren herstellen" %}
 8. Einloggen mit Usernamen, Passwort und achtstelligem Swivel Token und **Verbinden**. :warning: Setze die Checkbox Save passwords **nicht**, da dadurch dein Account temporär gesperrt werden könnte<br>
-  {% lightbox /assets/hsr/vpn/vpn07.png --data="vpn ubuntu" --title="HSR-VPN Login" --alt="HSR-VPN Login" %}
+  {% lightbox /assets/hsr/vpn/vpn07.png --data="vpn ubuntu" --title="OST-VPN Login" --alt="OST-VPN Login" %}
   <br>
   {% lightbox /assets/hsr/vpn/vpn08.png --data="vpn ubuntu" --title="Verbindung wurde erfolgreich hergestellt" --alt="Verbindung wurde erfolgreich hergestellt" %}
 
@@ -54,7 +54,7 @@ Weiterführende Informationen: [OpenConnect VPN on Mac OS X](https://gist.github
 ### 2. Verbindung öffnen
 
 ```bash
-sudo openconnect vpn.hsr.ch
+sudo openconnect vpn.ost.ch
 ```
 
 Beim ersten Promt den **Benutzernamen**, beim zweiten das **Passwort** und beim dritten den **Code aus der Swivel-App** eingeben.
