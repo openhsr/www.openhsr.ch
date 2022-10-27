@@ -2,7 +2,7 @@
 title: Programme
 ---
 
-Leider sind nicht alle Programme, die an der HSR eingesetzt werden, auf Linux & Co verfügbar.
+Leider sind nicht alle Programme, die an der OST eingesetzt werden, auf Linux & Co verfügbar.
 Darum haben wir dir hier Alternativen aufgelistet.
 
 ## Übersicht

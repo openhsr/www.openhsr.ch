@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Willkommen beim open\HSR!
+title: Willkommen beim open\OST!
 hidden_from_navigation: true
 permalink: /
 ---
