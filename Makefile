@@ -2,9 +2,9 @@ DOCKER=docker
 FLAGS=
 MOUNT_OPTION=
 # uncomment the following lines to use podman instead of docker
-#DOCKER=podman
-#FLAGS=--userns=keep-id
-#MOUNT_OPTION=:Z
+DOCKER=podman
+FLAGS=--userns=keep-id
+MOUNT_OPTION=:Z
 
 .PHONY: serve build default build-image deploy
 

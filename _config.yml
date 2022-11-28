@@ -18,10 +18,8 @@ exclude:
 
 host: 0.0.0.0
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
-redcarpet:
-  extensions: ["fenced_code_blocks", "tables", "with_toc_data"]
 
 plugins:
   - jemoji
