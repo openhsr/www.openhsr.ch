@@ -9,7 +9,7 @@ Unser Grundsatz: Kurz und knackig, aber nichts verheimlichen. *Users first*!
 
 ## Beispiele / Konfigurationen
 
-Es war einmal eine Studentin, die hiess ```Maria Muster```. Maria war während <del>dem Studium</del> den Vorlesungen fleissig und hat viele Dokumentationen mit dem Benutzernamen ```mmuster```, der E-Mail-Adresse ```maria.muster@hsr.ch``` und Marias Passwort, ```GeHeim007```, erstellt.
+Es war einmal eine Studentin, die hiess ```Maria Muster```. Maria war während <del>dem Studium</del> den Vorlesungen fleissig und hat viele Dokumentationen mit dem Benutzernamen ```maria.muster```, der E-Mail-Adresse ```maria.muster@ost.ch``` und Marias Passwort, ```GeHeim007```, erstellt.
 
 ### Shell
 Auf ihrem Computer hat Maria ein tolles Unixoid mit dem *lokalen* Benutzernamen ```maria``` installiert. Eine **Shell** (Bash!) sieht immer folgendermassen aus:
@@ -31,8 +31,8 @@ Um ihre Arbeit speditiv zu erledigen, benutzt Maria gerne Tastenkürzel. Tastenk
 Bezeichnung    | Bedeutung
 -------------- |-----------
 Name           | ```Maria Muster```
-HSR-Benutzer   | ```mmuster```
-E-Mail-Adresse | ```maria.muster@hsr.ch```
+OST-Benutzer   | ```maria.muster```
+E-Mail-Adresse | ```maria.muster@ost.ch```
 Passwort       | ```GeHeim007```
 Shell normal   | ```$```
 Shell root     | ```$#```
@@ -45,20 +45,20 @@ User lokal     | ```maria```
  URL      | Bedeutung    | Beispiele
  -------- |------------- | ----------
  `/SEITE`   | Chefseiten | Startseite, Vereinsstatuten etc.
- `/hsr/NAME` | Umgebung an der HSR | WLAN, Drucken
- `/app/NAME` | HSR-Programmkonfiguration | Thunderbird, Eclipse
+ `/hsr/NAME` | Umgebung an der OST | WLAN, Drucken
+ `/app/NAME` | OST-Programmkonfiguration | Thunderbird, Eclipse
 `/tipps/NAME` | Tipps & Tricks aus der Community | Github Student Developer Pack etc.
 
-### Dokumentationen zur Umgebung an der HSR
+### Dokumentationen zur Umgebung an der OST
 
 In diese Kategorie fallen grundsätzliche, programmunabhängige **technische Angaben**.
 
 Zudem wird jeweils die von uns empfohlene, **einfachste Lösung mit Ubuntu** von der Programmkonfiguration eingebunden.
 
 
-### HSR-Spezifische Programm- oder Systemkonfiguration
+### OST-Spezifische Programm- oder Systemkonfiguration
 
-Hier werden **HSR-Konfigurationen für bestimmte Programme** sowie Schritt-für-Schritt Anleitungen für Einsteiger hinterlegt.
+Hier werden **OST-Konfigurationen für bestimmte Programme** sowie Schritt-für-Schritt Anleitungen für Einsteiger hinterlegt.
 
 ### Weiteres
 

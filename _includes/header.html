@@ -37,6 +37,14 @@
                   {% endfor %}
                 </ul>
               {% endif %}
+              {% if my_page.title == "Events" %}
+                      <ul>
+                      <li><a{% if my_page.url == page.url %} class="active"{% endif %} href="/events/">Übersicht</a></li>
+                  {% for event_page in site.events %}
+                         <li><a{% if event_page.url == page.url %} class="active"{% endif %} href="{{ event_page.url }}">{{ event_page.title }}</a></li>
+                  {% endfor %}
+                      </ul>
+              {% endif %}
             </li>
           {% endif %}
         {% endfor %}

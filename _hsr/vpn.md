@@ -5,16 +5,16 @@ title: VPN
 
 Einstellung | Wert
 ----------- | ----
-Gateway | ```vpn.hsr.ch```
-Benutzername | ```mmuster```
+Gateway | ```vpn.ost.ch```
+Benutzername | ```maria.muster@@ost.ch```
 Benutzerpasswort | ```GeHeim007```
 
-Zusätzlich brauchst du die SwivelSecure App. Einen Link solltest du vom HSR Helpdesk erhalten haben.
+Zusätzlich brauchst du die Microsoft Authenticator App. Einen Link solltest du vom OST Helpdesk erhalten haben.
 
 {% toggle %}
 ## VPN unter Ubuntu einrichten
 
-Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können keine VPN-Verbindungen hergestellt werden.
+Hinweis: Richte das VPN nicht im eduroam der OST ein - aus dem eduroam können keine VPN-Verbindungen hergestellt werden.
 
 1. **Benötigte Abhängigkeiten installieren**<br>
    Bevor du loslegen kannst, musst du noch das Paket ``network-manager-openconnect-gnome`` installieren.
@@ -30,30 +30,34 @@ Hinweis: Richte das VPN nicht im HSR-Secure-WLAN ein - aus dem HSR-Netz können 
   <br>
   Es sind keine erweiterten Einstellungen und Konfigurationen in anderen Tabs erforderlich.
 6. Speichern mit Klick auf **Speichern**. Der neue Eintrag erscheint nun in der Liste<br>
-  {% lightbox /assets/hsr/vpn/vpn05.png --data="vpn ubuntu" --title="HSR-VPN in der Liste der VPNs" --alt="HSR-VPN in der Liste der VPNs" %}
-7. **Verbindung über den Netzwerkindikatoren** am oberen rechten Bildschirmrand via ```VPN``` + ```HSR``` herstellen<br>
+  {% lightbox /assets/hsr/vpn/vpn05.png --data="vpn ubuntu" --title="OST-VPN in der Liste der VPNs" --alt="OST-VPN in der Liste der VPNs" %}
+7. **Verbindung über den Netzwerkindikatoren** am oberen rechten Bildschirmrand via ```VPN``` + ```OST``` herstellen<br>
   {% lightbox /assets/hsr/vpn/vpn06.png --data="vpn ubuntu" --title="Verbindung über den Netzwerkindikatoren herstellen" --alt="Verbindung über den Netzwerkindikatoren herstellen" %}
 8. Einloggen mit Usernamen, Passwort und achtstelligem Swivel Token und **Verbinden**. :warning: Setze die Checkbox Save passwords **nicht**, da dadurch dein Account temporär gesperrt werden könnte<br>
-  {% lightbox /assets/hsr/vpn/vpn07.png --data="vpn ubuntu" --title="HSR-VPN Login" --alt="HSR-VPN Login" %}
+  {% lightbox /assets/hsr/vpn/vpn07.png --data="vpn ubuntu" --title="OST-VPN Login" --alt="OST-VPN Login" %}
   <br>
   {% lightbox /assets/hsr/vpn/vpn08.png --data="vpn ubuntu" --title="Verbindung wurde erfolgreich hergestellt" --alt="Verbindung wurde erfolgreich hergestellt" %}
 
 ## VPN unter macOS einrichten
 
-1. **Öffne die Netzwerkeinstellungen** und klicke unten links auf das **Plus**<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn1.png --data="vpn mac" --title="Netzwerkeinstellungen" --alt="Netzwerkeinstellungen" %}
-2. Wähle ```VPN```, ```Cisco IPSec``` und wähle einen Verbindungsnamen. Klicke anschliessend auf **Erstellen**.<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn2.png --data="vpn mac" --title="VPN Einstellungen" --alt="VPN Einstellungen" %}
-3. Gib rechts die **Serverdaten** ein - natürlich mit eigenem Benutzernamen. Das Passwort kann leer gelassen werden.<br>
-   Klicke auf **Authentifizierungseinstellungen**.
-  {% lightbox /assets/hsr/vpn/mac_vpn3.png --data="vpn mac" --title="VPN Serverdaten" --alt="VPN Serverdaten" %}
-4. Gib ```hsrremote``` als Schlüssel und Gruppenname ein<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn4.png --data="vpn mac" --title="VPN Authentifizierungseinstellungen" --alt="VPN Authentifizierungseinstellungen" %}
-5. Optional kannst du das Häckchen setzen bei ```VPN in der Menüleiste anzeigen```. Damit erscheint ein praktisches **Icon in der Statusbar**, zum schnellen An- und Abmelden.<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn5.png --data="vpn mac" --title="VPN: Hacken für Icon in der Statusbar" --alt="VPN: Hacken für Icon in der Statusbar" %}<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn6.png --data="vpn mac" --title="VPN Statusbar" --alt="VPN Statusbar" %}
-6. Nun kannst du dich mit deinem **HSR Login** anmelden.<br>
-  {% lightbox /assets/hsr/vpn/mac_vpn7.png --data="vpn mac" --title="VPN Login" --alt="VPN Login" %}<br>
+### 1. OpenConnect mittels [Homebrew](https://brew.sh) installieren
+
+```bash
+brew update
+brew install openconnect
+```
+
+Ältere Versionen von OS X ([10.6 und älter](http://www.infradead.org/openconnect/building.html)) benötigen zusätzlich einen TUN/TAP-Treiber wie [TunTap](http://tuntaposx.sourceforge.net).
+
+Weiterführende Informationen: [OpenConnect VPN on Mac OS X](https://gist.github.com/moklett/3170636) (siehe Kommentare)
+
+### 2. Verbindung öffnen
+
+```bash
+sudo openconnect vpn.ost.ch
+```
+
+Beim ersten Promt den **Benutzernamen**, beim zweiten das **Passwort** und beim dritten den **Code aus der Swivel-App** eingeben.
 
 ## VPN einrichten unter anderen Linux Distributionen
 

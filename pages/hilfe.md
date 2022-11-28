@@ -4,7 +4,7 @@ parent: community
 hidden_from_navigation: true
 ---
 
-Du hast Fragen zu deinem Linux, macOS oder generell Open Source an der HSR? Wir helfen dir.
+Du hast Fragen zu deinem Linux, macOS oder generell Open Source an der OST? Wir helfen dir.
 
 ## Programme und Dokumentationen
 
