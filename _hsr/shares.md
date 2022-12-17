@@ -6,7 +6,7 @@ title: Netzwerkfreigaben
 
 Einstellung | Wert
 ----------- | ----
-Benutzername | ```mmuster```
+Benutzername | ```max.muster@ost.ch```
 Benutzerpasswort | ```GeHeim007```
 Domäne | ```hsr.ch```
 
