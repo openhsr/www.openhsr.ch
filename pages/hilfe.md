@@ -18,4 +18,4 @@ Wir haben eine Seite für [Häufige Fragen & Antworten](/faq/).
 
 ## E-Mail-Postfach
 
-Wenn du Anliegen oder Fragen hast, kannst du dich bei uns [per E-Mail](mailto:info@openhsr.ch) melden.
+Wenn du Anliegen oder Fragen hast, kannst du dich bei uns [per E-Mail](mailto:info@open-ost.ch) melden.

@@ -18,7 +18,7 @@ und vieles mehr!
 Für die Registrierung brauchst du:
 
 - Einen [Github Account](https://github.com/join)
-- Dein Github Account muss deine [HSR-Email eingetragen haben](https://github.com/settings/emails)
+- Dein Github Account muss deine [OST-Email eingetragen haben](https://github.com/settings/emails)
 
 <br>Dann kannst du das Paket einfach unter [education.github.com/pack](https://education.github.com/pack) beantragen!
 

@@ -22,12 +22,12 @@ Mit deiner Mitgliedschaft ...
 
 Die **Mitgliedschaft ist kostenlos und unverbindlich**. Du darfst mithelfen, wie es dir nach Zeit und Laune passt!
 
-<a href="mailto:info@openhsr.ch?subject=Mitglied%20werden&body=Hallo%20Zusammen!%0A%0AIch%20w%C3%BCrde%20gerne%20Mitglied%20im%20open%5COST%20werden!%0A%0AMein%20Github%20Benutzername%20lautet%20%5BGITHUB%20Benutzername%5D.%0A%5BFalls%20du%20keinen%20Github%20Account%20hast%2C%20kannst%20du%20diesen%20Absatz%20l%C3%B6schen%5D%0A%0ALiebe%20Gr%C3%BCsse%2C%0A%5BNAME%5D" class="button">Jetzt Mitglied werden!</a>
+<a href="mailto:info@open-ost.ch?subject=Mitglied%20werden&body=Hallo%20Zusammen!%0A%0AIch%20w%C3%BCrde%20gerne%20Mitglied%20im%20open%5COST%20werden!%0A%0AMein%20Github%20Benutzername%20lautet%20%5BGITHUB%20Benutzername%5D.%0A%5BFalls%20du%20keinen%20Github%20Account%20hast%2C%20kannst%20du%20diesen%20Absatz%20l%C3%B6schen%5D%0A%0ALiebe%20Gr%C3%BCsse%2C%0A%5BNAME%5D" class="button">Jetzt Mitglied werden!</a>
 
 ## Treffpunkt
 **Community** - das ist das Herzstück von Open Source. Und damit auch von unserem Verein! Sei es, um Fragen zu macOS und Linux zu klären, an unseren Open Source Projekten mitzuhelfen - oder einfach Teil der Community zu sein: Du bist willkommen!
 
-Leider findet der Treffpunkt derzeit nicht regelmässig statt. Solltest du Interesse haben, dann melde dich [beim Vorstand](mailto:info@openhsr.ch)!
+Leider findet der Treffpunkt derzeit nicht regelmässig statt. Solltest du Interesse haben, dann melde dich [beim Vorstand](mailto:info@open-ost.ch)!
 
 
 
@@ -43,7 +43,7 @@ Ein grosser Teil unserer Kommunikation und Arbeit findet auf GitHub statt. Falls
 
 ## Verein
 
-{% lightbox /assets/logo.png --data="logo" --title="Logo open\OST" --alt="Logo open\OST" --class="no-shadow" %}
+{% lightbox /assets/logo_new.png --data="logo" --title="Logo open\OST" --alt="Logo open\OST" --class="no-shadow" %}
 
 ### Unsere Ziele
 
@@ -69,9 +69,9 @@ Um diese Ziele zu erreichen,
 
 Posten | Person
 ------ | ------
-Präsident | Fabian Germann 
-Vize-Präsident | Floris Staub
-Kassier | Hansruedi Patzen
+Präsident | Georgiy Shevoroshkin
+Vize-Präsidentin | Jasmin Fässler
+Kassier | Filippo Andretta
 Beisitz (Studentenportal) | Fabian Hauser
 
 Gemäss unseren Statuten setzt sich der Vorstand zwingend aus Präsident, Vize-Präsident und Kassier zusammen.
@@ -85,11 +85,11 @@ Pull Requests für die Statuten werden an der nächsten GV als Änderungsantrag 
 
 ### Kontakt
 
-Falls du dich für den **open\OST** interessierst, freuen wir uns immer über ein E-Mail unter <info@openhsr.ch>.
+Falls du dich für den **open\OST** interessierst, freuen wir uns immer über ein E-Mail unter <info@open-ost.ch>.
 
 ### Sponsoring & Kontoinformationen
 
-Möchtest du unseren Verein finanziell unterstützen und Sponsor werden? Sponsoren haben die Möglichkeit, ihr Logo im open\OST Flyer, auf unserer Webseite und an open\OST Anlässen zu platzieren. Für weitere Informationen steht der Vorstand gerne unter <info@openhsr.ch> zur Verfügung.
+Möchtest du unseren Verein finanziell unterstützen und Sponsor werden? Sponsoren haben die Möglichkeit, ihr Logo im open\OST Flyer, auf unserer Webseite und an open\OST Anlässen zu platzieren. Für weitere Informationen steht der Vorstand gerne unter <info@open-ost.ch> zur Verfügung.
 
 ```
 open\OST

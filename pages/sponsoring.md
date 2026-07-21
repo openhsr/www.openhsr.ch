@@ -17,7 +17,7 @@ In den vergangenen Jahren wurden jeweils folgende Aktivitäten durchgeführt:
 
 - Durchführung von Anlässen (z.B. [Git-GitHub-Workshop](https://github.com/openhsr/git-github-workshop), Hackatons) 
 - Betrieb und Unterhalt des [open\OST Studentenportals](https://studentenportal.ch/)
-- Betrieb und Unterhalt der [open\OST-Webseite](https://www.openost.ch/), welche Dokumentationen im Bereich alternative Betriebssysteme und Open Source an der OST beinhalten.
+- Betrieb und Unterhalt der [open\OST-Webseite](https://www.open-ost.ch/), welche Dokumentationen im Bereich alternative Betriebssysteme und Open Source an der OST beinhalten.
 - Durchführung von Vereinsanlässen (z.B. GV, Mitgliedertreffen)
 
 Der Verein ist für Intiativen seitens der Mitglieder offen und kann diese finanziell unterstützen, sofern sie sich mit dem Vereinsziel decken.
@@ -86,4 +86,4 @@ Die Einstufung wird nach geschätzter Zielgruppengrösse und Streuung gemacht.
 
 ## Interessiert?
 
-<a href="mailto:info@openhsr.ch?subject=Sponsoring" class="button">Schreiben Sie uns!</a>
+<a href="mailto:info@open-ost.ch?subject=Sponsoring" class="button">Schreiben Sie uns!</a>

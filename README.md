@@ -3,7 +3,7 @@ layout: page
 permalink: /contribute/
 ---
 
-# Webseite [www.openost.ch](https://www.openost.ch/)
+# Webseite [www.open-ost.ch](https://www.open-ost.ch/)
 
 ## Wie kann ich mithelfen?
 Erst einmal: Wir freuen uns über DEINE Mithilfe :thumbsup::tada:
@@ -12,7 +12,7 @@ Wenn du Ideen oder Fragen hast, über einen Schreibfehler gestolpert bist, etwas
 verständlich findest oder uns loben / kritisieren möchstest, dann freuen wir uns riesig von dir zu hören!
 
 Wir verwalten und diskutieren unsere Aufgaben mittels [Github Issues](https://github.com/openhsr/www.openhsr.ch/issues).
-Wenn du mit Github nicht vertraut bist, dann schreib uns einfach [eine E-Mail](mailto:info@openhsr.ch)!
+Wenn du mit Github nicht vertraut bist, dann schreib uns einfach [eine E-Mail](mailto:info@open-ost.ch)!
 
 Am wichtigsten ist, dass du dich meldest - wir helfen dir geren weiter!
 
@@ -26,11 +26,11 @@ Grob können wir die folgenden Arten von Beiträgen unterscheiden:
 3. Änderungen am Layout und der Struktur der Webseite
 
 
-Für reine Textbeiträge (1 und 2) musst du nicht wirklich verstehen, wie die Webseite zusammengebaut wird. Alle Inhalte werden in Textdateien in den Verzeichnissen ``_hsr``, ``_app``, ``tipps`` und ``pages`` verwaltet (siehe [Seitenhierarchie](https://www.openhsr.ch/styleguide/#seitenhierarchie)). Diese Textdateien sind in *Markdown* geschrieben. Die [einfache Einführung in Markdown von Designbits](http://www.designbits.de/artikel/markdown-eine-kleine-einfuehrung/) ist ein guter Einstiegspunkt - eine etwas ausführlichere Syntaxbeschreibung ist [Adam Pritchards Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Für reine Textbeiträge (1 und 2) musst du nicht wirklich verstehen, wie die Webseite zusammengebaut wird. Alle Inhalte werden in Textdateien in den Verzeichnissen ``_hsr``, ``_app``, ``tipps`` und ``pages`` verwaltet (siehe [Seitenhierarchie](https://www.open-ost.ch/styleguide/#seitenhierarchie)). Diese Textdateien sind in *Markdown* geschrieben. Die [einfache Einführung in Markdown von Designbits](http://www.designbits.de/artikel/markdown-eine-kleine-einfuehrung/) ist ein guter Einstiegspunkt - eine etwas ausführlichere Syntaxbeschreibung ist [Adam Pritchards Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 Aufgepasst: Im Verzeichnis ``_site`` solltest du nichts von Hand anpassen, denn die Änderungen werden automatisch verworfen.
 
-Für ein einheitliches Look & Feel haben wir einen einfachen **[Styleguide](https://www.openhsr.ch/styleguide/)** erstellt. Dieser ist nicht in Stein gemeisselt - du darfst gerne Änderungen vorschlagen!
+Für ein einheitliches Look & Feel haben wir einen einfachen **[Styleguide](https://www.open-ost.ch/styleguide/)** erstellt. Dieser ist nicht in Stein gemeisselt - du darfst gerne Änderungen vorschlagen!
 
 Bevor du Änderungen am Layout und der Struktur der Webseite (3) vornimmst, solltest du das im Vorfeld mit uns besprechen! Am besten via [Github Issues](https://github.com/openhsr/www.openhsr.ch/issues) oder im persönlichen Gespräch.
 
@@ -93,7 +93,7 @@ wie du auch beitragen kannst. Konkret wird ein Tippfehler korrigiert.
 ## Checkliste vor einem Pull-Request
 
 - Ich habe alle Änderungen auf Rechtschreibefehler überprüft.
-- In einem Pull-Request sind nur Änderung betreffend *einer* Sache (Bsp. Rechtschreibefehler oder *ein* neuer [Tipp](https://www.openhsr.ch/tipps/) usw.).
+- In einem Pull-Request sind nur Änderung betreffend *einer* Sache (Bsp. Rechtschreibefehler oder *ein* neuer [Tipp](https://www.open-ost.ch/tipps/) usw.).
 - Meine Änderungen werden korrekt dargestellt.
 - Das Generieren der Webseite gibt keine Fehler und Warnungen.
 
@@ -125,14 +125,14 @@ Um an der Webseite mitarbeiten zu können, benötigst du einen [Github Account](
     ```bash
     sudo make
     ```
-7. Du kannst nun mit dem Browser auf der Addresse <http://localhost:4000> deine lokale Kopie der open\HSR Webseite aufrufen.
+7. Du kannst nun mit dem Browser auf der Addresse <http://localhost:4000> deine lokale Kopie der open\OST Webseite aufrufen.
 
 Wenn du nun Änderungen vornimmst, wird die Webseite automatisch neu generiert.
 
 Wenn du genug hast, kannst du mit der Tastenkombination <kbd>ctrl</kbd> + <kbd>c</kbd> abbrechen.
 
 ## Technischer Hintergrund
-Die neue Seite des open\HSR ist im Gegensatz zu früher kein dynamisches [Wiki](https://de.wikipedia.org/wiki/Wiki), sondern eine mit [Jekyll](http://jekyllrb.com) generierte statische Webseite.
+Die neue Seite des open\OST ist im Gegensatz zu früher kein dynamisches [Wiki](https://de.wikipedia.org/wiki/Wiki), sondern eine mit [Jekyll](http://jekyllrb.com) generierte statische Webseite.
 
 Mehr Details zu Jekyll findest du auf der [offiziellen Jekyll Webseite](http://jekyllrb.com).
 

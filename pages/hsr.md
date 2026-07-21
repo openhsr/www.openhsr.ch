@@ -6,7 +6,7 @@ title: Dokumentationen
 
 Der Überlebensguide hilft dir beim Start mit deinem Linux oder Mac an der OST.
 
-Weitere Anleitungen findest du auch auf unserer Webseite unter <https://www.openost.ch/>. Falls du weitere Hilfe mit deinem Linux oder Mac benötigst, findest du unter [Hilfe](/hilfe/), wie du uns kontaktieren kannst.
+Weitere Anleitungen findest du auch auf unserer Webseite unter <https://www.open-ost.ch/>. Falls du weitere Hilfe mit deinem Linux oder Mac benötigst, findest du unter [Hilfe](/hilfe/), wie du uns kontaktieren kannst.
 
 Für Mac gibt es auch gute Anleitungen vom ITA im *[OST-Intranet](https://intranet.hsr.ch)* → *IT-Informatikdienste* → *Support / IT-ServiceDesk* → *Einstieg für Erstsemestrige*.
 
@@ -40,7 +40,7 @@ Es gibt zwei Möglichkeiten zum Drucken:
 
 Dies ist die einfachste Lösung, ohne dass du Treiber auf deinem Computer installieren musst.  
 
-Sende einfach ein E-Mail mit einem PDF im Anhang an ```mobileprint.rj@ost.ch```. Du kannst das Dokument danach mit deinem Badge an jedem Drucker der HSR abruf
+Sende einfach ein E-Mail mit einem PDF im Anhang an ```mobileprint.rj@ost.ch```. Du kannst das Dokument danach mit deinem Badge an jedem Drucker der OST abruf
 
 ### Drucker einrichten
 

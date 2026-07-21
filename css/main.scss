@@ -3,6 +3,19 @@
 ---
 @charset "utf-8";
 
+$color1: #0064A3;
+$color2: #2196F3;
+$color3: #1976D2;
+$color4: #0D47A1;
+
+$white1: #FFF;
+$white2: #F6F6F6;
+$white3: #CCC;
+
+$black1: #191919;
+$black2: #333;
+$black3: #61737C;
+
 /* RESET */
 *, *:before, *:after {
   box-sizing: border-box;
@@ -12,7 +25,7 @@
 
 /* GENERAL */
 body {
-  background-color: #0064A3;
+  background-color: $color1;
 	background-image: url('/assets/background.jpg');
   background-position: center top;
   background-repeat: no-repeat;
@@ -25,7 +38,7 @@ body {
 
 /* TEXT */
 h1, h2, h3 {
-	color: #0064A3;
+	color: $color1;
   margin-bottom: 0.5rem;
 }
 h1 {
@@ -41,7 +54,7 @@ h3 {
 }
 
 a {
-  color: #0064A3;
+  color: $color1;
 	text-decoration: none;
   outline: none;
 }
@@ -113,16 +126,16 @@ table {
   margin: 1rem 0;
 }
 th {
-  color: #FFF;
-  background: #0064A3;
+  color: $white1;
+  background: $color1;
 }
 table th,
 table td {
-  border: 1px solid #ECF0F1;
+  border: 1px solid $white2;
 	padding: 0.5em;
 }
 tbody tr:nth-child(even){
-  background:#ECF0F1;
+  background:$white2;
 }
 tbody th {
 	text-align: left;
@@ -133,8 +146,8 @@ tbody td {
 
 /* CODE */
 code {
-  background: #333;
-  color: #FFF;
+  background: $black2;
+  color: $white1;
   border-radius: 0.2rem;
   font-size: 90%;
   padding: 0.2rem 0.4rem;
@@ -142,7 +155,7 @@ code {
 }
 
 code span.c {
-  color: #61737C;
+  color: $black3;
 }
 
 .highlight code.language-bash::before {
@@ -163,28 +176,28 @@ kbd {
   border-radius: 0.2rem;
   display: inline-block;
   margin: 0 0.1rem;
-  text-shadow: 0 1px 0 #FFF;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #FFF inset;
+  text-shadow: 0 1px 0 $white1;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px $white1 inset;
   padding: .1em .6em;
-  border: 1px solid #CCC;
-  background-color: #F7F7F7;
-  color: #333;
+  border: 1px solid $white3;
+  background-color: $white2;
+  color: $black2;
 }
 
 /* BLOCKQUOTES */
 blockquote {
   margin-left: 1rem;
   padding-left: 1rem;
-  border-left: 1px solid #0064A3;
+  border-left: 1px solid $color1;
 }
 
 /** BUTTON */
 .button {
   display: block;
-	background: #2196F3;
-	border: 1px solid #0D47A1;
+	background: $color2;
+	border: 1px solid $color4;
   border-radius: 0.5rem;
-	color: #FFF;
+	color: $white1;
 	padding: 0.8rem;
   margin: 2rem auto 0;
 	text-transform: uppercase;
@@ -194,17 +207,17 @@ blockquote {
 }
 
 .button:hover {
-  background:#1976D2;
+  background:$color3;
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
 }
 
 /** APT BUTTONS */
 a[href^="http://apt.ubuntu.com/p/"] {
   display: block;
-	background: #2196F3;
-	border: 1px solid #0D47A1;
+	background: $color2;
+	border: 1px solid $color4;
   border-radius: 0.5rem;
-	color: #FFF;
+	color: $white1;
 	padding: 0.5rem;
   margin: 0.5rem 0;
 	text-transform: uppercase;
@@ -221,7 +234,7 @@ a[href^="http://apt.ubuntu.com/p/"]::before {
 }
 
 a[href^="http://apt.ubuntu.com/p/"]:hover {
-  background:#1976D2;
+  background:$color3;
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.5);
 }
 
@@ -232,8 +245,8 @@ a[href^="http://apt.ubuntu.com/p/"]:hover {
 	align-items: center;
   flex-flow: row wrap;
   padding: 0 1rem;
-  background: #F8F8F8;
-  border-bottom: 1px solid #0064A3;
+  background: $white2;
+  border-bottom: 1px solid $color1;
 }
 #logo img {
 	width: 60px;
@@ -244,7 +257,7 @@ a[href^="http://apt.ubuntu.com/p/"]:hover {
 /* HAMBURGER */
 #hamburger {
   cursor: pointer;
-  color: #000;
+  color: $black1;
   font-size: 2.5rem;
   margin: 1rem;
   border-radius: 0.3rem;
@@ -300,11 +313,11 @@ nav ul li a {
 }
 
 nav > ul > li.active {
-  background: #0063A3;
+  background: $color1;
 }
 
 nav > ul > li.active a {
-  color: #FFF;
+  color: $white1;
 }
 
 .social a {
@@ -321,12 +334,12 @@ nav > ul > li.active a {
 nav > ul > li > ul {
   display: none;
   padding: 0.3rem 1rem;
-  background: #0063A3;
+  background: $color1;
   min-width: 100%;
 }
 
 nav > ul > li > ul > li > a {
-  color: #FFF;
+  color: $white1;
   line-height: normal;
   height: auto;
   padding: 0.5rem 0;
@@ -351,8 +364,8 @@ nav > ul > li > ul > li > a::before {
 	line-height: 5rem;
   }
   .social a:hover {
-	color: #FFF;
-	background: #0063A3;
+	color: $white1;
+	background: $color1;
   }
   nav > ul > li {
 	position: relative;
@@ -365,12 +378,12 @@ nav > ul > li > ul > li > a::before {
   }
 
   nav ul li:hover a {
-	background: #0063A3;
-	color: #FFF;
+	background: $color1;
+	color: $white1;
   }
 
   nav > ul > li.active a {
-	background: #0063A3;
+	background: $color1;
   }
 
   /** sub menus */
@@ -396,11 +409,11 @@ nav > ul > li > ul > li > a::before {
   background-color: rgba(0, 0, 0, 0.1);
 }
 #slider h1 {
-  color: #FFF;
+  color: $white1;
   font-size: 2.5rem;
 }
 #slider h2 {
-	color: #FFF;
+	color: $white1;
   font-size: 1.5rem;
 }
 #slider .button {
@@ -425,10 +438,10 @@ nav > ul > li > ul > li > a::before {
 #content {
 	display: flex;
   flex-flow: row wrap;
-	background: #F8F8F8;
-  border-top: 1px solid #E0E0E0;
-  border-left: 1px solid #E0E0E0;
-  border-right: 1px solid #E0E0E0;
+	background: $white2;
+  border-top: 1px solid $white3;
+  border-left: 1px solid $white3;
+  border-right: 1px solid $white3;
 }
 
 main {
@@ -438,7 +451,7 @@ main {
 }
 
 .wiki-content h2 {
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid $white3;
   padding-bottom: 0.5rem;
 }
 
@@ -485,7 +498,7 @@ main {
 #sidebar {
   order: 1;
   width: 100%;
-  background: #F2F2F2;
+  background: $white2;
   padding: 1rem;
 }
 
@@ -506,7 +519,7 @@ main {
 	order: 2;
 	flex: 1;
 	margin-left: 1rem;
-	border-left: 1px solid #E0E0E0;
+	border-left: 1px solid $white3;
   }
 
   #sidebar section {
@@ -542,8 +555,8 @@ main {
 }
 
 #front article {
-  background: #0064A3;
-  color: #FFF;
+  background: $color1;
+  color: $white1;
   margin: 1rem;
   padding: 2rem 1rem;
   text-align: center;
@@ -554,7 +567,7 @@ main {
 }
 
 #front article h2 {
-  color: #FFF;
+  color: $white1;
 }
 
 #front article i {
@@ -563,7 +576,7 @@ main {
 
 /** FOOTER */
 #footer {
-	background: #0064A3;
+	background: $color1;
 }
 
 #footer > section {
@@ -572,13 +585,13 @@ main {
 
 #footer a,
 #footer p {
-	color: #FFF;
+	color: $white1;
 	margin: 0;
 }
 
 .sponsoring {
-	background: #F2F2F2;
-	border-top: 1px solid #E0E0E0;
+	background: $white2;
+	border-top: 1px solid $white3;
 }
 
 .sponsoring > h3 {
@@ -604,8 +617,8 @@ main {
 }
 
 .partnership {
-	background: #F2F2F2;
-	border-top: 1px solid #E0E0E0;
+	background: $white2;
+	border-top: 1px solid $white3;
 }
 
 .partnership > h3 {
@@ -633,7 +646,7 @@ main {
 #scroll-top {
   font-size: 1rem;
   background: rgba(224, 224, 224, 0.6);
-  color: #0064A3;
+  color: $color1;
   position: fixed;
   cursor: pointer;
   display: none;

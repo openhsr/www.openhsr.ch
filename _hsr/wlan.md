@@ -48,6 +48,6 @@ Die oben beschriebene Vorgehensweise in Kombination mit der Sicherheitsstufe "WP
 
 3. Einstellungen für die Netzwerk-Authentifikation, Reiter "Wi-Fi": Schreibe unter SSID den Namen des Netzwerkes, mit dem du dich verbinden willst, also ```eduroam```.<br> Reiter "Wifi-Security": Hier folgen alle weiteren Angaben wie in der Anleitung oben, nach Schritt 2.
 
-	{% lightbox /assets/hsr/wlan/lm_hiddennetwork.png --data="wlan lm" --title="Hidden Network: HSR-Secure" --alt="Hidden Network HSR-Secure" %}
+	{% lightbox /assets/hsr/wlan/lm_hiddennetwork.png --data="wlan lm" --title="Hidden Network: OST-Secure" --alt="Hidden Network OST-Secure" %}
 
 {% endtoggle %}
