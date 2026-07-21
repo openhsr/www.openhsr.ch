@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
       - name: Setup Ruby, JRuby and TruffleRuby
-        uses: ruby/setup-ruby@v1.126.0
+        uses: ruby/setup-ruby@v1.320.0
         with:
           ruby-version: '3'
           bundler-cache: true
